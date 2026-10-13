@@ -22,6 +22,9 @@ export function TabBar({ path }: { path: string }) {
   const live = rec.status === 'recording' || rec.status === 'paused'
   return (
     <nav className="tabbar" aria-label="Principal">
+      <a className="tab-brand" href={href('/sobre')} aria-label="Rasto Serpa: sobre a app">
+        <img src="./icons/icon.svg" alt="" width={44} height={44} />
+      </a>
       {TABS.map((t) => {
         const on = t.path === '/' ? path === '/' : path.startsWith(t.path)
         if (t.icon === 'gravar')

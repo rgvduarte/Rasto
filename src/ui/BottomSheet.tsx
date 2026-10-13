@@ -146,8 +146,9 @@ export function BottomSheet({ snaps, index, onIndex, header, children, label, re
       onPointerUp={(e) => {
         if (st.current?.pointer === e.pointerId) end()
       }}
-      onPointerCancel={() => {
-        if (st.current) {
+      onPointerCancel={(e) => {
+        // só cancela um arrasto feito com o ponteiro; o do corpo (por toque) segue pelos eventos de toque
+        if (st.current && st.current.pointer === e.pointerId) {
           st.current = null
           setD(null)
         }

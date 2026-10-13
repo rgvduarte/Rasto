@@ -66,9 +66,13 @@ ul, ol { padding: 0; list-style: none; }
 /* écran largo: carril à esquerda + painel + mapa */
 .wide .tabbar {
   top: 0; bottom: 0; right: auto; width: var(--rail-w); height: auto; border-top: 0; border-right: 4px solid var(--anil);
-  grid-template-columns: 1fr; grid-template-rows: repeat(5, 76px); align-content: start; padding: 16px 0 0;
+  grid-template-columns: 1fr; align-content: start;
 }
 .wide .tab-rec { width: 46px; height: 46px; }
+.tab-brand { display: none; }
+.wide .tab-brand { display: grid; place-items: center; height: 76px; margin-bottom: 6px; }
+.wide .tab-brand img { border-radius: 12px; }
+.wide .tabbar { grid-template-rows: 76px repeat(5, 76px); padding-top: 10px; }
 .panel {
   position: fixed; z-index: 30; top: 0; bottom: 0; left: var(--rail-w); width: var(--panel-w);
   background: #fff; border-right: 1px solid var(--linha); display: flex; flex-direction: column; min-height: 0;
