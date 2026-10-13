@@ -1,29 +1,29 @@
 /* Rasto · sistema visual
    Cal (fundo quente), tinta, e três cores com função: anil (ação), ocre (progresso), e as famílias do mapa.
-   Mesma letra do HELL160 (Schibsted Grotesk). Sem gradientes, sem brilhos: o mapa é a imagem. */
+   Letra: Archivo. Sem gradientes, sem brilhos: o mapa é a imagem. */
 
 :root {
-  --cal: #faf8f3;
+  --cal: #ffffff;
   --card: #ffffff;
-  --panel: #f1ede4;
-  --panel-2: #e6e0d4;
+  --panel: #f3f4f6;
+  --panel-2: #e6e8eb;
   --ink: #15130f;
   --ink-2: #3f3a32;
   --muted: #6b645a;
   --line: rgba(21, 19, 15, 0.13);
   --line-2: rgba(21, 19, 15, 0.22);
 
-  --anil: #2456a6;
-  --anil-hover: #1b4382;
-  --ocre: #c48a12;
-  --ocre-ink: #8a5f00;
-  --ver: #2456a6;
+  --anil: #2348d1;
+  --anil-hover: #1a37a6;
+  --ocre: #f2b705;
+  --ocre-ink: #7a5800;
+  --ver: #0f7a5a;
   --provar: #c2410c;
-  --ficar: #0f7a5a;
+  --ficar: #a2358c;
   --hell: #c8361b;
   --ok: #2f6b3a;
 
-  --sans: 'Schibsted Grotesk Variable', 'Helvetica Neue', Arial, sans-serif;
+  --sans: 'Archivo Variable', 'Helvetica Neue', Arial, sans-serif;
   --gutter: clamp(16px, 4vw, 48px);
   --max: 1280px;
   --nav-h: 60px;

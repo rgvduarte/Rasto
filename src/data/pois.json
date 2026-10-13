@@ -6,7 +6,7 @@
   "name": "Castelo de Serpa",
   "lat": 37.944608,
   "lon": -7.59745,
-  "summary": "Castelo medieval, reconstruído no reinado de D. Dinis e fortificado no século XVII. Lá dentro funciona o Museu Municipal de Arqueologia.",
+  "summary": "Castelo medieval, reconstruído no reinado de D. Dinis. Em 1707, quando as tropas espanholas do duque de Osuna saíram de Serpa, uma explosão destruiu uma das torres. Lá dentro funciona o Museu Municipal de Arqueologia.",
   "freguesia": "Serpa (Salvador e Santa Maria)",
   "place": "Serpa",
   "placeKm": 0.1,
@@ -826,13 +826,77 @@
   }
  },
  {
+  "id": "estacao-pias",
+  "fam": "ver",
+  "sub": "estacao",
+  "name": "Antiga estação de Pias",
+  "lat": 38.015853,
+  "lon": -7.472397,
+  "summary": "Estação do Ramal de Moura, a linha de comboio que ligava Beja a Moura, a sul da vila de Pias.",
+  "freguesia": "Pias",
+  "place": "Pias",
+  "placeKm": 0.6,
+  "source": {
+   "dataset": "overture-places",
+   "id": "34d07c38-0b2f-4a18-94b1-39cbbb769ad3"
+  }
+ },
+ {
+  "id": "estacao-serpa-brinches",
+  "fam": "ver",
+  "sub": "estacao",
+  "name": "Antiga estação de Serpa-Brinches",
+  "lat": 37.999761,
+  "lon": -7.613618,
+  "summary": "A estação de Serpa no Ramal de Moura, a meio caminho entre a cidade e Brinches.",
+  "freguesia": "Brinches",
+  "place": "Brinches",
+  "placeKm": 4.1,
+  "source": {
+   "dataset": "osm",
+   "id": "ce2b589b-6bf1-49ea-b290-f567dacea1a3"
+  }
+ },
+ {
+  "id": "paragem-ponte-guadiana",
+  "fam": "ver",
+  "sub": "estacao",
+  "name": "Paragem de Ponte do Guadiana",
+  "lat": 37.981214,
+  "lon": -7.6512,
+  "summary": "Antiga paragem do Ramal de Moura junto à ponte sobre o Guadiana.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 6.3,
+  "source": {
+   "dataset": "overture-places",
+   "id": "e6edffa2-aa64-4420-bf34-7b1ab1435a42"
+  }
+ },
+ {
+  "id": "paragem-pipa",
+  "fam": "ver",
+  "sub": "estacao",
+  "name": "Paragem de Pipa",
+  "lat": 38.034911,
+  "lon": -7.443775,
+  "summary": "Antiga paragem do Ramal de Moura entre Pias e Moura.",
+  "freguesia": "Pias",
+  "place": "Pias",
+  "placeKm": 3.1,
+  "source": {
+   "dataset": "overture-places",
+   "id": "2f76a511-7d3e-4a67-8522-fc2daaaccaf8"
+  }
+ },
+ {
   "id": "igreja-a-do-pinto",
   "fam": "ver",
   "sub": "igreja",
   "name": "Igreja de A-do-Pinto",
   "lat": 37.916301,
   "lon": -7.480062,
-  "summary": "Igreja da aldeia de onde parte e onde chega o HELL160.",
+  "summary": "Igreja da aldeia de A-do-Pinto, a nascente de Serpa.",
   "freguesia": "Vila Nova de São Bento e Vale de Vargo",
   "place": "A-do-Pinto",
   "placeKm": 0.2,

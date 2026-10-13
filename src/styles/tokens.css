@@ -1,0 +1,41 @@
+/* Rasto · identidade
+   Tirada das casas do Alentejo: cal branca, a barra anil na base das paredes, a barra ocre.
+   Anil é ação e "tu" no mapa; ocre é território conquistado e XP; as três famílias do mapa são verde montado,
+   terracota e ameixa (validadas para daltonismo com o anil, todos os pares, sobre o fundo do mapa).
+   Letra única: Archivo, condensada nos números (como num painel de corrida) e normal no texto. */
+
+:root {
+  --cal: #ffffff;
+  --cal-2: #f3f4f6;
+  --cal-3: #e6e8eb;
+  --tinta: #000000;
+  --tinta-2: #3b4148;
+  --xisto: #5f6770;
+  --linha: #dcdfe3;
+
+  --anil: #2348d1;
+  --anil-2: #1a37a6;
+  --anil-claro: #e9eefc;
+  --ocre: #f2b705;
+  --ocre-tinta: #7a5800;
+  --ocre-claro: #fdf4d6;
+
+  --ver: #0f7a5a;
+  --provar: #c2410c;
+  --ficar: #a2358c;
+  --erro: #b42318;
+
+  --font: 'Archivo Variable', 'Helvetica Neue', Arial, sans-serif;
+
+  --sat: env(safe-area-inset-top, 0px);
+  --sab: env(safe-area-inset-bottom, 0px);
+  --sal: env(safe-area-inset-left, 0px);
+  --sar: env(safe-area-inset-right, 0px);
+  --tab-h: 62px;
+  --rail-w: 84px;
+  --panel-w: 404px;
+  --ease: cubic-bezier(0.2, 0.9, 0.25, 1);
+
+  color-scheme: light;
+  accent-color: var(--anil);
+}

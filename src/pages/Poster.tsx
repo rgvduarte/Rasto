@@ -4,7 +4,6 @@ import { TerritoryMap } from '../components/TerritoryMap'
 import { Logo } from '../components/Logo'
 import { POIS } from '../data/catalog'
 import { MISSIONS, COLLECTIONS } from '../data/missions'
-import { HELL160, COURSE_VILLAGES } from '../data/hell160'
 import { siteBase } from '../map/style'
 import type { Route } from '../lib/router'
 import '../styles/poster.css'
@@ -13,11 +12,6 @@ import '../styles/poster.css'
 // Tudo o que aparece é real: o mapa (dados abertos), as capturas (a app a funcionar), os números (calculados).
 const W = 1536
 const H = 1024
-
-const RINGS = COURSE_VILLAGES.map((v) => {
-  const p = POIS.find((x) => x.id === v.poi)!
-  return { lon: p.lon, lat: p.lat, name: v.name }
-})
 
 export function Poster({ route }: { route: Route }) {
   const print = route.params.has('print')
@@ -60,8 +54,8 @@ export function Poster({ route }: { route: Route }) {
           </p>
           <ol className="pt-who">
             <li>
-              <b>Família e equipa de apoio</b>
-              <span>Cada atleta traz 3 a 4 pessoas. Entre passagens, o Rasto mostra o que há perto da aldeia onde esperam.</span>
+              <b>És uma personagem no mapa</b>
+              <span>Escolhes quem és, andas pelo território real e a névoa levanta à tua passagem.</span>
             </li>
             <li>
               <b>Quem visita</b>
@@ -87,7 +81,6 @@ export function Poster({ route }: { route: Route }) {
             done={none}
             interactive={false}
             variant="overview"
-            rings={RINGS}
             scale
             printable
             bounds={[
@@ -97,10 +90,9 @@ export function Poster({ route }: { route: Route }) {
             label="Mapa do concelho de Serpa"
           />
           <div className="pt-legend">
-            <span className="li"><span className="sw" style={{ background: '#2456a6' }} />Ver · {byFam('ver')}</span>
+            <span className="li"><span className="sw" style={{ background: '#0f7a5a' }} />Ver · {byFam('ver')}</span>
             <span className="li"><span className="sw" style={{ background: '#c2410c' }} />Provar · {byFam('provar')}</span>
-            <span className="li"><span className="sw" style={{ background: '#0f7a5a' }} />Ficar · {byFam('ficar')}</span>
-            <span className="li"><span className="sw ring" />Aldeias do HELL160</span>
+            <span className="li"><span className="sw" style={{ background: '#a2358c' }} />Ficar · {byFam('ficar')}</span>
             <span className="li"><span className="ln" />Estradões de terra</span>
           </div>
         </section>
@@ -161,12 +153,9 @@ export function Poster({ route }: { route: Route }) {
             </div>
           </div>
           <div className="pt-hell">
-            <span className="tag hell">
-              HELL<b>160</b>
-            </span>
             <p>
-              <b>{HELL160.start} · A-do-Pinto.</b> O live e o Hell Wall estão no site do HELL160. O Rasto junta o que fazer enquanto se
-              espera pela passagem.
+              <b>Realidade aumentada.</b> Os pontos do roteiro da Câmara de Serpa entram no jogo: apontas o telemóvel à torre do castelo
+              destruída em 1707, ou à antiga estação de Pias, e vês como era.
             </p>
           </div>
           <div className="pt-url">

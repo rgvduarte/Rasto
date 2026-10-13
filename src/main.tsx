@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import '@fontsource-variable/schibsted-grotesk'
+import '@fontsource-variable/archivo/standard.css'
 import './styles/global.css'
 import { App } from './App'
 

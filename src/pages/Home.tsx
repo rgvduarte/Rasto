@@ -3,9 +3,7 @@ import { TerritoryMap } from '../components/TerritoryMap'
 import { Glyph } from '../components/Glyph'
 import { POIS } from '../data/catalog'
 import { MISSIONS, COLLECTIONS } from '../data/missions'
-import { HELL160, COURSE_VILLAGES } from '../data/hell160'
 import { href } from '../lib/router'
-import { fmtInt } from '../lib/geo'
 import { useGame, freguesiaProgress } from '../lib/store'
 
 // Números do concelho, calculados a partir dos dados (scripts/geo): não são estimativas.
@@ -15,11 +13,6 @@ const FACTS = [
   { v: '5–519', u: 'm', t: 'de altitude, do leito do Guadiana à serra de Ficalho', s: 'Copernicus DEM GLO-30' },
   { v: '5', u: '', t: 'freguesias, cada uma para explorar no mapa', s: 'CAOP 2020, DGT' },
 ]
-
-const RINGS = COURSE_VILLAGES.map((v) => {
-  const p = POIS.find((x) => x.id === v.poi)!
-  return { lon: p.lon, lat: p.lat, name: v.name }
-})
 
 export function Home() {
   const game = useGame()
@@ -56,14 +49,12 @@ export function Home() {
               interactive={false}
               progress={progress}
               variant="overview"
-              rings={RINGS}
               label="Mapa do concelho de Serpa com os lugares do Rasto"
             />
             <div className="caption">
-              <span className="li"><span className="sw" style={{ background: '#2456a6' }} />Ver</span>
+              <span className="li"><span className="sw" style={{ background: '#0f7a5a' }} />Ver</span>
               <span className="li"><span className="sw" style={{ background: '#c2410c' }} />Provar</span>
-              <span className="li"><span className="sw" style={{ background: '#0f7a5a' }} />Ficar</span>
-              <span className="li"><span className="sw ring" />Aldeias do HELL160</span>
+              <span className="li"><span className="sw" style={{ background: '#a2358c' }} />Ficar</span>
             </div>
           </div>
         </div>
@@ -121,29 +112,29 @@ export function Home() {
           <div className="split">
             <div className="stack">
               <p className="eyebrow">Para quem</p>
-              <h2 className="h2">Os atletas correm. O jogo é de quem os acompanha.</h2>
+              <h2 className="h2">Para quem chega a Serpa e quer conhecer o território.</h2>
             </div>
             <p className="lede">
-              Cada atleta do HELL160 traz três ou quatro pessoas. Entre duas passagens há horas por preencher, e é aí que o território entra.
+              Num fim de semana, numa casa de alojamento local ou de passagem: o Rasto mostra o que há, leva-te lá e faz do caminho um jogo.
             </p>
           </div>
           <div className="grid3">
             <div className="card stack">
-              <h3 className="h3">Família e equipa de apoio</h3>
-              <p className="muted">Sabes em que aldeia vais esperar. O Rasto mostra o que há a menos de dez minutos e quanto tempo leva.</p>
-              <a href={href('/prova')}>Planear o apoio no HELL160 →</a>
+              <h3 className="h3">Quem visita</h3>
+              <p className="muted">O que ver, onde comer, quem faz o queijo e o vinho, onde dormir. Com as avaliações do TripAdvisor e as distâncias reais.</p>
+              <a href={href('/mapa')}>Abrir o mapa</a>
             </div>
             <div className="card stack">
-              <h3 className="h3">Quem vem passar o fim de semana</h3>
-              <p className="muted">O que ver, onde comer, quem faz o queijo e o vinho, onde dormir. Com as distâncias reais entre aldeias.</p>
-              <a href={href('/mapa')}>Abrir o mapa →</a>
+              <h3 className="h3">Quem cá vive</h3>
+              <p className="muted">As outras aldeias do concelho, as azenhas do Guadiana, as estações do Ramal de Moura. Território para conquistar.</p>
+              <a href={href('/missoes')}>Ver as missões</a>
             </div>
             <div className="card stack">
               <h3 className="h3">Município e parceiros</h3>
               <p className="muted">
                 Restaurantes, produtores e alojamentos entram como parceiros. Cada código validado é uma visita que se pode contar.
               </p>
-              <a href={href('/sobre')}>Como funciona para parceiros →</a>
+              <a href={href('/sobre')}>Como funciona para parceiros</a>
             </div>
           </div>
         </div>
@@ -173,38 +164,6 @@ export function Home() {
                 )
               })}
             </ul>
-          </div>
-        </div>
-      </section>
-
-      <section className="sec night">
-        <div className="wrap split">
-          <div className="stack">
-            <p className="eyebrow" style={{ color: '#b6ad9f' }}>
-              <span className="tag hell">
-                HELL<b>160</b>
-              </span>{' '}
-              {HELL160.start} · provisório
-            </p>
-            <h2 className="h2">O live e o Hell Wall estão no HELL160.</h2>
-            <p className="lede" style={{ color: '#d9d2c5' }}>
-              O Rasto não repete o seguimento dos atletas. Junta-lhe o resto: as aldeias por onde a prova passa e o que fazer em cada uma
-              enquanto esperas.
-            </p>
-          </div>
-          <div className="stack" style={{ alignSelf: 'end' }}>
-            <div className="row">
-              <a className="btn" style={{ ['--b' as string]: '#c8361b' }} href={HELL160.live} target="_blank" rel="noreferrer">
-                Abrir o live do HELL160 <span className="ext">↗</span>
-              </a>
-              <a className="btn ghost" style={{ color: '#f3efe6', borderColor: '#f3efe6' }} href={href('/prova')}>
-                Planear o apoio
-              </a>
-            </div>
-            <p className="small muted">
-              {HELL160.distanceKm.toLocaleString('pt-PT')} km · {fmtInt(HELL160.gainM)} m D+ · {HELL160.limitH} h · partida em {HELL160.base}.
-              Dados do site do HELL160, provisórios para 2027.
-            </p>
           </div>
         </div>
       </section>

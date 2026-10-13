@@ -28,7 +28,7 @@ CAOP = os.path.join(ROOT, 'node_modules', '@cartography', 'pt', 'dist')
 CURATED = [
     # --- Serpa, dentro e junto às muralhas
     ('castelo-serpa', 'ver', 'castelo', 'Castelo de Serpa', ('places', 'Castelo de Serpa'),
-     'Castelo medieval, reconstruído no reinado de D. Dinis e fortificado no século XVII. Lá dentro funciona o Museu Municipal de Arqueologia.'),
+     'Castelo medieval, reconstruído no reinado de D. Dinis. Em 1707, quando as tropas espanholas do duque de Osuna saíram de Serpa, uma explosão destruiu uma das torres. Lá dentro funciona o Museu Municipal de Arqueologia.'),
     ('museu-arqueologia', 'ver', 'museu', 'Museu Municipal de Arqueologia', ('buildings', 'Museu Arqueológico de Serpa'),
      'Museu dentro do castelo, com espólio da Pré-História à época romana.'),
     ('muralhas-serpa', 'ver', 'muralha', 'Muralhas de Serpa', ('buildings', 'Muralhas de Serpa'),
@@ -99,9 +99,18 @@ CURATED = [
      'Moinhos de água de pedra no leito do Guadiana. Há dezenas ao longo da margem do concelho.'),
     ('burrico-orada', 'ver', 'experiencia', "Burrico d'Orada", ('places', "Burrico d'Orada"),
      'Alojamento rural com experiências, como provas de vinho de talha e passeios no Alqueva.'),
+    # --- o Ramal de Moura (antiga linha de comboio Beja–Moura)
+    ('estacao-pias', 'ver', 'estacao', 'Antiga estação de Pias', ('places', 'Estação Ferroviária de Pias'),
+     'Estação do Ramal de Moura, a linha de comboio que ligava Beja a Moura, a sul da vila de Pias.'),
+    ('estacao-serpa-brinches', 'ver', 'estacao', 'Antiga estação de Serpa-Brinches', ('buildings', 'Antiga Estação de Serpa-Brinches'),
+     'A estação de Serpa no Ramal de Moura, a meio caminho entre a cidade e Brinches.'),
+    ('paragem-ponte-guadiana', 'ver', 'estacao', 'Paragem de Ponte do Guadiana', ('places', 'Paragem de Ponte do Guadiana'),
+     'Antiga paragem do Ramal de Moura junto à ponte sobre o Guadiana.'),
+    ('paragem-pipa', 'ver', 'estacao', 'Paragem de Pipa', ('places', 'Paragem de Pipa'),
+     'Antiga paragem do Ramal de Moura entre Pias e Moura.'),
     # --- aldeias
     ('igreja-a-do-pinto', 'ver', 'igreja', 'Igreja de A-do-Pinto', ('buildings', 'Igreja de Aldeia do Pinto'),
-     'Igreja da aldeia de onde parte e onde chega o HELL160.'),
+     'Igreja da aldeia de A-do-Pinto, a nascente de Serpa.'),
     ('igreja-brinches', 'ver', 'igreja', 'Igreja Matriz de Brinches', ('buildings', 'Igreja Matriz de Brinches'),
      'Igreja matriz da aldeia de Brinches, a norte de Serpa.'),
     ('torre-relogio-pias', 'ver', 'torre', 'Torre do Relógio de Pias', ('buildings', 'Torre do Relógio', 38.023),

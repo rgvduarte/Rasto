@@ -34,7 +34,8 @@ export const COLLECTIONS: Collection[] = [
   { id: 'agua', name: 'Água e miradouros', lede: 'O Guadiana, as azenhas, a barragem romana, o Enxoé e os altos de onde se vê a planície.', goal: 5, bonus: 300, seal: 'Guadiana' },
   { id: 'mesa', name: 'À mesa', lede: 'Almoçar e jantar nas casas do concelho. O código é dado ao balcão.', goal: 3, bonus: 250, seal: 'Mesa alentejana' },
   { id: 'produtores', name: 'Queijo, vinho e doçaria', lede: 'Quem faz o Queijo Serpa, o vinho de Pias e os doces. Compra ou prova e recebe o código.', goal: 3, bonus: 300, seal: 'Produtores' },
-  { id: 'aldeias', name: 'As aldeias', lede: 'As igrejas e os largos das aldeias do concelho, por onde passa o HELL160.', goal: 5, bonus: 350, seal: 'Aldeias' },
+  { id: 'aldeias', name: 'As aldeias', lede: 'As igrejas e os largos das aldeias do concelho, de Brinches a Vales Mortos.', goal: 5, bonus: 350, seal: 'Aldeias' },
+  { id: 'ferrovia', name: 'O Ramal de Moura', lede: 'As estações da antiga linha de comboio entre Beja e Moura.', goal: 3, bonus: 300, seal: 'Ramal' },
   { id: 'cante', name: 'Cante e palco', lede: 'O cante alentejano e as salas onde se ouve.', goal: 2, bonus: 150, seal: 'Cante' },
 ]
 
@@ -87,7 +88,7 @@ export const MISSIONS: Mission[] = [
   code('casa-paixao', 'Doces da Casa Paixão', 'Compra um doce tradicional.', 60, 'produtores'),
   code('d-luis-regionais', 'Produtos regionais', 'Compra um produto do concelho na D. Luís.', 60, 'produtores'),
 
-  gps('igreja-a-do-pinto', 'A-do-Pinto', 'Chega ao largo da igreja de A-do-Pinto, partida e meta do HELL160.', 60, 'aldeias', 150),
+  gps('igreja-a-do-pinto', 'A-do-Pinto', 'Chega ao largo da igreja de A-do-Pinto.', 60, 'aldeias', 150),
   gps('igreja-brinches', 'Brinches', 'Chega à Igreja Matriz de Brinches.', 60, 'aldeias', 150),
   gps('torre-relogio-pias', 'Pias', 'Chega à Torre do Relógio de Pias.', 60, 'aldeias', 150),
   gps('igreja-sao-francisco-vnsb', 'Vila Nova de São Bento', 'Chega à Igreja de São Francisco.', 60, 'aldeias', 150),
@@ -96,6 +97,11 @@ export const MISSIONS: Mission[] = [
   gps('ermida-pazes-ficalho', 'Nossa Senhora das Pazes', 'Sobe à ermida das Pazes, já perto da fronteira.', 100, 'aldeias', 150),
   gps('igreja-santa-iria', 'Santa Iria', 'Chega à igreja de Santa Iria.', 80, 'aldeias', 150),
   gps('capela-vales-mortos', 'Vales Mortos', 'Chega à capela de Vales Mortos.', 100, 'aldeias', 150),
+
+  gps('estacao-pias', 'A estação de Pias', 'Encontra a antiga estação do Ramal de Moura, a sul de Pias.', 100, 'ferrovia', 120),
+  gps('estacao-serpa-brinches', 'Serpa-Brinches', 'Chega à antiga estação de Serpa, no caminho de Brinches.', 100, 'ferrovia', 120),
+  gps('paragem-ponte-guadiana', 'Ponte do Guadiana', 'Encontra a paragem junto à ponte sobre o Guadiana.', 150, 'ferrovia', 150),
+  gps('paragem-pipa', 'Paragem de Pipa', 'Encontra a paragem de Pipa, entre Pias e Moura.', 150, 'ferrovia', 150),
 
   gps('casa-do-cante', 'Casa do Cante', 'Visita a Casa do Cante.', 60, 'cante', 60),
   gps('musiberia', 'Musibéria', 'Vai a um espetáculo ou visita a Musibéria.', 60, 'cante', 80),

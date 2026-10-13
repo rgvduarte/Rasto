@@ -3,7 +3,7 @@
 import type { Family, Sub } from '../data/types'
 import { C } from './style'
 
-export const GLYPH: Record<Sub | 'check' | 'flag' | 'pin', string> = {
+export const GLYPH: Record<Sub | 'check' | 'flag' | 'pin' | 'cajado' | 'espiga' | 'bota', string> = {
   castelo: 'M3 18V7h2.4V4.5h2.2V7h1.3V4.5h2.2V7h1.3V4.5h2.2V7H17v11h-5.2v-3.6a1.8 1.8 0 0 0-3.6 0V18z',
   muralha: 'M1.5 18V8.5h2V6.3h2.2v2.2h1.6V6.3h2.2v2.2h1.6V6.3h2.2v2.2h1.6V6.3h2.2v2.2h1.4V18zM8.4 18v-3.4a1.6 1.6 0 0 1 3.2 0V18z',
   igreja: 'M9.1 1h1.8v2.3h2v1.8h-2v1.9l5.6 4.1V18h-4.4v-3.7a2.1 2.1 0 0 0-4.2 0V18H3.5v-6.9L9.1 7V5.1h-2V3.3h2z',
@@ -29,6 +29,10 @@ export const GLYPH: Record<Sub | 'check' | 'flag' | 'pin', string> = {
   hotel: 'M1.5 4.5h2v6.2h6.6V7.5H16a2.5 2.5 0 0 1 2.5 2.5v6.5h-2v-2.3h-13v2.3h-2zm4.6 2.4a1.8 1.8 0 1 1 0 3.6 1.8 1.8 0 0 1 0-3.6z',
   casa: 'M10 2.2 1.8 9.4l1.3 1.4 1.1-.9V18h4.5v-4.8h2.6V18h4.5V9.9l1.1.9 1.3-1.4z',
   campismo: 'M10 2.4 18.5 18h-17zm0 6.3L6.4 15.6h7.2z',
+  estacao: 'M6 2.5h8a3 3 0 0 1 3 3V13a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V5.5a3 3 0 0 1 3-3zm.2 2.8v4.2h7.6V5.3H6.2zm.3 6.6a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zm7 0a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM6 16.8h2.2l-1.6 2.7H4.4zm5.8 0H14l1.6 2.7h-2.2z',
+  cajado: 'M12.6 1.8a4.6 4.6 0 0 1 4.6 4.6v1.4h-2.3V6.4a2.3 2.3 0 0 0-4.6 0v12.4H8V6.4a4.6 4.6 0 0 1 4.6-4.6z',
+  espiga: 'M9.2 19.5V6.5h1.6v13zM10 1.6c1.3 1.1 1.7 2.6 1.2 4.4C9.6 5.6 8.8 4.4 8.8 2.7c.3-.5.7-.9 1.2-1.1zM5.8 6.5c1.7.2 2.9 1.3 3.3 3-1.7.3-3-.5-3.7-2.1.1-.4.2-.7.4-.9zm8.4 0c.2.2.3.5.4.9-.7 1.6-2 2.4-3.7 2.1.4-1.7 1.6-2.8 3.3-3zm-8.4 4.4c1.7.2 2.9 1.3 3.3 3-1.7.3-3-.5-3.7-2.1.1-.4.2-.7.4-.9zm8.4 0c.2.2.3.5.4.9-.7 1.6-2 2.4-3.7 2.1.4-1.7 1.6-2.8 3.3-3z',
+  bota: 'M5.5 2.2h5.6v8.3l5.4 2.1a2.6 2.6 0 0 1 1.7 2.4v3.6H3.5v-3.4l2-1.8z',
   check: 'M7.6 14.6 3.4 10.4l1.6-1.6 2.6 2.6 7.4-7.4 1.6 1.6z',
   flag: 'M5 2h1.9v1.2l9.6 3.6-9.6 3.9V18H5z',
   pin: 'M10 1.5a6 6 0 0 0-6 6c0 4.5 6 11 6 11s6-6.5 6-11a6 6 0 0 0-6-6zm0 3.6a2.4 2.4 0 1 1 0 4.8 2.4 2.4 0 0 1 0-4.8z',
@@ -58,7 +62,7 @@ export function markerImage(sub: Sub, fam: Family, done: boolean, ratio: number)
   ctx.translate(15 - 7.2, 15 - 7.2)
   ctx.scale(0.72, 0.72)
   ctx.fillStyle = done ? c : '#ffffff'
-  ctx.fill(new Path2D(done ? GLYPH.check : GLYPH[sub]))
+  ctx.fill(new Path2D(done ? GLYPH.check : GLYPH[sub]), 'evenodd')
   ctx.restore()
   return ctx.getImageData(0, 0, px, px)
 }

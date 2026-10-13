@@ -220,7 +220,7 @@ export function TerritoryMap({
             type: 'symbol',
             source: 'pois',
             filter: ['has', 'point_count'],
-            layout: { 'text-field': ['get', 'point_count_abbreviated'], 'text-font': ['Schibsted Bold'], 'text-size': 12.5, 'text-allow-overlap': true },
+            layout: { 'text-field': ['get', 'point_count_abbreviated'], 'text-font': ['Archivo Bold'], 'text-size': 12.5, 'text-allow-overlap': true },
             paint: { 'text-color': '#fff' },
           })
           map.addLayer({
@@ -241,7 +241,7 @@ export function TerritoryMap({
               'icon-allow-overlap': true,
               'icon-size': ['interpolate', ['linear'], ['zoom'], 10, 0.82, 15, 1],
               'text-field': ['step', ['zoom'], '', 15, ['get', 'name']],
-              'text-font': ['Schibsted Medium'],
+              'text-font': ['Archivo Medium'],
               'text-size': 12,
               'text-offset': [0, 1.45],
               'text-anchor': 'top',

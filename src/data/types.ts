@@ -2,7 +2,7 @@ export type Family = 'ver' | 'provar' | 'ficar'
 
 export type Sub =
   | 'castelo' | 'muralha' | 'igreja' | 'ermida' | 'torre' | 'palacio' | 'aqueduto'
-  | 'museu' | 'cante' | 'cultura' | 'miradouro' | 'rio' | 'barragem' | 'azenha' | 'experiencia'
+  | 'museu' | 'cante' | 'cultura' | 'miradouro' | 'rio' | 'barragem' | 'azenha' | 'experiencia' | 'estacao'
   | 'restaurante' | 'petiscos' | 'pastelaria' | 'pizzaria' | 'queijo' | 'vinho' | 'loja'
   | 'hotel' | 'casa' | 'campismo'
 

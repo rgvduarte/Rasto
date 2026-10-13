@@ -10,7 +10,7 @@ export const SERPA_BOUNDS: [[number, number], [number, number]] = [
 ]
 
 export const C = {
-  paper: '#f3efe6',
+  paper: '#f2f2ef',
   ink: '#15130f',
   ink2: '#3f3a32',
   muted: '#6b645a',
@@ -25,12 +25,13 @@ export const C = {
   contour: '#8a6d4c',
   building: '#d9cebf',
   buildingLine: '#bfb2a1',
-  // famílias (validadas para daltonismo, todos os pares, sobre o fundo do mapa)
-  ver: '#2456a6',
+  // famílias (validadas para daltonismo com o anil, todos os pares, sobre o fundo do mapa)
+  ver: '#0f7a5a',
   provar: '#c2410c',
-  ficar: '#0f7a5a',
-  ocre: '#c48a12',
-  anil: '#2456a6',
+  ficar: '#a2358c',
+  ocre: '#f2b705',
+  ocreTinta: '#7a5800',
+  anil: '#2348d1',
   hell: '#c8361b',
 } as const
 
@@ -49,7 +50,7 @@ export type TerritoryGeo = {
 
 export function buildStyle(t: TerritoryGeo): StyleSpecification {
   const base = siteBase()
-  const halo = 'rgba(250,247,240,0.92)'
+  const halo = 'rgba(255,255,255,0.92)'
   return {
     version: 8,
     glyphs: `${base}glyphs/{fontstack}/{range}.pbf`,
@@ -179,7 +180,7 @@ export function buildStyle(t: TerritoryGeo): StyleSpecification {
         },
       },
       // fora do concelho fica mais claro: o jogo é dentro de Serpa
-      { id: 'mask', type: 'fill', source: 'territory-mask', paint: { 'fill-color': '#f7f4ec', 'fill-opacity': 0.55 } },
+      { id: 'mask', type: 'fill', source: 'territory-mask', paint: { 'fill-color': '#f6f6f4', 'fill-opacity': 0.55 } },
       // freguesias exploradas pelo jogador (feature-state 'p' entre 0 e 1)
       {
         id: 'freguesia-progress',
@@ -344,7 +345,7 @@ export function buildStyle(t: TerritoryGeo): StyleSpecification {
         layout: {
           'symbol-placement': 'line',
           'text-field': ['concat', ['to-string', ['get', 'ele']], ' m'],
-          'text-font': ['Schibsted Regular'],
+          'text-font': ['Archivo Regular'],
           'text-size': 10,
           'symbol-spacing': 420,
         },
@@ -360,7 +361,7 @@ export function buildStyle(t: TerritoryGeo): StyleSpecification {
         layout: {
           'symbol-placement': 'line',
           'text-field': ['get', 'name'],
-          'text-font': ['Schibsted Italic'],
+          'text-font': ['Archivo Italic'],
           'text-size': ['case', ['==', ['get', 'kind'], 'river'], 13, 11],
           'symbol-spacing': 360,
           'text-letter-spacing': 0.04,
@@ -374,7 +375,7 @@ export function buildStyle(t: TerritoryGeo): StyleSpecification {
         'source-layer': 'water',
         filter: ['all', ['has', 'name'], ['>', ['get', 'area'], 0.08]],
         minzoom: 11,
-        layout: { 'text-field': ['get', 'name'], 'text-font': ['Schibsted Italic'], 'text-size': 11, 'text-max-width': 8 },
+        layout: { 'text-field': ['get', 'name'], 'text-font': ['Archivo Italic'], 'text-size': 11, 'text-max-width': 8 },
         paint: { 'text-color': C.waterInk, 'text-halo-color': halo, 'text-halo-width': 1.4 },
       },
       {
@@ -387,7 +388,7 @@ export function buildStyle(t: TerritoryGeo): StyleSpecification {
         layout: {
           'symbol-placement': 'line',
           'text-field': ['get', 'ref'],
-          'text-font': ['Schibsted Medium'],
+          'text-font': ['Archivo Medium'],
           'text-size': 10,
           'symbol-spacing': 500,
           'text-rotation-alignment': 'viewport',
@@ -401,7 +402,7 @@ export function buildStyle(t: TerritoryGeo): StyleSpecification {
         'source-layer': 'road',
         filter: ['all', ['has', 'name'], ['in', ['get', 'kind'], ['literal', ['minor', 'tertiary', 'pedestrian']]]],
         minzoom: 15,
-        layout: { 'symbol-placement': 'line', 'text-field': ['get', 'name'], 'text-font': ['Schibsted Regular'], 'text-size': 10.5 },
+        layout: { 'symbol-placement': 'line', 'text-field': ['get', 'name'], 'text-font': ['Archivo Regular'], 'text-size': 10.5 },
         paint: { 'text-color': C.ink2, 'text-halo-color': '#fff', 'text-halo-width': 1.6 },
       },
       {
@@ -412,7 +413,7 @@ export function buildStyle(t: TerritoryGeo): StyleSpecification {
         filter: ['any', ['<=', ['get', 'rank'], 3], ['>=', ['zoom'], 11]],
         layout: {
           'text-field': ['get', 'name'],
-          'text-font': ['match', ['get', 'rank'], 1, ['literal', ['Schibsted Bold']], 2, ['literal', ['Schibsted Bold']], ['literal', ['Schibsted Medium']]],
+          'text-font': ['match', ['get', 'rank'], 1, ['literal', ['Archivo Condensed Bold']], 2, ['literal', ['Archivo Bold']], ['literal', ['Archivo Medium']]],
           'text-size': ['interpolate', ['linear'], ['zoom'],
             8, ['match', ['get', 'rank'], 1, 14, 2, 12, 3, 10.5, 9.5],
             13, ['match', ['get', 'rank'], 1, 20, 2, 17, 3, 15, 13]],

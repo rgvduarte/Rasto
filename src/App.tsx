@@ -13,7 +13,6 @@ import { Poster } from './pages/Poster'
 const NAV = [
   { path: '/mapa', label: 'Mapa' },
   { path: '/missoes', label: 'Missões' },
-  { path: '/prova', label: 'HELL160' },
   { path: '/sobre', label: 'Sobre e dados' },
 ]
 
