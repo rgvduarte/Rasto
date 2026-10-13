@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  pages: write
 
 concurrency:
   group: pages
@@ -29,3 +30,12 @@ jobs:
           publish_dir: ./dist
           publish_branch: gh-pages
           force_orphan: true
+      # Pushes feitos com o GITHUB_TOKEN não disparam a publicação do Pages: pede-se explicitamente.
+      - name: Pedir a publicação do Pages
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api repos/${{ github.repository }}/pages --jq '{url: .html_url, source: .source, status: .status}' || true
+          gh api -X POST repos/${{ github.repository }}/pages/builds
+          sleep 20
+          gh api repos/${{ github.repository }}/pages/builds/latest --jq '{status: .status, error: .error.message, commit: .commit}' || true
