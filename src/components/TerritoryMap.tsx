@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
 import type { Map as MLMap, GeoJSONSource, MapGeoJSONFeature, LngLatBoundsLike } from 'maplibre-gl'
 import 'maplibre-gl/dist/maplibre-gl.css'
+// MapLibre 6 é só ESM: o worker é empacotado pelo Vite e o endereço é dado à biblioteca
+import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url'
 import { buildStyle, SERPA_BOUNDS, WIDE, C, siteBase } from '../map/style'
 import type { TerritoryGeo } from '../map/style'
 import { markerImage } from '../map/icons'
@@ -38,6 +40,12 @@ type Props = {
   onReady?: (map: MLMap) => void
   // píxeis tapados em baixo (folha da lista no telemóvel), para centrar a seleção na parte visível
   padBottom?: number
+  // 'overview': pontos simples por família, sem agrupamento (início e cartaz)
+  variant?: 'app' | 'overview'
+  // anéis a destacar (ex.: aldeias por onde passa o HELL160)
+  rings?: { lon: number; lat: number; name: string }[]
+  scale?: boolean
+  printable?: boolean
 }
 
 function toFC(pois: Poi[], done: Set<string>): GeoJSON.FeatureCollection {
@@ -65,6 +73,10 @@ export function TerritoryMap({
   label = 'Mapa do concelho de Serpa',
   onReady,
   padBottom = 0,
+  variant = 'app',
+  rings,
+  scale = false,
+  printable = false,
 }: Props) {
   const box = useRef<HTMLDivElement>(null)
   const mapRef = useRef<MLMap | null>(null)
@@ -79,8 +91,9 @@ export function TerritoryMap({
     let alive = true
     ;(async () => {
       try {
-        const [{ default: maplibregl }, territory] = await Promise.all([import('maplibre-gl'), loadTerritory()])
+        const [maplibregl, territory] = await Promise.all([import('maplibre-gl'), loadTerritory()])
         if (!alive || !box.current) return
+        maplibregl.setWorkerUrl(workerUrl)
         map = new maplibregl.Map({
           container: box.current,
           style: buildStyle(territory),
@@ -97,6 +110,7 @@ export function TerritoryMap({
           cooperativeGestures: false,
           dragRotate: interactive,
           pitchWithRotate: interactive,
+          canvasContextAttributes: printable ? { preserveDrawingBuffer: true } : undefined,
           locale: {
             'NavigationControl.ZoomIn': 'Aproximar',
             'NavigationControl.ZoomOut': 'Afastar',
@@ -107,6 +121,7 @@ export function TerritoryMap({
         mapRef.current = map
         map.addControl(new maplibregl.AttributionControl({ compact: true }), 'bottom-right')
         if (interactive) map.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), 'top-right')
+        if (scale) map.addControl(new maplibregl.ScaleControl({ unit: 'metric', maxWidth: 120 }), 'bottom-left')
         map.on('error', (e) => {
           // tiles fora da área devolvem 404; não é falha do mapa
           if (String(e?.error?.message || '').includes('404')) return
@@ -127,12 +142,19 @@ export function TerritoryMap({
           map.addSource('pois', {
             type: 'geojson',
             data: toFC(pois, done),
-            cluster: true,
+            cluster: variant === 'app',
             clusterRadius: 34,
             clusterMaxZoom: 14,
             promoteId: 'id',
           })
           map.addSource('user', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } })
+          map.addSource('rings', {
+            type: 'geojson',
+            data: {
+              type: 'FeatureCollection',
+              features: (rings ?? []).map((r) => ({ type: 'Feature', properties: { name: r.name }, geometry: { type: 'Point', coordinates: [r.lon, r.lat] } })),
+            },
+          })
           map.addLayer({
             id: 'freguesia-outline-hover',
             type: 'line',
@@ -155,6 +177,32 @@ export function TerritoryMap({
             source: 'user',
             paint: { 'circle-color': C.anil, 'circle-radius': 6.5, 'circle-stroke-color': '#fff', 'circle-stroke-width': 2.5 },
           })
+          // anéis e pontos ficam por baixo dos rótulos, para os nomes das aldeias se lerem
+          const below = map.getLayer('label-contour') ? 'label-contour' : undefined
+          map.addLayer({
+            id: 'rings',
+            type: 'circle',
+            source: 'rings',
+            paint: {
+              'circle-radius': ['interpolate', ['linear'], ['zoom'], 9, 9, 13, 16],
+              'circle-color': 'rgba(200,54,27,0.08)',
+              'circle-stroke-color': C.hell,
+              'circle-stroke-width': 2.2,
+            },
+          }, below)
+          if (variant === 'overview') {
+            map.addLayer({
+              id: 'poi-dot',
+              type: 'circle',
+              source: 'pois',
+              paint: {
+                'circle-radius': ['interpolate', ['linear'], ['zoom'], 9, 3.2, 12, 4.5, 15, 6],
+                'circle-color': ['match', ['get', 'fam'], 'ver', C.ver, 'provar', C.provar, C.ficar],
+                'circle-stroke-color': '#fff',
+                'circle-stroke-width': 1.2,
+              },
+            }, below)
+          }
           map.addLayer({
             id: 'poi-cluster',
             type: 'circle',
@@ -187,6 +235,7 @@ export function TerritoryMap({
             type: 'symbol',
             source: 'pois',
             filter: ['!', ['has', 'point_count']],
+            minzoom: variant === 'overview' ? 13 : 0,
             layout: {
               'icon-image': ['get', 'icon'],
               'icon-allow-overlap': true,

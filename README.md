@@ -16,6 +16,8 @@ do HELL160 vivem no site do HELL160 (https://rgvduarte.github.io/hell160/); o Ra
   apresentar longe de Serpa.
 - **HELL160** (`#/prova`): aldeias por onde a prova passa e o que dá para fazer enquanto se espera, por tempo disponível.
 - **Sobre e dados** (`#/sobre`): o que é real e o que ainda não é, fontes e licenças, próximos passos.
+- **Cartaz** (`#/cartaz`): o cartaz 3:2 feito com o mapa e capturas reais da app. Exportado em
+  `public/cartaz/rasto-serpa-cartaz.png` (3072 × 2048) e `.pdf` (300 dpi).
 
 ## Desenvolvimento
 

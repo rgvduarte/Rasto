@@ -168,8 +168,11 @@ h1, h2, h3, h4, p { margin: 0; }
 .hero-map { position: relative; height: clamp(380px, 62vh, 640px); border-radius: var(--r); overflow: hidden; border: 1px solid var(--line); background: #f3efe6; }
 .hero-map .caption {
   position: absolute; left: 12px; top: 12px; z-index: 2; background: rgba(250, 248, 243, 0.94); border-radius: 10px; padding: 8px 12px;
-  font-size: 13px; color: var(--ink-2); max-width: 30ch; line-height: 1.35;
+  font-size: 13px; color: var(--ink-2); line-height: 1.35; display: flex; flex-wrap: wrap; gap: 4px 12px; max-width: calc(100% - 24px);
 }
+.caption .li, .pl .li { display: inline-flex; align-items: center; gap: 6px; }
+.caption .sw, .pl .sw { width: 10px; height: 10px; border-radius: 50%; display: inline-block; flex: none; }
+.sw.ring { width: 12px; height: 12px; border: 2px solid var(--hell); background: rgba(200, 54, 27, 0.08); }
 
 /* números */
 .facts { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; }
@@ -240,7 +243,7 @@ h1, h2, h3, h4, p { margin: 0; }
 .mission .msg { margin-top: 10px; font-size: 14.5px; }
 .mission .msg.err { color: #9b2c13; }
 .codebox { display: flex; gap: 8px; margin-top: 12px; }
-.codebox input { flex: 1; min-height: 44px; border-radius: 999px; border: 1.5px solid var(--line-2); padding: 0 16px; text-transform: uppercase; letter-spacing: 0.08em; background: #fff; }
+.codebox input { flex: 1; min-width: 0; min-height: 44px; border-radius: 999px; border: 1.5px solid var(--line-2); padding: 0 16px; text-transform: uppercase; letter-spacing: 0.08em; background: #fff; }
 .links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
 .kv { display: grid; grid-template-columns: auto 1fr; gap: 6px 14px; font-size: 14px; margin-top: 18px; }
 .kv dt { color: var(--muted); }

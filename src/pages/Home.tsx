@@ -3,18 +3,23 @@ import { TerritoryMap } from '../components/TerritoryMap'
 import { Glyph } from '../components/Glyph'
 import { POIS } from '../data/catalog'
 import { MISSIONS, COLLECTIONS } from '../data/missions'
-import { HELL160 } from '../data/hell160'
+import { HELL160, COURSE_VILLAGES } from '../data/hell160'
 import { href } from '../lib/router'
 import { fmtInt } from '../lib/geo'
 import { useGame, freguesiaProgress } from '../lib/store'
 
 // Números do concelho, calculados a partir dos dados (scripts/geo): não são estimativas.
 const FACTS = [
-  { v: '1 105,5', u: 'km²', t: 'de concelho, entre o Guadiana e a fronteira com Espanha', s: 'CAOP 2020, DGT' },
-  { v: '1 357', u: 'km', t: 'de estradões de terra mapeados', s: 'OpenStreetMap, out 2026' },
+  { v: '1 105,5', u: 'km²', t: 'de concelho, entre o Guadiana e a fronteira com Espanha', s: 'CAOP 2020, DGT' },
+  { v: '1 357', u: 'km', t: 'de estradões de terra mapeados', s: 'OpenStreetMap, out 2026' },
   { v: '5–519', u: 'm', t: 'de altitude, do leito do Guadiana à serra de Ficalho', s: 'Copernicus DEM GLO-30' },
   { v: '5', u: '', t: 'freguesias, cada uma para explorar no mapa', s: 'CAOP 2020, DGT' },
 ]
+
+const RINGS = COURSE_VILLAGES.map((v) => {
+  const p = POIS.find((x) => x.id === v.poi)!
+  return { lon: p.lon, lat: p.lat, name: v.name }
+})
 
 export function Home() {
   const game = useGame()
@@ -45,10 +50,21 @@ export function Home() {
             </div>
           </div>
           <div className="hero-map">
-            <TerritoryMap pois={POIS} done={none} interactive={false} progress={progress} label="Mapa do concelho de Serpa com os lugares do Rasto" />
-            <p className="caption">
-              {fmtInt(POIS.length)} lugares no concelho de Serpa. Relevo, água, caminhos e edifícios de dados abertos.
-            </p>
+            <TerritoryMap
+              pois={POIS}
+              done={none}
+              interactive={false}
+              progress={progress}
+              variant="overview"
+              rings={RINGS}
+              label="Mapa do concelho de Serpa com os lugares do Rasto"
+            />
+            <div className="caption">
+              <span className="li"><span className="sw" style={{ background: '#2456a6' }} />Ver</span>
+              <span className="li"><span className="sw" style={{ background: '#c2410c' }} />Provar</span>
+              <span className="li"><span className="sw" style={{ background: '#0f7a5a' }} />Ficar</span>
+              <span className="li"><span className="sw ring" />Aldeias do HELL160</span>
+            </div>
           </div>
         </div>
       </section>

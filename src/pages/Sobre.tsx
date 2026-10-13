@@ -2,6 +2,8 @@ import { POIS } from '../data/catalog'
 import { MISSIONS } from '../data/missions'
 import { HELL160 } from '../data/hell160'
 import { fmtInt } from '../lib/geo'
+import { href } from '../lib/router'
+import { siteBase } from '../map/style'
 
 const SOURCES = [
   ['Limites do concelho e das freguesias', 'CAOP 2020, Direção-Geral do Território', 'Dados abertos DGT'],
@@ -91,6 +93,28 @@ export function Sobre() {
               </p>
             </li>
           </ol>
+        </div>
+      </section>
+
+      <section className="sec tight">
+        <div className="wrap split">
+          <div className="stack">
+            <h2 className="h3">Cartaz</h2>
+            <p className="muted">
+              O cartaz do Rasto em Serpa, feito com o mapa e as capturas desta app. Formato 3:2, como os conceitos iniciais.
+            </p>
+          </div>
+          <div className="row">
+            <a className="btn" href={href('/cartaz')}>
+              Ver o cartaz
+            </a>
+            <a className="btn ghost" href={`${siteBase()}cartaz/rasto-serpa-cartaz.png`} download>
+              PNG · 3072 × 2048
+            </a>
+            <a className="btn ghost" href={`${siteBase()}cartaz/rasto-serpa-cartaz.pdf`} download>
+              PDF · 300 dpi
+            </a>
+          </div>
         </div>
       </section>
 

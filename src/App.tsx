@@ -8,6 +8,7 @@ import { MapPage } from './pages/MapPage'
 import { Missions } from './pages/Missions'
 import { Prova } from './pages/Prova'
 import { Sobre } from './pages/Sobre'
+import { Poster } from './pages/Poster'
 
 const NAV = [
   { path: '/mapa', label: 'Mapa' },
@@ -22,6 +23,7 @@ const TITLES: Record<string, string> = {
   '/missoes': 'Missões · Rasto Serpa',
   '/prova': 'Durante o HELL160 · Rasto Serpa',
   '/sobre': 'Sobre e dados · Rasto Serpa',
+  '/cartaz': 'Cartaz · Rasto Serpa',
 }
 
 export function App() {
@@ -35,6 +37,9 @@ export function App() {
     document.title = TITLES[route.path] ?? 'Rasto · Serpa'
     if (route.path !== '/mapa') window.scrollTo(0, 0)
   }, [route.path])
+
+  // o cartaz é uma página sozinha, sem cabeçalho nem rodapé
+  if (route.path === '/cartaz') return <Poster route={route} />
 
   let page
   switch (route.path) {
