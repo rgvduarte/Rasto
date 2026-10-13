@@ -1,5 +1,5 @@
 // Casca da app: um só mapa por baixo de tudo, os ecrãs por cima, a barra de separadores em baixo (ou à esquerda no ecrã largo).
-import { lazy, Suspense, useEffect, useRef } from 'react'
+import { lazy, Suspense, useEffect } from 'react'
 import { useRoute, go } from './lib/router'
 import { useGame } from './lib/store'
 import { recorder } from './lib/recorder'
@@ -35,15 +35,11 @@ export function App() {
   const narrow = useNarrow()
   const game = useGame()
   const path = route.path
-  const prev = useRef(path)
 
   useEffect(() => {
     // endereços da versão anterior
     if (path === '/mapa') go('/', Object.fromEntries(route.params.entries()), true)
     if (path === '/prova' || path === '/hell160') go('/eventos', undefined, true)
-    // o cartaz usa outra folha de estilos: ao sair dele, recarrega
-    if (prev.current === '/cartaz' && path !== '/cartaz') location.reload()
-    prev.current = path
     document.title = TITLES[path] ?? 'Rasto Serpa'
   }, [path, route.params])
 
