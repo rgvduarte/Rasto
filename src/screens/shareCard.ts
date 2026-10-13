@@ -2,6 +2,7 @@
 import type { Activity, State } from '../lib/store'
 import { fmtClock, fmtKm, fmtDay } from '../lib/ui'
 import { avatarById } from '../data/avatars'
+import { loadHexGrid, cellsAlong, cellsInside, cellPolygon } from '../lib/hex'
 
 const W = 1080
 const H = 1350
@@ -37,7 +38,35 @@ export async function shareCard(a: Activity, s: State): Promise<File | null> {
     const sc = (box.w - 160) / span
     const ox = box.x + (box.w - (x1 - x0) * sc) / 2
     const oy = box.y + (box.h - (y1 - y0) * sc) / 2
-    const P = (p: [number, number, number]) => [ox + (p[0] * k - x0) * sc, oy + (y1 - p[1]) * sc] as const
+    const P = (p: [number, number, number] | [number, number]) => [ox + (p[0] * k - x0) * sc, oy + (y1 - p[1]) * sc] as const
+    // o território desta saída: hexágonos do caminho e, se o percurso fecha, os de dentro
+    try {
+      const g = await loadHexGrid()
+      const cells = new Set<number>()
+      for (let i = 1; i < pts.length; i++) for (const c of cellsAlong(g, [pts[i - 1][0], pts[i - 1][1]], [pts[i][0], pts[i][1]])) cells.add(c)
+      if (a.loops) for (const c of cellsInside(g, pts.map((p) => [p[0], p[1]] as [number, number]))) cells.add(c)
+      ctx.save()
+      roundRect(ctx, box.x, box.y, box.w, box.h, 36)
+      ctx.clip()
+      for (const c of cells) {
+        const ring = cellPolygon(g, c)
+        ctx.beginPath()
+        ring.forEach((q, i) => {
+          const [x, y] = P(q)
+          if (i) ctx.lineTo(x, y)
+          else ctx.moveTo(x, y)
+        })
+        ctx.closePath()
+        ctx.fillStyle = 'rgba(242, 183, 5, 0.42)'
+        ctx.fill()
+        ctx.strokeStyle = 'rgba(122, 88, 0, 0.55)'
+        ctx.lineWidth = 2
+        ctx.stroke()
+      }
+      ctx.restore()
+    } catch {
+      /* sem a grelha: só o percurso */
+    }
     ctx.lineJoin = 'round'
     ctx.lineCap = 'round'
     for (const [w, col] of [[22, '#ffffff'], [10, '#2348d1']] as const) {
@@ -83,17 +112,33 @@ export async function shareCard(a: Activity, s: State): Promise<File | null> {
     [String(a.gainM), 'm a subir'],
     [String(a.cells), 'hexágonos'],
   ]
-  const colW = (W - 120) / 4
-  stats.forEach(([v, l], i) => {
-    const x = 60 + i * colW
+  // largura de cada número medida; a letra encolhe se não couberem os quatro numa linha
+  let size = 88
+  const widths = () => {
     c.fontStretch = 'condensed'
-    ctx.font = `800 84px ${FONT}`
+    ctx.font = `800 ${size}px ${FONT}`
+    const wv = stats.map(([v]) => ctx.measureText(v).width)
+    c.fontStretch = 'normal'
+    ctx.font = `600 28px ${FONT}`
+    return stats.map(([, l], i) => Math.max(wv[i], ctx.measureText(l).width))
+  }
+  let ws = widths()
+  const gap = 56
+  while (ws.reduce((t, x) => t + x, 0) + gap * 3 > W - 120 && size > 56) {
+    size -= 4
+    ws = widths()
+  }
+  let x = 60
+  stats.forEach(([v, l], i) => {
+    c.fontStretch = 'condensed'
+    ctx.font = `800 ${size}px ${FONT}`
     ctx.fillStyle = i === 3 ? '#7a5800' : '#000000'
     ctx.fillText(v, x, 1090)
     c.fontStretch = 'normal'
     ctx.font = `600 28px ${FONT}`
     ctx.fillStyle = '#5f6770'
     ctx.fillText(l, x, 1132)
+    x += ws[i] + gap
   })
 
   // barra anil, como a base das paredes caiadas

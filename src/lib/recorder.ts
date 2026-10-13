@@ -51,6 +51,40 @@ let lastTick = 0
 let wake: WakeLockSentinel | null = null
 let watchOnly = false // a seguir a posição sem gravar (antes de começar)
 let loopFrom = 0 // primeiro ponto do circuito ainda em aberto
+let spokenKm = 0
+let kmT = 0 // tempo (ms) no último quilómetro anunciado
+
+function speak(text: string) {
+  try {
+    const u = new SpeechSynthesisUtterance(text)
+    u.lang = 'pt-PT'
+    const v = speechSynthesis.getVoices().find((x) => x.lang === 'pt-PT') ?? speechSynthesis.getVoices().find((x) => x.lang.startsWith('pt'))
+    if (v) u.voice = v
+    u.rate = 1.02
+    speechSynthesis.speak(u)
+  } catch {
+    /* sem voz no browser */
+  }
+}
+
+function announceKm(distance: number, elapsed: number, type: ActivityType) {
+  const k = Math.floor(distance / 1000)
+  if (k <= spokenKm) return
+  const dt = (elapsed - kmT) / (k - spokenKm)
+  spokenKm = k
+  kmT = elapsed
+  if (!store.get().voice) return
+  const kms = k === 1 ? '1 quilómetro' : `${k} quilómetros`
+  if (type === 'bicicleta') {
+    const kmh = Math.round(3600000 / dt)
+    speak(`${kms}. Último quilómetro a ${kmh} quilómetros por hora.`)
+  } else {
+    const sec = Math.round(dt / 1000)
+    const m = Math.floor(sec / 60)
+    const ss = sec % 60
+    speak(`${kms}. Último quilómetro em ${m} ${m === 1 ? 'minuto' : 'minutos'}${ss ? ` e ${ss} ${ss === 1 ? 'segundo' : 'segundos'}` : ''}.`)
+  }
+}
 
 // Fechar um circuito: voltar a menos de 35 m de um ponto por onde já passaste, com pelo menos 300 m de percurso pelo meio.
 // As células cujo centro fica dentro do anel passam a ser tuas. Um vaivém pela mesma rua não fecha nada (não tem interior).
@@ -129,6 +163,7 @@ function onPosition(lon: number, lat: number, acc: number, heading: number | nul
   } else if (grid && !prev) {
     fresh = store.addCells(cellsAlong(grid, [lon, lat], [lon, lat]))
   }
+  if (!s.sim) announceKm(pt.d, s.elapsed, s.type)
   const inLoop = closeLoop(pts)
   if (inLoop) {
     haptic([40, 50, 40, 50, 120])
@@ -237,6 +272,8 @@ export const recorder = {
   async start(type: ActivityType, simRouteId?: string, factor = 8) {
     grid = await loadHexGrid()
     loopFrom = 0
+    spokenKm = 0
+    kmT = 0
     if (simRouteId) {
       const { routes } = await loadSim()
       const route = routes.find((r) => r.id === simRouteId)!

@@ -437,6 +437,15 @@ a.row-btn, a.next-card, a.act-card, a.seg-row { color: inherit; text-decoration:
 .detail-top { display: flex; gap: 12px; align-items: flex-start; padding-top: 2px; }
 .detail-top .t-title { font-size: 25px; }
 
+/* parciais */
+.splits { display: grid; gap: 6px; }
+.split { display: grid; grid-template-columns: 34px 1fr 92px; gap: 10px; align-items: center; font-size: 14.5px; }
+.split > span:last-child { text-align: right; }
+.split-bar { height: 12px; border-radius: 6px; background: var(--cal-2); overflow: hidden; }
+.split-bar i { display: block; height: 100%; border-radius: 6px; background: var(--anil); opacity: 0.55; }
+.split-bar i.best { opacity: 1; }
+.setting.voice { font-size: 14.5px; font-weight: 600; align-items: center; }
+
 /* atividade */
 .empty-state { display: grid; gap: 10px; justify-items: start; padding: 18px; border-radius: 18px; background: var(--cal-2); }
 .acts { display: grid; }

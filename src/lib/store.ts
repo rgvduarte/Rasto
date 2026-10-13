@@ -37,11 +37,12 @@ export type State = {
   activities: Activity[]
   ratings: Record<string, { stars: number; note?: string; at: number }>
   saved: string[]
+  voice: boolean // anunciar cada quilómetro em voz alta durante a gravação
 }
 
 const KEY = 'rasto.serpa.v2'
 const EMPTY: State = {
-  v: 2, name: '', crew: '', demo: false, onboarded: false, avatar: null, done: {}, cells: [], activities: [], ratings: {}, saved: [],
+  v: 2, name: '', crew: '', demo: false, onboarded: false, avatar: null, done: {}, cells: [], activities: [], ratings: {}, saved: [], voice: false,
 }
 
 function load(): State {
@@ -112,6 +113,9 @@ export const store = {
   },
   setDemo(demo: boolean) {
     set({ ...state, demo })
+  },
+  setVoice(voice: boolean) {
+    set({ ...state, voice })
   },
   rate(poi: string, stars: number, note?: string) {
     const ratings = { ...state.ratings }
@@ -186,6 +190,38 @@ export function levelOf(xp: number) {
     need += 300
   }
   return { level: lvl, into: xp - floor, need }
+}
+
+// parciais por quilómetro a partir do percurso guardado (lon, lat, segundos)
+export function splitsOf(track: [number, number, number][]) {
+  const out: { km: number; timeS: number; partial?: number }[] = []
+  let dist = 0
+  let lastT = track[0]?.[2] ?? 0
+  let next = 1000
+  for (let i = 1; i < track.length; i++) {
+    const a = track[i - 1]
+    const b = track[i]
+    const d = haversine(a, b)
+    while (d > 0 && dist + d >= next) {
+      const f = (next - dist) / d
+      const t = a[2] + (b[2] - a[2]) * f
+      out.push({ km: out.length + 1, timeS: Math.max(1, Math.round(t - lastT)) })
+      lastT = t
+      next += 1000
+    }
+    dist += d
+  }
+  const rest = dist - (next - 1000)
+  if (rest >= 100 && track.length) out.push({ km: out.length + 1, timeS: Math.max(1, Math.round(track[track.length - 1][2] - lastT)), partial: rest })
+  return out
+}
+
+function haversine(a: number[], b: number[]) {
+  const r = Math.PI / 180
+  const dLat = (b[1] - a[1]) * r
+  const dLon = (b[0] - a[0]) * r
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(a[1] * r) * Math.cos(b[1] * r) * Math.sin(dLon / 2) ** 2
+  return 2 * 6371008.8 * Math.asin(Math.sqrt(h))
 }
 
 export function totals(s: State) {

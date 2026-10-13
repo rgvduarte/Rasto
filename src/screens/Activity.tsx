@@ -2,7 +2,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { Icon } from '../ui/Icon'
 import { BottomSheet, safeArea } from '../ui/BottomSheet'
-import { TrackThumb, ElevationChart } from '../ui/bits'
+import { TrackThumb, ElevationChart, Splits } from '../ui/bits'
 import { Page } from './Page'
 import { useGame, store, totals, missionXp, type Activity as Act } from '../lib/store'
 import { mapView } from '../lib/mapview'
@@ -230,6 +230,7 @@ function Detail({ a, narrow, segments }: { a: Act; narrow: boolean; segments: Se
         </div>
       </div>
       <ElevationChart profile={a.profile} />
+      <Splits track={a.track} bike={bike} />
       {a.efforts.length > 0 && (
         <div>
           <h3 className="section-t">Segmentos</h3>
@@ -262,7 +263,7 @@ function Detail({ a, narrow, segments }: { a: Act; narrow: boolean; segments: Se
               <a className="seg-row" key={id} href={href('/', { p: p.id })}>
                 <span>
                   <b>{m.title}</b>
-                  <span className="muted t-small"> {p.name}</span>
+                  {p.name !== m.title && <span className="muted t-small"> {p.name}</span>}
                 </span>
                 <span className="xp">+{missionXp(game, id)}</span>
               </a>

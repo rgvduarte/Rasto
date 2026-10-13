@@ -2,9 +2,9 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { Icon } from '../ui/Icon'
 import { BottomSheet, safeArea } from '../ui/BottomSheet'
-import { Glyph, ElevationChart } from '../ui/bits'
+import { Glyph, ElevationChart, Splits } from '../ui/bits'
 import { useRecorder, recorder } from '../lib/recorder'
-import { useGame, missionXp, type ActivityType, type Activity } from '../lib/store'
+import { useGame, store, missionXp, type ActivityType, type Activity } from '../lib/store'
 import { mapView } from '../lib/mapview'
 import { loadSim, type SimRoute, type Segment } from '../lib/sim'
 import { captureMission } from '../lib/capture'
@@ -134,6 +134,22 @@ export function Record({ narrow }: { narrow: boolean }) {
             </button>
           ))}
         </div>
+        <label className="setting voice">
+          <input
+            type="checkbox"
+            checked={game.voice}
+            onChange={(e) => {
+              store.setVoice(e.target.checked)
+              // a primeira frase tem de nascer de um toque, para o browser deixar falar depois
+              if (e.target.checked && 'speechSynthesis' in window) {
+                const u = new SpeechSynthesisUtterance('Voz ligada. Aviso a cada quilómetro.')
+                u.lang = 'pt-PT'
+                speechSynthesis.speak(u)
+              }
+            }}
+          />
+          <span>Avisar em voz alta a cada quilómetro</span>
+        </label>
         <button className="bigbtn go" onClick={() => start()}>
           <Icon name="play" size={22} fill="currentColor" stroke={0} /> Começar
         </button>
@@ -362,6 +378,7 @@ function Summary({ a, segments, name, setName }: { a: Activity; segments: Segmen
         </div>
       </div>
       <ElevationChart profile={a.profile} />
+      <Splits track={a.track} bike={bike} />
       {a.efforts.length > 0 && (
         <div>
           <h3 className="section-t">Segmentos</h3>
@@ -397,7 +414,7 @@ function Summary({ a, segments, name, setName }: { a: Activity; segments: Segmen
               <div className="seg-row" key={id}>
                 <span>
                   <b>{m.title}</b>
-                  <span className="muted t-small"> {p.name}</span>
+                  {p.name !== m.title && <span className="muted t-small"> {p.name}</span>}
                 </span>
                 <span className="xp">+{missionXp(game, id)}</span>
               </div>

@@ -3,6 +3,7 @@ import { useMemo } from 'react'
 import { Icon, type IconName } from './Icon'
 import { href } from '../lib/router'
 import { useToast, fmtClock } from '../lib/ui'
+import { splitsOf } from '../lib/store'
 import { useRecorder } from '../lib/recorder'
 import { avatarById, AVATARS } from '../data/avatars'
 import { GLYPH, FAMILY_COLOR } from '../map/icons'
@@ -166,5 +167,36 @@ export function Stars({ value, size = 15 }: { value: number; size?: number }) {
         )
       })}
     </span>
+  )
+}
+
+// parciais por quilómetro, como no Strava: a barra mais comprida é o quilómetro mais rápido
+export function Splits({ track, bike }: { track: [number, number, number][]; bike: boolean }) {
+  const sp = useMemo(() => splitsOf(track), [track])
+  if (sp.length < 2) return null
+  const pace = (x: { timeS: number; partial?: number }) => (x.partial ? x.timeS / (x.partial / 1000) : x.timeS)
+  const best = Math.min(...sp.map(pace))
+  return (
+    <div>
+      <h3 className="section-t">Parciais</h3>
+      <div className="splits" role="table" aria-label="Parciais por quilómetro">
+        {sp.map((x) => {
+          const p = pace(x)
+          return (
+            <div className="split" role="row" key={x.km}>
+              <span className="num" role="cell">
+                {x.partial ? (x.partial / 1000).toLocaleString('pt-PT', { maximumFractionDigits: 1 }) : x.km}
+              </span>
+              <span className="split-bar" role="cell">
+                <i className={p === best ? 'best' : ''} style={{ width: `${Math.max(14, (best / p) * 100)}%` }} />
+              </span>
+              <span className="num" role="cell">
+                {bike ? `${(3600 / p).toLocaleString('pt-PT', { maximumFractionDigits: 1, minimumFractionDigits: 1 })} km/h` : `${fmtClock(p * 1000)} /km`}
+              </span>
+            </div>
+          )
+        })}
+      </div>
+    </div>
   )
 }
