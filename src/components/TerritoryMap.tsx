@@ -36,6 +36,8 @@ type Props = {
   user?: { lat: number; lon: number; acc: number } | null
   label?: string
   onReady?: (map: MLMap) => void
+  // píxeis tapados em baixo (folha da lista no telemóvel), para centrar a seleção na parte visível
+  padBottom?: number
 }
 
 function toFC(pois: Poi[], done: Set<string>): GeoJSON.FeatureCollection {
@@ -62,6 +64,7 @@ export function TerritoryMap({
   user = null,
   label = 'Mapa do concelho de Serpa',
   onReady,
+  padBottom = 0,
 }: Props) {
   const box = useRef<HTMLDivElement>(null)
   const mapRef = useRef<MLMap | null>(null)
@@ -247,10 +250,19 @@ export function TerritoryMap({
     if (selected) {
       const p = pois.find((x) => x.id === selected)
       if (p) {
-        const z = Math.max(map.getZoom(), 16.2)
-        map.easeTo({ center: [p.lon, p.lat], zoom: z, duration: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 700 })
+        // no centro de Serpa há dezenas de pontos juntos: aproxima mais; no campo chega uma vista larga
+        const dense = p.placeKm < 1 && p.place === 'Serpa'
+        const open = ['rio', 'barragem', 'azenha', 'miradouro', 'experiencia'].includes(p.sub)
+        const target = dense ? 16.4 : open ? 14.4 : 15.6
+        map.easeTo({
+          center: [p.lon, p.lat],
+          zoom: Math.max(map.getZoom(), target),
+          padding: { top: 0, left: 0, right: 0, bottom: padBottom },
+          duration: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 700,
+        })
       }
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [ready, selected, pois])
 
   // progresso das freguesias
@@ -260,10 +272,13 @@ export function TerritoryMap({
     for (const f of progress) map.setFeatureState({ source: 'freguesias', id: f.name }, { p: f.p })
   }, [ready, progress])
 
-  // relevo 3D
+  // relevo 3D (só anima quando muda; no arranque não pode cancelar a ida ao ponto selecionado)
+  const terrainWas = useRef(false)
   useEffect(() => {
     const map = mapRef.current
     if (!ready || !map) return
+    if (terrain === terrainWas.current) return
+    terrainWas.current = terrain
     if (terrain) {
       map.setTerrain({ source: 'dem', exaggeration: 1.8 })
       map.easeTo({ pitch: 62, duration: 900 })

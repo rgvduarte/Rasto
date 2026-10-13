@@ -315,7 +315,11 @@ export function buildStyle(t: TerritoryGeo): StyleSpecification {
         source: 'v',
         'source-layer': 'boundary',
         filter: ['==', ['get', 'kind'], 'serpa'],
-        paint: { 'line-color': '#ffffff', 'line-width': zoomed([[8, 4], [14, 8]]), 'line-opacity': 0.7 },
+        paint: {
+          'line-color': '#ffffff',
+          'line-width': zoomed([[8, 4], [12, 6], [15, 4]]),
+          'line-opacity': ['interpolate', ['linear'], ['zoom'], 8, 0.7, 13, 0.5, 15, 0.25],
+        },
       },
       {
         id: 'boundary-serpa',
@@ -323,7 +327,11 @@ export function buildStyle(t: TerritoryGeo): StyleSpecification {
         source: 'v',
         'source-layer': 'boundary',
         filter: ['==', ['get', 'kind'], 'serpa'],
-        paint: { 'line-color': C.ink, 'line-width': zoomed([[8, 1.4], [14, 2.6]]) },
+        paint: {
+          'line-color': C.ink,
+          'line-width': zoomed([[8, 1.4], [12, 2.2], [15, 1.6]]),
+          'line-opacity': ['interpolate', ['linear'], ['zoom'], 12, 1, 15, 0.55],
+        },
       },
       // rótulos
       {

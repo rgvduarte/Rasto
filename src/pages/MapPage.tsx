@@ -69,9 +69,17 @@ export function MapPage({ route }: { route: Route }) {
 
   const progress = useMemo(() => freguesiaProgress(game).map((f) => ({ name: f.name, p: f.p })), [game])
   const selected = sel ? poiById(sel) : undefined
+  const [narrow, setNarrow] = useState(() => window.matchMedia('(max-width: 899px)').matches)
+  useEffect(() => {
+    const mq = window.matchMedia('(max-width: 899px)')
+    const on = () => setNarrow(mq.matches)
+    mq.addEventListener('change', on)
+    return () => mq.removeEventListener('change', on)
+  }, [])
+  const padBottom = narrow ? Math.round(window.innerHeight * (sheet === 'max' ? 0.86 : sheet === 'min' ? 0.15 : 0.48)) : 0
 
   useEffect(() => {
-    if (selected && sheet === 'min') setSheet('mid')
+    if (selected && sheet !== 'mid') setSheet('mid')
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [sel])
 
@@ -217,6 +225,7 @@ export function MapPage({ route }: { route: Route }) {
           progress={progress}
           terrain={terrain}
           user={user}
+          padBottom={padBottom}
           onReady={(m) => (mapRef.current = m)}
         />
         <div className="map-tools">
