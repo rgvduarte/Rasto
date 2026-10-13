@@ -39,3 +39,6 @@ As casas do Alentejo: cal branca, a barra anil na base das paredes, a barra ocre
 território conquistado e XP. As famílias do mapa (Ver verde montado, Provar terracota, Ficar ameixa) foram validadas para
 daltonismo com o anil, todos os pares, sobre o fundo do mapa. Letra única: Archivo, condensada nos números (como num
 painel de corrida) e normal no texto. Ícones desenhados para a app, traço de 2 px.
+
+Ícone da app: a muralha de Serpa (três ameias e a porta em arco), com a barra ocre na base, como nas casas caiadas, e
+a bandeira ocre de quem conquistou o território. Lê-se a 29 px e funciona em fundo claro e escuro.

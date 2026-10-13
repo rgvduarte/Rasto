@@ -3,6 +3,7 @@ import type { Activity, State } from '../lib/store'
 import { fmtClock, fmtKm, fmtDay } from '../lib/ui'
 import { avatarById } from '../data/avatars'
 import { loadHexGrid, cellsAlong, cellsInside, cellPolygon } from '../lib/hex'
+import { siteBase } from '../map/style'
 
 const W = 1080
 const H = 1350
@@ -144,13 +145,25 @@ export async function shareCard(a: Activity, s: State): Promise<File | null> {
   // barra anil, como a base das paredes caiadas
   ctx.fillStyle = '#2348d1'
   ctx.fillRect(0, H - 120, W, 120)
+  // o ícone (muralha e bandeira) tem o fundo anil da barra: só se vê o desenho
+  let tx = 60
+  try {
+    const img = new Image()
+    img.src = `${siteBase()}icons/icon.svg`
+    await img.decode()
+    ctx.drawImage(img, 44, H - 112, 96, 96)
+    tx = 150
+  } catch {
+    /* sem o ícone: só o nome */
+  }
   ctx.fillStyle = '#ffffff'
   c.fontStretch = 'condensed'
   ctx.font = `800 52px ${FONT}`
-  ctx.fillText('Rasto', 60, H - 44)
+  ctx.fillText('Rasto', tx, H - 44)
+  const rw = ctx.measureText('Rasto').width
   c.fontStretch = 'normal'
   ctx.font = `600 32px ${FONT}`
-  ctx.fillText('Serpa, Alentejo', 228, H - 46)
+  ctx.fillText('Serpa, Alentejo', tx + rw + 18, H - 46)
   ctx.fillStyle = '#f2b705'
   ctx.fillRect(0, H - 120, W, 10)
 
