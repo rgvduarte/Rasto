@@ -1,0 +1,32 @@
+{
+  "name": "rasto",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build && node scripts/postbuild.mjs",
+    "preview": "vite preview",
+    "typecheck": "tsc -b",
+    "tiles": "node scripts/tiles/build-vector-tiles.mjs",
+    "glyphs": "node scripts/tiles/build-glyphs.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/schibsted-grotesk": "^5.3.0",
+    "maplibre-gl": "^5.24.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@cartography/pt": "^0.0.6",
+    "@maplibre/vt-pbf": "^4.3.2",
+    "@types/geojson": "^7946.0.16",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "geojson-vt": "^4.0.2",
+    "maplibre-font-maker-node": "^0.5.0",
+    "typescript": "5.8",
+    "vite": "^6.4.4"
+  }
+}

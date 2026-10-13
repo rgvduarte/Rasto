@@ -1,0 +1,2354 @@
+[
+ {
+  "id": "castelo-serpa",
+  "fam": "ver",
+  "sub": "castelo",
+  "name": "Castelo de Serpa",
+  "lat": 37.944608,
+  "lon": -7.59745,
+  "summary": "Castelo medieval, reconstruído no reinado de D. Dinis e fortificado no século XVII. Lá dentro funciona o Museu Municipal de Arqueologia.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.1,
+  "source": {
+   "dataset": "overture-places",
+   "id": "e012118a-1a41-4ed4-9a06-ea145d03e703"
+  },
+  "ta": {
+   "name": "Castelo de Serpa",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g189109-d4600583-Reviews-Castelo_de_Serpa-Serpa_Beja_District_Alentejo.html",
+   "rank": 1,
+   "of": 35,
+   "list": "o que fazer",
+   "geo": "Serpa",
+   "rating": 4.2,
+   "reviews": 140
+  }
+ },
+ {
+  "id": "museu-arqueologia",
+  "fam": "ver",
+  "sub": "museu",
+  "name": "Museu Municipal de Arqueologia",
+  "lat": 37.944566,
+  "lon": -7.597358,
+  "summary": "Museu dentro do castelo, com espólio da Pré-História à época romana.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.1,
+  "source": {
+   "dataset": "osm",
+   "id": "7b824327-383f-4ff3-bd5c-26ff34dba483"
+  },
+  "ta": {
+   "name": "Museu Municipal de Arqueologia",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225309-Reviews-Museu_Municipal_de_Arqueologia-Serpa_Beja_District_Alentejo.html",
+   "rank": 14,
+   "of": 35,
+   "list": "o que fazer",
+   "geo": "Serpa",
+   "rating": 3.5,
+   "reviews": 6
+  }
+ },
+ {
+  "id": "muralhas-serpa",
+  "fam": "ver",
+  "sub": "muralha",
+  "name": "Muralhas de Serpa",
+  "lat": 37.943784,
+  "lon": -7.599691,
+  "summary": "Cerca medieval de dupla muralha com torreões, reerguida no reinado de D. Dinis. Conserva as Portas de Beja e de Moura. Monumento Nacional.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.3,
+  "source": {
+   "dataset": "osm",
+   "id": "340c8d17-029a-4d2d-8d14-c9feedcf8819"
+  },
+  "ta": {
+   "name": "Muralhas de Serpa",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225310-Reviews-Muralhas_de_Serpa-Serpa_Beja_District_Alentejo.html",
+   "rank": 4,
+   "of": 35,
+   "list": "o que fazer",
+   "geo": "Serpa",
+   "rating": 4.2,
+   "reviews": 64
+  }
+ },
+ {
+  "id": "aqueduto-serpa",
+  "fam": "ver",
+  "sub": "aqueduto",
+  "name": "Aqueduto de Serpa",
+  "lat": 37.943678,
+  "lon": -7.599685,
+  "summary": "Aqueduto do final do século XVII, construído sobre a muralha para levar água ao Palácio dos Condes de Ficalho. Acaba numa grande nora.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.3,
+  "source": {
+   "dataset": "osm",
+   "id": "e70df138-fe87-3211-8e7d-c2e87c566d53"
+  },
+  "ta": {
+   "name": "Aqueduto de Serpa",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225911-Reviews-Aqueduto_de_Serpa-Serpa_Beja_District_Alentejo.html",
+   "list": "o que fazer",
+   "geo": "Serpa",
+   "rating": 4.3,
+   "reviews": 68
+  }
+ },
+ {
+  "id": "torre-relogio-serpa",
+  "fam": "ver",
+  "sub": "torre",
+  "name": "Torre do Relógio",
+  "lat": 37.944042,
+  "lon": -7.597964,
+  "summary": "Torre da muralha do burgo medieval, adaptada a torre de relógio em 1440, junto à entrada do castelo.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.1,
+  "source": {
+   "dataset": "osm",
+   "id": "52319799-28f8-43c8-8e16-b87a438885cf"
+  },
+  "ta": {
+   "name": "Torre do Relógio",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225315-Reviews-Torre_do_Relogio-Serpa_Beja_District_Alentejo.html",
+   "rank": 8,
+   "of": 35,
+   "list": "o que fazer",
+   "geo": "Serpa",
+   "rating": 3.9,
+   "reviews": 27
+  }
+ },
+ {
+  "id": "igreja-santa-maria",
+  "fam": "ver",
+  "sub": "igreja",
+  "name": "Igreja de Santa Maria",
+  "lat": 37.944208,
+  "lon": -7.597728,
+  "summary": "Igreja matriz de Serpa, erguida entre o final do século XIII e o início do XV, no largo das oliveiras e dos ciprestes. Monumento Nacional.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.1,
+  "source": {
+   "dataset": "overture-places",
+   "id": "9bc02291-d44d-41e0-b09d-bd306d982e65"
+  },
+  "ta": {
+   "name": "Igreja de Santa Maria",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225303-Reviews-Igreja_de_Santa_Maria-Serpa_Beja_District_Alentejo.html",
+   "rank": 7,
+   "of": 35,
+   "list": "o que fazer",
+   "geo": "Serpa",
+   "rating": 4.4,
+   "reviews": 13
+  }
+ },
+ {
+  "id": "santuario-carmo",
+  "fam": "ver",
+  "sub": "igreja",
+  "name": "Santuário de Nossa Senhora do Carmo",
+  "lat": 37.944428,
+  "lon": -7.596838,
+  "summary": "Igreja neoclássica do final do século XVIII, dentro das muralhas, a quem chamam o Santuário.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.1,
+  "source": {
+   "dataset": "osm",
+   "id": "f8ffd432-ab42-493b-8467-10abcbbd62be"
+  },
+  "ta": {
+   "name": "Santuário de Nossa Senhora do Carmo",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225645-Reviews-Santuario_de_Nossa_Senhora_do_Carmo-Serpa_Beja_District_Alentejo.html",
+   "rank": 18,
+   "of": 35,
+   "list": "o que fazer",
+   "geo": "Serpa",
+   "rating": 4.3,
+   "reviews": 3
+  }
+ },
+ {
+  "id": "palacio-ficalho",
+  "fam": "ver",
+  "sub": "palacio",
+  "name": "Palácio dos Condes de Ficalho",
+  "lat": 37.944872,
+  "lon": -7.598878,
+  "summary": "Palácio encostado à muralha, iniciado no final do século XVI e remodelado no XVII. Recebia a água do aqueduto. Monumento Nacional desde 2007.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.2,
+  "source": {
+   "dataset": "overture-places",
+   "id": "65ac3e11-6b0b-44ac-9b9e-f5452858593b"
+  },
+  "web": "http://palacioficalho.pt/",
+  "ta": {
+   "name": "Palácio dos Condes de Ficalho",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g3226139-d7225587-Reviews-Palacio_dos_Condes_de_Ficalho-Vila_Verde_de_Ficalho_Beja_District_Alentejo.html",
+   "rank": 1,
+   "of": 3,
+   "list": "o que fazer",
+   "geo": "Vila Verde de Ficalho"
+  }
+ },
+ {
+  "id": "igreja-salvador",
+  "fam": "ver",
+  "sub": "igreja",
+  "name": "Igreja do Salvador",
+  "lat": 37.941713,
+  "lon": -7.595318,
+  "summary": "Igreja no Largo do Salvador, com painéis de azulejo. Abre sobretudo nas celebrações.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.2,
+  "source": {
+   "dataset": "osm",
+   "id": "904540e5-a133-4c4d-8e47-116d20fbc374"
+  },
+  "ta": {
+   "name": "Igreja de Nossa Senhora de Guadalupe (Igreja de São Salvador)",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225314-Reviews-Igreja_de_Nossa_Senhora_de_Guadalupe_Igreja_de_Sao_Salvador-Serpa_Beja_District_A.html",
+   "rank": 9,
+   "of": 35,
+   "list": "o que fazer",
+   "geo": "Serpa",
+   "rating": 4.5,
+   "reviews": 10
+  }
+ },
+ {
+  "id": "misericordia-serpa",
+  "fam": "ver",
+  "sub": "igreja",
+  "name": "Igreja da Misericórdia",
+  "lat": 37.943332,
+  "lon": -7.599234,
+  "summary": "Igreja da Santa Casa da Misericórdia, de 1505, com portal gótico e talha dourada.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.2,
+  "source": {
+   "dataset": "osm",
+   "id": "2759049a-71d7-429c-82e0-28944ce837e2"
+  },
+  "ta": {
+   "name": "Misericórdia de Serpa",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225322-Reviews-Misericordia_de_Serpa-Serpa_Beja_District_Alentejo.html",
+   "rank": 27,
+   "of": 35,
+   "list": "o que fazer",
+   "geo": "Serpa",
+   "rating": 3.3,
+   "reviews": 4
+  }
+ },
+ {
+  "id": "convento-sao-paulo",
+  "fam": "ver",
+  "sub": "igreja",
+  "name": "Convento e Igreja de São Paulo",
+  "lat": 37.944529,
+  "lon": -7.595756,
+  "summary": "Convento de frades paulistas da Serra de Ossa, começado no final do século XVII, com interior barroco.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.1,
+  "source": {
+   "dataset": "osm",
+   "id": "3e2a502d-f229-4bee-a241-5cf41adabbb7"
+  },
+  "ta": {
+   "name": "Igreja e Convento de São Paulo / Mosteiro de Nossa Senhora da Consolação",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225641-Reviews-Igreja_e_Convento_de_Sao_Paulo_Mosteiro_de_Nossa_Senhora_da_Consolacao-Serpa_Beja.html",
+   "list": "o que fazer",
+   "geo": "Serpa",
+   "rating": 4.3,
+   "reviews": 4
+  }
+ },
+ {
+  "id": "convento-santo-antonio",
+  "fam": "ver",
+  "sub": "igreja",
+  "name": "Convento de Santo António",
+  "lat": 37.946424,
+  "lon": -7.591423,
+  "summary": "Antigo convento franciscano mandado erguer em 1463 pelo Infante D. Fernando e reconstruído em 1502, com portal gótico e claustro. Monumento Nacional.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.6,
+  "source": {
+   "dataset": "osm",
+   "id": "f7965a66-5fa6-4050-aa53-0bcf86113ce3"
+  },
+  "ta": {
+   "name": "Igreja de São Francisco",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225319-Reviews-Igreja_de_Sao_Francisco-Serpa_Beja_District_Alentejo.html",
+   "rank": 19,
+   "of": 35,
+   "list": "o que fazer",
+   "geo": "Serpa",
+   "rating": 5.0,
+   "reviews": 2
+  }
+ },
+ {
+  "id": "igreja-n-sra-saude",
+  "fam": "ver",
+  "sub": "igreja",
+  "name": "Igreja de Nossa Senhora da Saúde",
+  "lat": 37.946769,
+  "lon": -7.589332,
+  "summary": "Igreja do final do século XVI, com o interior quase todo revestido de azulejo de padrão.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.7,
+  "source": {
+   "dataset": "osm",
+   "id": "dddf93f4-cc2c-4030-ba25-fa783bf9e490"
+  },
+  "ta": {
+   "name": "Igreja de Nossa Senhora da Saúde",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225410-Reviews-Igreja_de_Nossa_Senhora_da_Saude-Serpa_Beja_District_Alentejo.html",
+   "rank": 24,
+   "of": 35,
+   "list": "o que fazer",
+   "geo": "Serpa",
+   "rating": 4.5,
+   "reviews": 2
+  }
+ },
+ {
+  "id": "capela-sao-roque",
+  "fam": "ver",
+  "sub": "ermida",
+  "name": "Capela de São Roque",
+  "lat": 37.94049,
+  "lon": -7.596967,
+  "summary": "Ermida manuelina do início do século XVI, na Rua João de Deus.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.4,
+  "source": {
+   "dataset": "osm",
+   "id": "a269503f-7c93-4fb1-8bb2-86c74f1e0c65"
+  },
+  "ta": {
+   "name": "Capela de São Roque",
+   "url": "https://www.tripadvisor.fr/Attraction_Review-g189109-d7225891-Reviews-Capela_de_Sao_Roque-Serpa_Beja_District_Alentejo.html",
+   "rank": 20,
+   "of": 35,
+   "list": "o que fazer",
+   "geo": "Serpa",
+   "rating": 4.5,
+   "reviews": 2
+  }
+ },
+ {
+  "id": "capela-remedios",
+  "fam": "ver",
+  "sub": "ermida",
+  "name": "Capela de Nossa Senhora dos Remédios",
+  "lat": 37.94642,
+  "lon": -7.596328,
+  "summary": "Capela no largo do mesmo nome, a norte do centro histórico.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.3,
+  "source": {
+   "dataset": "osm",
+   "id": "b5960fc7-0f2a-464f-a959-60a13c4c7549"
+  },
+  "ta": {
+   "name": "Capela de Nossa Senhora dos Remédios",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7340296-Reviews-Capela_de_Nossa_Senhora_dos_Remedios-Serpa_Beja_District_Alentejo.html",
+   "rank": 34,
+   "of": 35,
+   "list": "o que fazer",
+   "geo": "Serpa",
+   "reviews": 0
+  }
+ },
+ {
+  "id": "capela-calvario",
+  "fam": "ver",
+  "sub": "ermida",
+  "name": "Capela do Calvário",
+  "lat": 37.941984,
+  "lon": -7.59586,
+  "summary": "Pequena capela junto à Rua do Calvário.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.2,
+  "source": {
+   "dataset": "osm",
+   "id": "ee8c15ba-5277-4241-a3ec-23e5e44654f2"
+  },
+  "ta": {
+   "name": "Capela de Calvário",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7340291-Reviews-Capela_de_Calvario-Serpa_Beja_District_Alentejo.html",
+   "list": "o que fazer",
+   "geo": "Serpa",
+   "rating": 4.0,
+   "reviews": 2
+  }
+ },
+ {
+  "id": "ermida-sao-pedro",
+  "fam": "ver",
+  "sub": "ermida",
+  "name": "Ermida de São Pedro",
+  "lat": 37.940908,
+  "lon": -7.603475,
+  "summary": "Ermida manuelina do início do século XVI, numa eira com árvores na Rua de São Pedro.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.7,
+  "source": {
+   "dataset": "osm",
+   "id": "d43b41ed-02e6-4a74-9ab7-2ff35ac2c96f"
+  },
+  "ta": {
+   "name": "Ermida de São Pedro",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225329-Reviews-Ermida_de_Sao_Pedro-Serpa_Beja_District_Alentejo.html",
+   "rank": 25,
+   "of": 35,
+   "list": "o que fazer",
+   "geo": "Serpa",
+   "rating": 4.5,
+   "reviews": 2
+  }
+ },
+ {
+  "id": "ermida-sao-sebastiao",
+  "fam": "ver",
+  "sub": "ermida",
+  "name": "Ermida de São Sebastião",
+  "lat": 37.947924,
+  "lon": -7.603832,
+  "summary": "Ermida manuelina do início do século XVI, à saída norte da cidade.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.8,
+  "source": {
+   "dataset": "osm",
+   "id": "8eeba5b3-52fe-4713-ab26-034e96cfcc72"
+  },
+  "ta": {
+   "name": "Ermida de São Sebastião",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225332-Reviews-Ermida_de_Sao_Sebastiao-Serpa_Beja_District_Alentejo.html",
+   "rank": 16,
+   "of": 35,
+   "list": "o que fazer",
+   "geo": "Serpa",
+   "rating": 3.7,
+   "reviews": 6
+  }
+ },
+ {
+  "id": "ermida-sao-bras",
+  "fam": "ver",
+  "sub": "ermida",
+  "name": "Ermida de São Brás",
+  "lat": 37.903707,
+  "lon": -7.614885,
+  "summary": "Ermida isolada a sul da cidade.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 4.7,
+  "source": {
+   "dataset": "osm",
+   "id": "1bfd4222-f405-4333-9696-c6fe8cb453b8"
+  },
+  "ta": {
+   "name": "Ermida de São Brás",
+   "url": "https://www.tripadvisor.fr/Attraction_Review-g189109-d7225898-Reviews-Ermida_de_Sao_Bras-Serpa_Beja_District_Alentejo.html",
+   "rank": 21,
+   "of": 35,
+   "list": "o que fazer",
+   "geo": "Serpa",
+   "rating": 4.5,
+   "reviews": 2
+  }
+ },
+ {
+  "id": "ermida-guadalupe",
+  "fam": "ver",
+  "sub": "ermida",
+  "name": "Ermida de Nossa Senhora de Guadalupe",
+  "lat": 37.92958,
+  "lon": -7.593476,
+  "summary": "Santuário do início do século XVI no Alto de São Gens. O concelho foi consagrado a Nossa Senhora de Guadalupe em 1946.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 1.6,
+  "source": {
+   "dataset": "osm",
+   "id": "786f556b-21c8-4000-97c2-276412d0e823"
+  },
+  "ta": {
+   "name": "Ermida de Nossa Senhora de Guadalupe",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225355-Reviews-Ermida_de_Nossa_Senhora_de_Guadalupe-Serpa_Beja_District_Alentejo.html",
+   "rank": 7,
+   "of": 35,
+   "list": "o que fazer",
+   "geo": "Serpa",
+   "rating": 4.3,
+   "reviews": 16
+  }
+ },
+ {
+  "id": "atalaia-da-torre",
+  "fam": "ver",
+  "sub": "torre",
+  "name": "Atalaia da Torre",
+  "lat": 37.965136,
+  "lon": -7.581161,
+  "summary": "Torre de vigia isolada a norte de Serpa, sobre a estrada de Brinches.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 2.7,
+  "source": {
+   "dataset": "osm",
+   "id": "8b310237-6c48-3b7a-95dd-0073194764df"
+  }
+ },
+ {
+  "id": "museu-relogio",
+  "fam": "ver",
+  "sub": "museu",
+  "name": "Museu do Relógio",
+  "lat": 37.943019,
+  "lon": -7.597494,
+  "summary": "Museu de relojoaria aberto em 1995 no antigo Convento do Mosteirinho, com oficina de reparação.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.1,
+  "source": {
+   "dataset": "overture-places",
+   "id": "132471ba-aaad-4f05-8215-0e76a93eb580"
+  },
+  "web": "http://www.museudorelogio.com/",
+  "ta": {
+   "name": "Museu do Relogio",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g189109-d2556287-Reviews-Museu_do_Relogio-Serpa_Beja_District_Alentejo.html",
+   "rank": 2,
+   "of": 35,
+   "list": "o que fazer",
+   "geo": "Serpa",
+   "rating": 4.4,
+   "reviews": 85
+  }
+ },
+ {
+  "id": "museu-etnografico",
+  "fam": "ver",
+  "sub": "museu",
+  "name": "Museu Etnográfico de Serpa",
+  "lat": 37.943551,
+  "lon": -7.595611,
+  "summary": "Ofícios artesanais e trabalho agrícola, incluindo o fabrico do queijo. No Largo do Corro.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.1,
+  "source": {
+   "dataset": "overture-places",
+   "id": "fb0b0c66-1df3-49dc-a3d0-7244ea008eca"
+  },
+  "web": "http://www.cm-serpa.pt",
+  "ta": {
+   "name": "Museu Etnográfico de Serpa",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225298-Reviews-Museu_Etnografico_de_Serpa-Serpa_Beja_District_Alentejo.html",
+   "rank": 11,
+   "of": 35,
+   "list": "o que fazer",
+   "geo": "Serpa",
+   "rating": 4.4,
+   "reviews": 11
+  }
+ },
+ {
+  "id": "casa-do-cante",
+  "fam": "ver",
+  "sub": "cante",
+  "name": "Casa do Cante",
+  "lat": 37.942772,
+  "lon": -7.597842,
+  "summary": "Centro dedicado ao cante alentejano, Património Cultural Imaterial da Humanidade desde 2014. Rua dos Cavalos.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.1,
+  "source": {
+   "dataset": "overture-places",
+   "id": "5240e663-d2fc-44ee-b80c-0e1c97c094f7"
+  }
+ },
+ {
+  "id": "musiberia",
+  "fam": "ver",
+  "sub": "cultura",
+  "name": "Musibéria",
+  "lat": 37.945951,
+  "lon": -7.596821,
+  "summary": "Centro de música e dança, com espetáculos e residências artísticas.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.3,
+  "source": {
+   "dataset": "overture-places",
+   "id": "8484802c-3eec-419a-95aa-521107a67540"
+  },
+  "web": "http://www.musiberia.com/"
+ },
+ {
+  "id": "cine-teatro-serpa",
+  "fam": "ver",
+  "sub": "cultura",
+  "name": "Cine-Teatro Municipal de Serpa",
+  "lat": 37.942597,
+  "lon": -7.601841,
+  "summary": "Sala de espetáculos e cinema do município.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.5,
+  "source": {
+   "dataset": "overture-places",
+   "id": "8bd3d677-cce3-4955-855d-914ba4b6d246"
+  }
+ },
+ {
+  "id": "noites-na-nora",
+  "fam": "ver",
+  "sub": "cultura",
+  "name": "Noites na Nora",
+  "lat": 37.94294,
+  "lon": -7.59973,
+  "summary": "Espaço da programação de verão Noites na Nora, da companhia de teatro baal17, sediada em Serpa.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.3,
+  "source": {
+   "dataset": "overture-places",
+   "id": "6b6b070c-ef9a-4d7b-aabd-7695546346f7"
+  },
+  "web": "http://baal17.pt/_www/nnn/"
+ },
+ {
+  "id": "museu-vnsb",
+  "fam": "ver",
+  "sub": "museu",
+  "name": "Museu de Vila Nova de São Bento",
+  "lat": 37.927632,
+  "lon": -7.407736,
+  "summary": "Museu na Praceta D. Maria do Carmo Horta Barroso. Posição pela morada.",
+  "freguesia": "Vila Nova de São Bento e Vale de Vargo",
+  "place": "Vila Nova de São Bento",
+  "placeKm": 0.2,
+  "source": {
+   "dataset": "osm",
+   "id": "9dbe266a-8611-3dd1-b6e0-8619e32f2d95"
+  },
+  "ta": {
+   "name": "Museu de Vila Nova de S. Bento",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g189109-d13854119-Reviews-Museu_de_Vila_Nova_de_S_Bento-Serpa_Beja_District_Alentejo.html",
+   "rank": 32,
+   "of": 35,
+   "list": "o que fazer",
+   "geo": "Serpa",
+   "reviews": 0
+  },
+  "approx": true
+ },
+ {
+  "id": "pulo-do-lobo",
+  "fam": "ver",
+  "sub": "rio",
+  "name": "Pulo do Lobo",
+  "lat": 37.803869,
+  "lon": -7.633561,
+  "summary": "O Guadiana aperta-se entre margens de xisto e cai numa garganta. Fica no Parque Natural do Vale do Guadiana.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Vale do Poço",
+  "placeKm": 9.6,
+  "source": {
+   "dataset": "osm",
+   "id": "12cef696-0102-3744-839d-d1de674acd28"
+  },
+  "ta": {
+   "name": "Pulo do Lobo",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g1068892-d3179938-Reviews-Pulo_do_Lobo-Mertola_Beja_District_Alentejo.html",
+   "rank": 2,
+   "of": 28,
+   "list": "o que fazer",
+   "geo": "Mertola",
+   "rating": 4.4,
+   "reviews": 359
+  }
+ },
+ {
+  "id": "miradouro-sao-gens",
+  "fam": "ver",
+  "sub": "miradouro",
+  "name": "Miradouro de São Gens",
+  "lat": 37.929663,
+  "lon": -7.593536,
+  "summary": "Miradouro junto à ermida de Guadalupe, o ponto alto à volta da cidade.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 1.6,
+  "source": {
+   "dataset": "osm",
+   "id": "659675ef-3e03-3708-a303-ee9885bdf4c5"
+  }
+ },
+ {
+  "id": "barragem-enxoe",
+  "fam": "ver",
+  "sub": "barragem",
+  "name": "Barragem do Enxoé",
+  "lat": 37.993852,
+  "lon": -7.463928,
+  "summary": "Albufeira na ribeira do Enxoé, entre Serpa e Vale de Vargo.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Pias",
+  "placeKm": 3.2,
+  "source": {
+   "dataset": "osm",
+   "id": "916ba740-1a4e-3701-8edc-7c421264fa2d"
+  }
+ },
+ {
+  "id": "ponte-enxoe",
+  "fam": "ver",
+  "sub": "aqueduto",
+  "name": "Ponte sobre a ribeira do Enxoé",
+  "lat": 37.992958,
+  "lon": -7.525663,
+  "summary": "Ponte junto à EN 255, entre Serpa e Pias, já referida em documentos de 1758.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Pias",
+  "placeKm": 5.4,
+  "source": {
+   "dataset": "osm",
+   "id": "eae6ff09-13a2-3e19-9b74-3095e7389262"
+  },
+  "ta": {
+   "name": "Ponte sobre a ribeira do Enxoé",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g189109-d13820700-Reviews-Ponte_sobre_a_ribeira_do_Enxoe-Serpa_Beja_District_Alentejo.html",
+   "rank": 31,
+   "of": 35,
+   "list": "o que fazer",
+   "geo": "Serpa",
+   "rating": 2.0,
+   "reviews": 1
+  }
+ },
+ {
+  "id": "barragem-romana",
+  "fam": "ver",
+  "sub": "barragem",
+  "name": "Barragem romana do Muro dos Mouros",
+  "lat": 37.928988,
+  "lon": -7.529115,
+  "summary": "Vestígios de uma barragem de época romana, conhecida como Muro dos Mouros.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "A-do-Pinto",
+  "placeKm": 4.7,
+  "source": {
+   "dataset": "osm",
+   "id": "e9b918a9-5634-377d-b529-632409175d42"
+  },
+  "ta": {
+   "name": "Barragem romana do Muro dos Mouros",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g189109-d13834403-Reviews-Barragem_romana_do_Muro_dos_Mouros-Serpa_Beja_District_Alentejo.html",
+   "rank": 33,
+   "of": 35,
+   "list": "o que fazer",
+   "geo": "Serpa",
+   "reviews": 0
+  }
+ },
+ {
+  "id": "azenhas-guadiana",
+  "fam": "ver",
+  "sub": "azenha",
+  "name": "Azenhas do Guadiana",
+  "lat": 37.990549,
+  "lon": -7.645075,
+  "summary": "Moinhos de água de pedra no leito do Guadiana. Há dezenas ao longo da margem do concelho.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Brinches",
+  "placeKm": 6.2,
+  "source": {
+   "dataset": "osm",
+   "id": "d4d5ce21-5f8b-4a37-bc09-1268027d3d8c"
+  }
+ },
+ {
+  "id": "burrico-orada",
+  "fam": "ver",
+  "sub": "experiencia",
+  "name": "Burrico d'Orada",
+  "lat": 38.10445,
+  "lon": -7.60132,
+  "summary": "Alojamento rural com experiências, como provas de vinho de talha e passeios no Alqueva.",
+  "freguesia": "Pias",
+  "place": "Mina da Orada",
+  "placeKm": 0.2,
+  "source": {
+   "dataset": "overture-places",
+   "id": "9389a3b1-69e5-4dd3-bcc9-daac8577eddd"
+  },
+  "web": "https://www.burricodorada.com/",
+  "ta": {
+   "name": "Burrico D`Orada - Lodging & Experiences",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g189109-d15187702-Reviews-Burrico_D_Orada_Lodging_Experiences-Serpa_Beja_District_Alentejo.html",
+   "rank": 1,
+   "of": 3,
+   "list": "o que fazer",
+   "geo": "Serpa",
+   "rating": 5.0,
+   "reviews": 37
+  }
+ },
+ {
+  "id": "igreja-a-do-pinto",
+  "fam": "ver",
+  "sub": "igreja",
+  "name": "Igreja de A-do-Pinto",
+  "lat": 37.916301,
+  "lon": -7.480062,
+  "summary": "Igreja da aldeia de onde parte e onde chega o HELL160.",
+  "freguesia": "Vila Nova de São Bento e Vale de Vargo",
+  "place": "A-do-Pinto",
+  "placeKm": 0.2,
+  "source": {
+   "dataset": "osm",
+   "id": "e26b34c4-1e14-4562-8c9e-14ed9bb390c2"
+  }
+ },
+ {
+  "id": "igreja-brinches",
+  "fam": "ver",
+  "sub": "igreja",
+  "name": "Igreja Matriz de Brinches",
+  "lat": 38.037258,
+  "lon": -7.604673,
+  "summary": "Igreja matriz da aldeia de Brinches, a norte de Serpa.",
+  "freguesia": "Brinches",
+  "place": "Brinches",
+  "placeKm": 0.1,
+  "source": {
+   "dataset": "osm",
+   "id": "98a587d6-ba38-4fa1-afd8-86c4fc72e744"
+  }
+ },
+ {
+  "id": "torre-relogio-pias",
+  "fam": "ver",
+  "sub": "torre",
+  "name": "Torre do Relógio de Pias",
+  "lat": 38.023139,
+  "lon": -7.477431,
+  "summary": "Torre do relógio no Largo Nuno Álvares, em Pias.",
+  "freguesia": "Pias",
+  "place": "Pias",
+  "placeKm": 0.3,
+  "source": {
+   "dataset": "osm",
+   "id": "9e9fba03-a327-4e6b-aaeb-8d77a306a746"
+  },
+  "ta": {
+   "name": "Torre do Relógio de Pias",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g652076-d13854114-Reviews-Torre_do_Relogio_de_Pias-Pias_Beja_District_Alentejo.html",
+   "rank": 2,
+   "of": 3,
+   "list": "o que fazer",
+   "geo": "Pias",
+   "rating": 4.0,
+   "reviews": 2
+  }
+ },
+ {
+  "id": "ermida-santa-luzia-pias",
+  "fam": "ver",
+  "sub": "ermida",
+  "name": "Ermida de Santa Luzia",
+  "lat": 38.040885,
+  "lon": -7.472894,
+  "summary": "Ermida do início do século XVI, a 2 km de Pias na estrada para Moura, com capitéis manuelinos. Imóvel de Interesse Público.",
+  "freguesia": "Pias",
+  "place": "Pias",
+  "placeKm": 2.2,
+  "source": {
+   "dataset": "osm",
+   "id": "82b27314-2a9e-4feb-9266-f8f44f1df957"
+  },
+  "ta": {
+   "name": "Ermida de Santa Luzia",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225789-Reviews-Ermida_de_Santa_Luzia-Serpa_Beja_District_Alentejo.html",
+   "rank": 23,
+   "of": 35,
+   "list": "o que fazer",
+   "geo": "Serpa",
+   "rating": 4.5,
+   "reviews": 2
+  }
+ },
+ {
+  "id": "igreja-sao-francisco-vnsb",
+  "fam": "ver",
+  "sub": "igreja",
+  "name": "Igreja de São Francisco",
+  "lat": 37.926552,
+  "lon": -7.411612,
+  "summary": "Igreja no centro de Vila Nova de São Bento.",
+  "freguesia": "Vila Nova de São Bento e Vale de Vargo",
+  "place": "Vila Nova de São Bento",
+  "placeKm": 0.1,
+  "source": {
+   "dataset": "osm",
+   "id": "0a9d4436-9a84-4b20-a3b4-29762147bfcd"
+  }
+ },
+ {
+  "id": "igreja-sao-bento-vnsb",
+  "fam": "ver",
+  "sub": "igreja",
+  "name": "Igreja de São Bento",
+  "lat": 37.928659,
+  "lon": -7.426731,
+  "summary": "Igreja de Vila Nova de São Bento, dedicada ao padroeiro da aldeia.",
+  "freguesia": "Vila Nova de São Bento e Vale de Vargo",
+  "place": "Vila Nova de São Bento",
+  "placeKm": 1.5,
+  "source": {
+   "dataset": "osm",
+   "id": "3a5b5955-ffbe-4521-b76e-62dc18fcb5fb"
+  },
+  "ta": {
+   "name": "Igreja de São Bento",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225905-Reviews-Igreja_de_Sao_Bento-Serpa_Beja_District_Alentejo.html",
+   "rank": 17,
+   "of": 35,
+   "list": "o que fazer",
+   "geo": "Serpa",
+   "rating": 4.3,
+   "reviews": 3
+  }
+ },
+ {
+  "id": "igreja-sao-sebastiao-vvargo",
+  "fam": "ver",
+  "sub": "igreja",
+  "name": "Igreja de São Sebastião",
+  "lat": 37.983901,
+  "lon": -7.410377,
+  "summary": "Igreja de Vale de Vargo.",
+  "freguesia": "Vila Nova de São Bento e Vale de Vargo",
+  "place": "Vale de Vargo",
+  "placeKm": 0.3,
+  "source": {
+   "dataset": "osm",
+   "id": "09efa584-9bc7-4126-8063-4405e1c79155"
+  }
+ },
+ {
+  "id": "igreja-sao-jorge-ficalho",
+  "fam": "ver",
+  "sub": "igreja",
+  "name": "Igreja de São Jorge",
+  "lat": 37.947499,
+  "lon": -7.300223,
+  "summary": "Igreja de Vila Verde de Ficalho, a 3 km da fronteira. As festas são em agosto.",
+  "freguesia": "Vila Verde de Ficalho",
+  "place": "Vila Verde de Ficalho",
+  "placeKm": 0.0,
+  "source": {
+   "dataset": "osm",
+   "id": "188c8615-b003-425a-96c8-146e288e1524"
+  },
+  "ta": {
+   "name": "Igreja de São Jorge",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g3226139-d7225877-Reviews-Igreja_de_Sao_Jorge-Vila_Verde_de_Ficalho_Beja_District_Alentejo.html",
+   "rank": 2,
+   "of": 3,
+   "list": "o que fazer",
+   "geo": "Vila Verde de Ficalho",
+   "rating": 3.0,
+   "reviews": 1
+  }
+ },
+ {
+  "id": "ermida-pazes-ficalho",
+  "fam": "ver",
+  "sub": "ermida",
+  "name": "Ermida de Nossa Senhora das Pazes",
+  "lat": 37.935873,
+  "lon": -7.274864,
+  "summary": "Ermida no sítio de Nossa Senhora das Pazes, a nascente de Vila Verde de Ficalho, já perto de Espanha.",
+  "freguesia": "Vila Verde de Ficalho",
+  "place": "Vila Verde de Ficalho",
+  "placeKm": 2.6,
+  "source": {
+   "dataset": "osm",
+   "id": "a704b156-a975-43b5-acd8-98d5166c1839"
+  },
+  "ta": {
+   "name": "Ermida de Nossa Senhora das Pazes",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g3226139-d7225882-Reviews-Ermida_de_Nossa_Senhora_das_Pazes-Vila_Verde_de_Ficalho_Beja_District_Alentejo.html",
+   "rank": 3,
+   "of": 3,
+   "list": "o que fazer",
+   "geo": "Vila Verde de Ficalho",
+   "reviews": 0
+  }
+ },
+ {
+  "id": "igreja-santa-iria",
+  "fam": "ver",
+  "sub": "igreja",
+  "name": "Igreja de Santa Iria",
+  "lat": 37.891855,
+  "lon": -7.560405,
+  "summary": "Igreja da aldeia de Santa Iria, junto à estrada da Mina de São Domingos.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Santa Iria",
+  "placeKm": 0.4,
+  "source": {
+   "dataset": "osm",
+   "id": "a19428c0-c6c3-4ea1-b677-af4a6cf297ae"
+  },
+  "ta": {
+   "name": "Igreja Paroquial de Santa Iria",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225873-Reviews-Igreja_Paroquial_de_Santa_Iria-Serpa_Beja_District_Alentejo.html",
+   "rank": 13,
+   "of": 35,
+   "list": "o que fazer",
+   "geo": "Serpa",
+   "rating": 5.0,
+   "reviews": 3
+  }
+ },
+ {
+  "id": "capela-vales-mortos",
+  "fam": "ver",
+  "sub": "ermida",
+  "name": "Capela de Vales Mortos",
+  "lat": 37.808382,
+  "lon": -7.503861,
+  "summary": "Capela da aldeia de Vales Mortos, no sul do concelho.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Vales Mortos",
+  "placeKm": 0.3,
+  "source": {
+   "dataset": "osm",
+   "id": "e199b34b-af84-4c6a-abce-d2e37cb22a36"
+  }
+ },
+ {
+  "id": "molho-bico",
+  "fam": "provar",
+  "sub": "restaurante",
+  "name": "Molhó Bico",
+  "lat": 37.942907,
+  "lon": -7.59619,
+  "summary": "Cozinha alentejana numa antiga adega da Rua Quente.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.1,
+  "source": {
+   "dataset": "overture-places",
+   "id": "51c85d78-405a-4b73-8a27-9a94464d13c2"
+  },
+  "web": "http://www.molhobicoserpa.com",
+  "ta": {
+   "name": "Restaurante Molho Bico",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d1948580-Reviews-Restaurante_Molho_Bico-Serpa_Beja_District_Alentejo.html",
+   "rank": 1,
+   "of": 33,
+   "list": "restaurantes",
+   "geo": "Serpa",
+   "rating": 4.4,
+   "reviews": 754
+  }
+ },
+ {
+  "id": "o-alentejano",
+  "fam": "provar",
+  "sub": "restaurante",
+  "name": "O Alentejano",
+  "lat": 37.943639,
+  "lon": -7.597419,
+  "summary": "Cozinha alentejana na Praça da República, com borrego e porco.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.1,
+  "source": {
+   "dataset": "overture-places",
+   "id": "e9697007-4d21-4b03-9edf-d29ced1cb326"
+  },
+  "ta": {
+   "name": "O Alentejano",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d3169950-Reviews-O_Alentejano-Serpa_Beja_District_Alentejo.html",
+   "rank": 2,
+   "of": 35,
+   "list": "restaurantes",
+   "geo": "Serpa",
+   "rating": 4.4,
+   "reviews": 346
+  }
+ },
+ {
+  "id": "o-engrola",
+  "fam": "provar",
+  "sub": "petiscos",
+  "name": "O Engrola",
+  "lat": 37.945281,
+  "lon": -7.59983,
+  "summary": "Comida caseira; a ementa muda com o que há no dia, como a açorda de bacalhau.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.3,
+  "source": {
+   "dataset": "overture-places",
+   "id": "ec8c44ab-5aa3-465b-92be-c8d1d3fe4140"
+  },
+  "ta": {
+   "name": "O Engrola",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d7002699-Reviews-O_Engrola-Serpa_Beja_District_Alentejo.html",
+   "rank": 3,
+   "of": 35,
+   "list": "restaurantes",
+   "geo": "Serpa",
+   "rating": 4.5,
+   "reviews": 86
+  }
+ },
+ {
+  "id": "cervejaria-lebrinha",
+  "fam": "provar",
+  "sub": "restaurante",
+  "name": "Cervejaria Lebrinha",
+  "lat": 37.941011,
+  "lon": -7.596666,
+  "summary": "Cervejaria na Rua do Calvário: cerveja à pressão, migas e ensopado de borrego.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.3,
+  "source": {
+   "dataset": "overture-places",
+   "id": "baf93cbf-29e8-4015-b38f-90bca374beba"
+  },
+  "ta": {
+   "name": "Cervejaria Lebrinha",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d7772524-Reviews-Cervejaria_Lebrinha-Serpa_Beja_District_Alentejo.html",
+   "rank": 4,
+   "of": 35,
+   "list": "restaurantes",
+   "geo": "Serpa",
+   "rating": 4.1,
+   "reviews": 183
+  }
+ },
+ {
+  "id": "a-piscina",
+  "fam": "provar",
+  "sub": "restaurante",
+  "name": "Marisqueira A Piscina",
+  "lat": 37.940412,
+  "lon": -7.603744,
+  "summary": "Marisco e grelhados, junto ao parque de campismo municipal.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.7,
+  "source": {
+   "dataset": "overture-places",
+   "id": "02e44992-d027-4386-82fb-fb37e6e94d30"
+  },
+  "web": "http://www.restauranteapiscina.com/",
+  "ta": {
+   "name": "Restaurante Marisqueira A Piscina",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d5037275-Reviews-Restaurante_Marisqueira_A_Piscina-Serpa_Beja_District_Alentejo.html",
+   "rank": 5,
+   "of": 32,
+   "list": "restaurantes",
+   "geo": "Serpa",
+   "rating": 4.0,
+   "reviews": 81
+  }
+ },
+ {
+  "id": "casa-paixao",
+  "fam": "provar",
+  "sub": "pastelaria",
+  "name": "Casa Paixão",
+  "lat": 37.942931,
+  "lon": -7.595316,
+  "summary": "Fábrica de queijadas de Serpa desde 1977, com café e pequeno-almoço.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.1,
+  "source": {
+   "dataset": "overture-places",
+   "id": "c99bdc1c-e1ff-4499-91ab-a2cb1c2baa02"
+  },
+  "web": "http://www.casapaixao.pt/",
+  "ta": {
+   "name": "Casa Paixao",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d7312333-Reviews-Casa_Paixao-Serpa_Beja_District_Alentejo.html",
+   "rank": 6,
+   "of": 20,
+   "list": "restaurantes",
+   "geo": "Serpa",
+   "rating": 4.7,
+   "reviews": 32
+  }
+ },
+ {
+  "id": "pizzaria-serpense",
+  "fam": "provar",
+  "sub": "pizzaria",
+  "name": "Pizzaria Serpense",
+  "lat": 37.94083,
+  "lon": -7.598776,
+  "summary": "Pizzaria com take-away e entregas.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.4,
+  "source": {
+   "dataset": "overture-places",
+   "id": "78e9055a-f3f1-48d5-b2ec-fa84740298fb"
+  },
+  "ta": {
+   "name": "Pizzaria Serpense",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d7763925-Reviews-Pizzaria_Serpense-Serpa_Beja_District_Alentejo.html",
+   "rank": 7,
+   "of": 20,
+   "list": "restaurantes",
+   "geo": "Serpa",
+   "rating": 4.1,
+   "reviews": 26
+  }
+ },
+ {
+  "id": "pedra-de-sal",
+  "fam": "provar",
+  "sub": "restaurante",
+  "name": "Pedra de Sal",
+  "lat": 37.943133,
+  "lon": -7.593076,
+  "summary": "Na Estrada da Circunvalação. Migas e carnes grelhadas.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.3,
+  "source": {
+   "dataset": "overture-places",
+   "id": "a3640b07-97ec-41bb-8ee4-c8400266e7e3"
+  },
+  "web": "https://www.pedradesalserpa.com/",
+  "ta": {
+   "name": "Pedra De Sal Restaurante - Serpa - Portugal",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d27219455-Reviews-Pedra_De_Sal_Restaurante_Serpa_Portugal-Serpa_Beja_District_Alentejo.html",
+   "rank": 8,
+   "of": 21,
+   "list": "restaurantes",
+   "geo": "Serpa",
+   "rating": 4.9,
+   "reviews": 11
+  }
+ },
+ {
+  "id": "taberna-velhinha",
+  "fam": "provar",
+  "sub": "petiscos",
+  "name": "Taberna Velhinha",
+  "lat": 37.944141,
+  "lon": -7.597891,
+  "summary": "Taberna com esplanada no Largo dos Santos Próculo e Hilarião. Posição pela morada.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.1,
+  "source": {
+   "dataset": "osm",
+   "id": "de87d808-0aaa-406b-bdfa-7ec23b8ceb23"
+  },
+  "ta": {
+   "name": "Taberna Velhinha",
+   "url": "https://www.tripadvisor.pt/Restaurant_Review-g189109-d34196340-Reviews-Taberna_Velhinha-Serpa_Beja_District_Alentejo.html",
+   "rank": 15,
+   "of": 22,
+   "list": "restaurantes",
+   "geo": "Serpa",
+   "rating": 5.0,
+   "reviews": 18
+  },
+  "approx": true
+ },
+ {
+  "id": "a-mondadeira",
+  "fam": "provar",
+  "sub": "restaurante",
+  "name": "A Mondadeira",
+  "lat": 37.94049,
+  "lon": -7.59652,
+  "summary": "Grelhados, como porco preto.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.4,
+  "source": {
+   "dataset": "overture-places",
+   "id": "09f83617-3c2d-4394-a1aa-2c8f4e44dd24"
+  },
+  "ta": {
+   "name": "A Mondadeira - Restaurante",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d34328744-Reviews-A_Mondadeira_Restaurante-Serpa_Beja_District_Alentejo.html",
+   "rank": 9,
+   "of": 35,
+   "list": "restaurantes",
+   "geo": "Serpa",
+   "rating": 4.6,
+   "reviews": 8
+  }
+ },
+ {
+  "id": "o-paciencias",
+  "fam": "provar",
+  "sub": "restaurante",
+  "name": "O Paciências",
+  "lat": 37.943512,
+  "lon": -7.597609,
+  "summary": "Café com esplanada na Praça da República, com pratos alentejanos.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.1,
+  "source": {
+   "dataset": "overture-places",
+   "id": "a939253e-2214-4d9e-9468-f469157a2273"
+  },
+  "ta": {
+   "name": "Café O Paciências",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d7252110-Reviews-Cafe_O_Paciencias-Serpa_Beja_District_Alentejo.html",
+   "rank": 10,
+   "of": 21,
+   "list": "restaurantes",
+   "geo": "Serpa",
+   "rating": 3.7,
+   "reviews": 35
+  }
+ },
+ {
+  "id": "cafe-sevilha",
+  "fam": "provar",
+  "sub": "petiscos",
+  "name": "Café Sevilha",
+  "lat": 37.942944,
+  "lon": -7.595669,
+  "summary": "Cerveja à pressão, pastelaria caseira e febras, na Rua de Sevilha.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.1,
+  "source": {
+   "dataset": "overture-places",
+   "id": "be3618eb-8e0f-4067-a47f-7c50c7c7f70f"
+  },
+  "ta": {
+   "name": "Café Sevilha",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d27186927-Reviews-Cafe_Sevilha-Serpa_Beja_District_Alentejo.html",
+   "rank": 11,
+   "of": 21,
+   "list": "restaurantes",
+   "geo": "Serpa",
+   "rating": 4.7,
+   "reviews": 3
+  }
+ },
+ {
+  "id": "arrozinho-de-feijao",
+  "fam": "provar",
+  "sub": "restaurante",
+  "name": "Arrozinho de Feijão",
+  "lat": 37.937421,
+  "lon": -7.591986,
+  "summary": "Cozinha portuguesa no Loteamento da Cruz Nova.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.8,
+  "source": {
+   "dataset": "overture-places",
+   "id": "2d663fde-991f-41aa-9f94-a93737663abd"
+  },
+  "ta": {
+   "name": "Arrozinho de Feijão",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d8644310-Reviews-Arrozinho_de_Feijao-Serpa_Beja_District_Alentejo.html",
+   "rank": 12,
+   "of": 19,
+   "list": "restaurantes",
+   "geo": "Serpa",
+   "rating": 3.8,
+   "reviews": 19
+  }
+ },
+ {
+  "id": "tasca-da-praca",
+  "fam": "provar",
+  "sub": "petiscos",
+  "name": "Tasca da Praça",
+  "lat": 37.943478,
+  "lon": -7.597312,
+  "summary": "Petiscos na Praça da República, como torresmos e bacalhau à tasca. Posição pela morada.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.1,
+  "source": {
+   "dataset": "osm",
+   "id": "b28ecfe3-6c5a-440c-be99-66652ebebd97"
+  },
+  "ta": {
+   "name": "Tasca Da Praça",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d20970226-Reviews-Tasca_Da_Praca-Serpa_Beja_District_Alentejo.html",
+   "rank": 19,
+   "of": 23,
+   "list": "restaurantes",
+   "geo": "Serpa",
+   "rating": 5.0,
+   "reviews": 2
+  },
+  "approx": true
+ },
+ {
+  "id": "san-marino",
+  "fam": "provar",
+  "sub": "pizzaria",
+  "name": "San Marino Pizzaria",
+  "lat": 37.938347,
+  "lon": -7.602061,
+  "summary": "Pizzaria na Rua Francisco Relógio.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.8,
+  "source": {
+   "dataset": "overture-places",
+   "id": "c2e7247b-d88c-4bb1-af9f-8348f7c3354c"
+  },
+  "ta": {
+   "name": "San Marino Pizzaria",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d33226372-Reviews-San_Marino_Pizzaria-Serpa_Beja_District_Alentejo.html",
+   "rank": 20,
+   "of": 21,
+   "list": "restaurantes",
+   "geo": "Serpa",
+   "rating": 4.5,
+   "reviews": 2
+  }
+ },
+ {
+  "id": "chanca-serpa-hotel",
+  "fam": "provar",
+  "sub": "restaurante",
+  "name": "Chança · Serpa Hotel",
+  "lat": 37.941591,
+  "lon": -7.604688,
+  "summary": "Restaurante do Serpa Hotel, com cozinha alentejana e vinhos da região.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.7,
+  "source": {
+   "dataset": "osm",
+   "id": "1895d655-0b12-4916-84bd-77537f71fb7a"
+  }
+ },
+ {
+  "id": "dona-brites",
+  "fam": "provar",
+  "sub": "restaurante",
+  "name": "Clube de Tiro Dona Brites",
+  "lat": 37.954739,
+  "lon": -7.594299,
+  "summary": "Restaurante do campo de tiro, junto à EN 255: bacalhau e petiscos de queijo e chouriço.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 1.3,
+  "source": {
+   "dataset": "overture-places",
+   "id": "5b8049e4-cc2a-4f4f-b4cc-8823e748b4a7"
+  },
+  "ta": {
+   "name": "Clube De Tiro Dona Brites",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d28018468-Reviews-Clube_De_Tiro_Dona_Brites-Serpa_Beja_District_Alentejo.html",
+   "rank": 15,
+   "of": 21,
+   "list": "restaurantes",
+   "geo": "Serpa",
+   "rating": 5.0,
+   "reviews": 1
+  }
+ },
+ {
+  "id": "o-adro-pias",
+  "fam": "provar",
+  "sub": "restaurante",
+  "name": "O Adro",
+  "lat": 38.0223,
+  "lon": -7.480179,
+  "summary": "No Largo de Santo António, em Pias: peixe, marisco e porco preto.",
+  "freguesia": "Pias",
+  "place": "Pias",
+  "placeKm": 0.5,
+  "source": {
+   "dataset": "overture-places",
+   "id": "0ab522d0-0fb9-4570-9da1-6d5daa04444b"
+  },
+  "ta": {
+   "name": "Restaurante O Adro",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g652076-d4282815-Reviews-Restaurante_O_Adro-Pias_Beja_District_Alentejo.html",
+   "rank": 1,
+   "of": 4,
+   "list": "restaurantes",
+   "geo": "Pias",
+   "rating": 4.6,
+   "reviews": 340
+  }
+ },
+ {
+  "id": "pedreira-pias",
+  "fam": "provar",
+  "sub": "restaurante",
+  "name": "Pedreira",
+  "lat": 38.019726,
+  "lon": -7.474148,
+  "summary": "Restaurante e cervejaria em Pias.",
+  "freguesia": "Pias",
+  "place": "Pias",
+  "placeKm": 0.1,
+  "source": {
+   "dataset": "overture-places",
+   "id": "b858711b-bec6-4247-8d23-99687179cc65"
+  },
+  "ta": {
+   "name": "Pedreira Restaurante & Cervejaria",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g652076-d24098186-Reviews-or30-Pedreira_Restaurante_Cervejaria-Pias_Beja_District_Alentejo.html",
+   "list": "restaurantes",
+   "geo": "Pias",
+   "rating": 4.9,
+   "reviews": 41
+  }
+ },
+ {
+  "id": "o-trindade-pias",
+  "fam": "provar",
+  "sub": "restaurante",
+  "name": "O Trindade",
+  "lat": 38.024116,
+  "lon": -7.47774,
+  "summary": "Açorda de marisco e porco preto, em Pias.",
+  "freguesia": "Pias",
+  "place": "Pias",
+  "placeKm": 0.4,
+  "source": {
+   "dataset": "overture-places",
+   "id": "8cde346f-c49b-4dad-b18d-8cd9d24a6743"
+  },
+  "ta": {
+   "name": "Restaurante o Trindade",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g652076-d5959274-Reviews-Restaurante_o_Trindade-Pias_Beja_District_Alentejo.html",
+   "rank": 3,
+   "of": 4,
+   "list": "restaurantes",
+   "geo": "Pias",
+   "rating": 4.5,
+   "reviews": 78
+  }
+ },
+ {
+  "id": "o-lagar-pias",
+  "fam": "provar",
+  "sub": "restaurante",
+  "name": "O Lagar",
+  "lat": 38.024737,
+  "lon": -7.48044,
+  "summary": "Cozinha regional na Estrada de Brinches, em Pias.",
+  "freguesia": "Pias",
+  "place": "Pias",
+  "placeKm": 0.7,
+  "source": {
+   "dataset": "overture-places",
+   "id": "ab7956cb-0169-4904-8f50-88a7b7f1e199"
+  },
+  "web": "http://www.olagar.net",
+  "ta": {
+   "name": "O Lagar",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g652076-d3573225-Reviews-O_Lagar-Pias_Beja_District_Alentejo.html",
+   "rank": 4,
+   "of": 4,
+   "list": "restaurantes",
+   "geo": "Pias",
+   "rating": 4.0,
+   "reviews": 21
+  }
+ },
+ {
+  "id": "pica-chouricos-pias",
+  "fam": "provar",
+  "sub": "petiscos",
+  "name": "Taberna Pica Chouriços",
+  "lat": 38.02258,
+  "lon": -7.473425,
+  "summary": "Taberna em Pias.",
+  "freguesia": "Pias",
+  "place": "Pias",
+  "placeKm": 0.2,
+  "source": {
+   "dataset": "overture-places",
+   "id": "46a1d82b-28b7-47a0-8a8c-fc915eb94104"
+  }
+ },
+ {
+  "id": "tapas-come-vnsb",
+  "fam": "provar",
+  "sub": "petiscos",
+  "name": "TAPAS.COMe",
+  "lat": 37.927531,
+  "lon": -7.407988,
+  "summary": "Tapas e petiscos em Vila Nova de São Bento.",
+  "freguesia": "Vila Nova de São Bento e Vale de Vargo",
+  "place": "Vila Nova de São Bento",
+  "placeKm": 0.2,
+  "source": {
+   "dataset": "overture-places",
+   "id": "765db5c8-0133-4e36-ac0a-cca161dc3e97"
+  },
+  "ta": {
+   "name": "TAPAS.COMe",
+   "url": "https://www.tripadvisor.pt/Restaurant_Review-g189109-d27186924-Reviews-TAPAS_COMe-Serpa_Beja_District_Alentejo.html",
+   "rank": 13,
+   "of": 33,
+   "list": "restaurantes",
+   "geo": "Serpa",
+   "rating": 4.5,
+   "reviews": 2
+  }
+ },
+ {
+  "id": "a-bica-vnsb",
+  "fam": "provar",
+  "sub": "restaurante",
+  "name": "A Bica",
+  "lat": 37.92755,
+  "lon": -7.411263,
+  "summary": "Restaurante em Vila Nova de São Bento.",
+  "freguesia": "Vila Nova de São Bento e Vale de Vargo",
+  "place": "Vila Nova de São Bento",
+  "placeKm": 0.2,
+  "source": {
+   "dataset": "overture-places",
+   "id": "6cec5a42-b7fc-4f73-84ba-ca38b60e0b01"
+  }
+ },
+ {
+  "id": "d-aldeia-vnsb",
+  "fam": "provar",
+  "sub": "restaurante",
+  "name": "D'Aldeia",
+  "lat": 37.92582,
+  "lon": -7.41403,
+  "summary": "Restaurante em Vila Nova de São Bento.",
+  "freguesia": "Vila Nova de São Bento e Vale de Vargo",
+  "place": "Vila Nova de São Bento",
+  "placeKm": 0.4,
+  "source": {
+   "dataset": "overture-places",
+   "id": "086cc000-9ba4-4260-b16c-ceab48f2bcf8"
+  },
+  "ta": {
+   "name": "Restaurante D'Aldeia",
+   "list": "restaurantes",
+   "geo": "Aldeia Nova de Sao Bento",
+   "reviews": 0
+  }
+ },
+ {
+  "id": "boa-vista-ficalho",
+  "fam": "provar",
+  "sub": "restaurante",
+  "name": "Boa Vista",
+  "lat": 37.949848,
+  "lon": -7.300171,
+  "summary": "Na Estrada Internacional, junto à fronteira: marisco e arroz de marisco.",
+  "freguesia": "Vila Verde de Ficalho",
+  "place": "Vila Verde de Ficalho",
+  "placeKm": 0.3,
+  "source": {
+   "dataset": "overture-places",
+   "id": "9cf66127-5c1f-4c9e-8974-31e2f4a5e60b"
+  },
+  "web": "http://www.restauranteboavista.pt",
+  "ta": {
+   "name": "Restaurante Boa Vista",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g3226139-d5977848-Reviews-Restaurante_Boa_Vista-Vila_Verde_de_Ficalho_Beja_District_Alentejo.html",
+   "rank": 2,
+   "of": 4,
+   "list": "restaurantes",
+   "geo": "Vila Verde de Ficalho",
+   "rating": 3.6,
+   "reviews": 69
+  }
+ },
+ {
+  "id": "cafe-alves-ficalho",
+  "fam": "provar",
+  "sub": "restaurante",
+  "name": "Café Alves",
+  "lat": 37.947189,
+  "lon": -7.30379,
+  "summary": "Grelhados e cozinha portuguesa e brasileira, em Vila Verde de Ficalho.",
+  "freguesia": "Vila Verde de Ficalho",
+  "place": "Vila Verde de Ficalho",
+  "placeKm": 0.3,
+  "source": {
+   "dataset": "overture-places",
+   "id": "496fa404-059a-49e5-bf9b-07e1731e238a"
+  },
+  "ta": {
+   "name": "Cafe Alves",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g3226139-d23918681-Reviews-Cafe_Alves-Vila_Verde_de_Ficalho_Beja_District_Alentejo.html",
+   "rank": 1,
+   "of": 4,
+   "list": "restaurantes",
+   "geo": "Vila Verde de Ficalho",
+   "rating": 5.0,
+   "reviews": 18
+  }
+ },
+ {
+  "id": "o-patrimonio-ficalho",
+  "fam": "provar",
+  "sub": "restaurante",
+  "name": "O Património",
+  "lat": 37.948585,
+  "lon": -7.297829,
+  "summary": "Bacalhau frito e costeletas de borrego, em Vila Verde de Ficalho.",
+  "freguesia": "Vila Verde de Ficalho",
+  "place": "Vila Verde de Ficalho",
+  "placeKm": 0.3,
+  "source": {
+   "dataset": "overture-places",
+   "id": "7dfe39ef-b507-4447-b952-b3802c7a6b3f"
+  },
+  "ta": {
+   "name": "O Patrimonio",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g3226139-d8778051-Reviews-O_Patrimonio-Vila_Verde_de_Ficalho_Beja_District_Alentejo.html",
+   "rank": 3,
+   "of": 4,
+   "list": "restaurantes",
+   "geo": "Vila Verde de Ficalho",
+   "rating": 4.0,
+   "reviews": 36
+  }
+ },
+ {
+  "id": "dimas-ficalho",
+  "fam": "provar",
+  "sub": "restaurante",
+  "name": "Dimas",
+  "lat": 37.948627,
+  "lon": -7.298083,
+  "summary": "Pequenos-almoços e cozinha alentejana, em Vila Verde de Ficalho.",
+  "freguesia": "Vila Verde de Ficalho",
+  "place": "Vila Verde de Ficalho",
+  "placeKm": 0.3,
+  "source": {
+   "dataset": "overture-places",
+   "id": "c3add639-04cf-4dbd-83fb-8c8b4b0006d5"
+  },
+  "ta": {
+   "name": "Restaurante Dimas",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g3226139-d11844049-Reviews-Restaurante_Dimas-Vila_Verde_de_Ficalho_Beja_District_Alentejo.html",
+   "rank": 4,
+   "of": 4,
+   "list": "restaurantes",
+   "geo": "Vila Verde de Ficalho",
+   "rating": 4.1,
+   "reviews": 8
+  }
+ },
+ {
+  "id": "agostinho-vale-do-poco",
+  "fam": "provar",
+  "sub": "restaurante",
+  "name": "Café Restaurante Agostinho",
+  "lat": 37.762046,
+  "lon": -7.537504,
+  "summary": "Em Vale do Poço, na estrada de Serpa para Mértola: pratos alentejanos, peixe e grelhados.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Vale do Poço",
+  "placeKm": 0.1,
+  "source": {
+   "dataset": "overture-places",
+   "id": "18f56a99-8f2d-48bd-986c-32083d234d18"
+  },
+  "ta": {
+   "name": "Café Restaurante Agostinho",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d10734433-Reviews-Cafe_Restaurante_Agostinho-Serpa_Beja_District_Alentejo.html",
+   "rank": 9,
+   "of": 29,
+   "list": "restaurantes",
+   "geo": "Serpa",
+   "rating": 4.4,
+   "reviews": 16
+  }
+ },
+ {
+  "id": "queijaria-guilherme",
+  "fam": "provar",
+  "sub": "queijo",
+  "name": "Queijaria Guilherme",
+  "lat": 37.829836,
+  "lon": -7.46753,
+  "summary": "Queijaria no sul do concelho. O Queijo Serpa DOP faz-se com leite cru de ovelha e flor de cardo.",
+  "freguesia": "Vila Nova de São Bento e Vale de Vargo",
+  "place": "Vales Mortos",
+  "placeKm": 3.9,
+  "source": {
+   "dataset": "osm",
+   "id": "b48fd8e2-9016-4eb8-81d1-fe71684b9296"
+  }
+ },
+ {
+  "id": "monte-das-louzeiras",
+  "fam": "provar",
+  "sub": "vinho",
+  "name": "Monte das Louzeiras",
+  "lat": 37.978718,
+  "lon": -7.393225,
+  "summary": "Azeite e vinho em Vale de Vargo, com provas (também de vinho de ânfora) e lugares para autocaravanas no olival.",
+  "freguesia": "Vila Nova de São Bento e Vale de Vargo",
+  "place": "Vale de Vargo",
+  "placeKm": 1.9,
+  "source": {
+   "dataset": "overture-places",
+   "id": "0ce3df35-c1ef-48d4-a253-709fe44fa4b5"
+  },
+  "web": "http://louzeiras.com/",
+  "ta": {
+   "name": "Monte Das Louzeiras",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g189109-d24084740-Reviews-Monte_Das_Louzeiras-Serpa_Beja_District_Alentejo.html",
+   "rank": 6,
+   "of": 35,
+   "list": "o que fazer",
+   "geo": "Serpa",
+   "rating": 5.0,
+   "reviews": 7
+  }
+ },
+ {
+  "id": "monge-e-filhas",
+  "fam": "provar",
+  "sub": "vinho",
+  "name": "Vinhos de Serpa · Monge e Filhas",
+  "lat": 37.948252,
+  "lon": -7.594278,
+  "summary": "Produtor de vinho em Serpa.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.6,
+  "source": {
+   "dataset": "overture-places",
+   "id": "e74399c3-7c16-406c-a276-7131ae4901c2"
+  },
+  "web": "http://www.vinhosdeserpa.com/"
+ },
+ {
+  "id": "familia-margaca",
+  "fam": "provar",
+  "sub": "vinho",
+  "name": "Família Margaça",
+  "lat": 38.021712,
+  "lon": -7.480328,
+  "summary": "Adega familiar de Pias, dos anos 1970, com visita à adega e ao museu e prova de vinhos, incluindo vinho de talha.",
+  "freguesia": "Pias",
+  "place": "Pias",
+  "placeKm": 0.5,
+  "source": {
+   "dataset": "overture-places",
+   "id": "b679037e-d9d1-48f3-9e3f-ef59e864dab6"
+  },
+  "web": "https://www.margaca.com/",
+  "ta": {
+   "name": "Família Margaça",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g652076-d11833086-Reviews-Familia_Margaca-Pias_Beja_District_Alentejo.html",
+   "rank": 1,
+   "of": 3,
+   "list": "o que fazer",
+   "geo": "Pias",
+   "rating": 4.9,
+   "reviews": 7
+  }
+ },
+ {
+  "id": "adega-do-montado",
+  "fam": "provar",
+  "sub": "vinho",
+  "name": "Adega do Montado",
+  "lat": 38.037314,
+  "lon": -7.603855,
+  "summary": "Adega em Brinches.",
+  "freguesia": "Brinches",
+  "place": "Brinches",
+  "placeKm": 0.2,
+  "source": {
+   "dataset": "overture-places",
+   "id": "dd02a7f8-ccb9-4105-b521-693cab39116e"
+  },
+  "web": "http://www.adegadomontado.pt/"
+ },
+ {
+  "id": "bagas-de-ouro",
+  "fam": "provar",
+  "sub": "loja",
+  "name": "Monte das Bagas de Ouro",
+  "lat": 37.94531,
+  "lon": -7.59489,
+  "summary": "Loja da Adega do Montado em Serpa.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.2,
+  "source": {
+   "dataset": "overture-places",
+   "id": "8700689d-814c-495c-83f0-b87ff09ec038"
+  },
+  "web": "http://www.adegadomontado.pt/"
+ },
+ {
+  "id": "d-luis-regionais",
+  "fam": "provar",
+  "sub": "loja",
+  "name": "D. Luís · Produtos Regionais",
+  "lat": 37.943427,
+  "lon": -7.597563,
+  "summary": "Loja de produtos regionais junto à Praça da República.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.1,
+  "source": {
+   "dataset": "overture-places",
+   "id": "0be89819-5d11-4af6-8bc2-bc8bb4f4818a"
+  }
+ },
+ {
+  "id": "luzia-pos-de-mina",
+  "fam": "provar",
+  "sub": "pastelaria",
+  "name": "Luzia · Doçaria",
+  "lat": 38.01809,
+  "lon": -7.4763,
+  "summary": "Doçaria em Pias.",
+  "freguesia": "Pias",
+  "place": "Pias",
+  "placeKm": 0.3,
+  "source": {
+   "dataset": "overture-places",
+   "id": "0bc0f98f-13a6-495e-9920-573200016cc8"
+  }
+ },
+ {
+  "id": "pousada-sao-gens",
+  "fam": "ficar",
+  "sub": "hotel",
+  "name": "Pousada de Serpa · São Gens",
+  "lat": 37.9296,
+  "lon": -7.593974,
+  "summary": "Pousada no alto de São Gens, ao lado da ermida de Guadalupe.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 1.6,
+  "source": {
+   "dataset": "overture-places",
+   "id": "25583d13-1191-4d42-beec-8d3c5139bdff"
+  }
+ },
+ {
+  "id": "serpa-hotel",
+  "fam": "ficar",
+  "sub": "hotel",
+  "name": "Serpa Hotel",
+  "lat": 37.941591,
+  "lon": -7.604688,
+  "summary": "Hotel a poente do centro, com o restaurante Chança.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.7,
+  "source": {
+   "dataset": "osm",
+   "id": "1895d655-0b12-4916-84bd-77537f71fb7a"
+  }
+ },
+ {
+  "id": "hotel-beatriz",
+  "fam": "ficar",
+  "sub": "hotel",
+  "name": "Hotel Beatriz",
+  "lat": 37.941973,
+  "lon": -7.595335,
+  "summary": "Hotel no centro de Serpa.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.2,
+  "source": {
+   "dataset": "overture-places",
+   "id": "cc365899-e036-4d39-ab38-1d8dde91c783"
+  },
+  "web": "http://www.hotelbeatriz.pt/"
+ },
+ {
+  "id": "hotel-pulo-do-lobo",
+  "fam": "ficar",
+  "sub": "hotel",
+  "name": "Hotel Pulo do Lobo",
+  "lat": 37.936995,
+  "lon": -7.599189,
+  "summary": "Hotel a sul do centro de Serpa.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.8,
+  "source": {
+   "dataset": "overture-places",
+   "id": "40cc10ad-b31a-4628-ab31-544780fa2cec"
+  },
+  "web": "http://www.hotelpulodolobo.com/"
+ },
+ {
+  "id": "casa-de-serpa",
+  "fam": "ficar",
+  "sub": "casa",
+  "name": "Casa de Serpa",
+  "lat": 37.941594,
+  "lon": -7.595803,
+  "summary": "Turismo rural no centro histórico.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.2,
+  "source": {
+   "dataset": "overture-places",
+   "id": "c5f7d331-be5a-4573-8fa0-31f16611dafc"
+  },
+  "web": "http://www.casadeserpa.com"
+ },
+ {
+  "id": "casa-da-muralha",
+  "fam": "ficar",
+  "sub": "casa",
+  "name": "Casa da Muralha",
+  "lat": 37.943766,
+  "lon": -7.599247,
+  "summary": "Casa encostada à muralha, no centro histórico.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.2,
+  "source": {
+   "dataset": "overture-places",
+   "id": "069e601f-8719-484a-83c2-cf55dd315a35"
+  },
+  "web": "http://www.casadamuralha.com"
+ },
+ {
+  "id": "casa-do-canico",
+  "fam": "ficar",
+  "sub": "casa",
+  "name": "Casa do Caniço",
+  "lat": 37.943152,
+  "lon": -7.596515,
+  "summary": "Alojamento no centro histórico.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.1,
+  "source": {
+   "dataset": "overture-places",
+   "id": "c1acb840-6c97-4c8b-96da-8c389160d8d2"
+  },
+  "web": "http://casadocanico.tumblr.com/"
+ },
+ {
+  "id": "casa-da-palmeira",
+  "fam": "ficar",
+  "sub": "casa",
+  "name": "Casa da Palmeira",
+  "lat": 37.942805,
+  "lon": -7.598091,
+  "summary": "Alojamento no centro histórico.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.2,
+  "source": {
+   "dataset": "overture-places",
+   "id": "b58a3487-0efb-4937-9347-5c5431c1f93e"
+  },
+  "web": "http://www.thepalmtreehouse.net/"
+ },
+ {
+  "id": "horta-das-laranjas",
+  "fam": "ficar",
+  "sub": "casa",
+  "name": "Horta das Laranjas",
+  "lat": 37.945257,
+  "lon": -7.601198,
+  "summary": "Alojamento local em Serpa.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.4,
+  "source": {
+   "dataset": "overture-places",
+   "id": "1dc7b22e-bc1f-4ae0-8a37-d3ab72cf7222"
+  },
+  "web": "http://www.hortadaslaranjas.pt/"
+ },
+ {
+  "id": "flor-d-amendoeira",
+  "fam": "ficar",
+  "sub": "casa",
+  "name": "Flor d'Amendoeira",
+  "lat": 37.940696,
+  "lon": -7.594205,
+  "summary": "Alojamento local em Serpa.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.4,
+  "source": {
+   "dataset": "overture-places",
+   "id": "7c16a36e-850c-4acd-9bc7-97e750dba823"
+  },
+  "web": "https://www.flordamendoeira.pt/"
+ },
+ {
+  "id": "herdade-da-retorta",
+  "fam": "ficar",
+  "sub": "casa",
+  "name": "Herdade da Retorta",
+  "lat": 37.970191,
+  "lon": -7.603215,
+  "summary": "Herdade com alojamento a norte de Serpa.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 3.0,
+  "source": {
+   "dataset": "overture-places",
+   "id": "f8036e2f-2376-4e82-866d-cacc51c94203"
+  },
+  "web": "http://www.herdade-da-retorta.pt"
+ },
+ {
+  "id": "monte-da-morena",
+  "fam": "ficar",
+  "sub": "casa",
+  "name": "Monte da Morena",
+  "lat": 37.938015,
+  "lon": -7.619708,
+  "summary": "Agroturismo a poente de Serpa.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 2.1,
+  "source": {
+   "dataset": "overture-places",
+   "id": "fcc87a94-12d6-4066-9280-a76fbece4f1a"
+  },
+  "web": "http://www.montemorena.com/"
+ },
+ {
+  "id": "melrinitas",
+  "fam": "ficar",
+  "sub": "casa",
+  "name": "Melrinitas",
+  "lat": 37.927583,
+  "lon": -7.632715,
+  "summary": "Turismo rural entre Serpa e o Guadiana.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 3.6,
+  "source": {
+   "dataset": "overture-places",
+   "id": "2a0519de-9fdc-4e64-ba36-b7f7cbda9b34"
+  },
+  "web": "http://www.melrinitas.com/"
+ },
+ {
+  "id": "quinta-marugo",
+  "fam": "ficar",
+  "sub": "casa",
+  "name": "Quinta Marugo",
+  "lat": 37.855622,
+  "lon": -7.624163,
+  "summary": "Alojamento rural a sul de Serpa.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Santa Iria",
+  "placeKm": 6.7,
+  "source": {
+   "dataset": "overture-places",
+   "id": "7d5d699a-df94-49ca-87a5-0d2fd394014d"
+  },
+  "web": "http://www.quintamarugo.com/"
+ },
+ {
+  "id": "betica-pias",
+  "fam": "ficar",
+  "sub": "hotel",
+  "name": "Bética Hotel Rural",
+  "lat": 38.022214,
+  "lon": -7.480846,
+  "summary": "Hotel rural em Pias.",
+  "freguesia": "Pias",
+  "place": "Pias",
+  "placeKm": 0.6,
+  "source": {
+   "dataset": "overture-places",
+   "id": "bd51186d-cd47-45d6-bcc9-1c54a1d8feff"
+  },
+  "web": "http://www.beticahotelrural.com/"
+ },
+ {
+  "id": "pias-guesthouse",
+  "fam": "ficar",
+  "sub": "casa",
+  "name": "Pias Guesthouse",
+  "lat": 38.021452,
+  "lon": -7.480462,
+  "summary": "Alojamento em Pias.",
+  "freguesia": "Pias",
+  "place": "Pias",
+  "placeKm": 0.5,
+  "source": {
+   "dataset": "overture-places",
+   "id": "576db940-2b2c-45f8-8cb4-f430b3e2e877"
+  },
+  "web": "http://www.piasguesthouse.com/"
+ },
+ {
+  "id": "moinhos-velhos-brinches",
+  "fam": "ficar",
+  "sub": "casa",
+  "name": "Moinhos Velhos",
+  "lat": 38.03558,
+  "lon": -7.60448,
+  "summary": "Alojamento local em Brinches.",
+  "freguesia": "Brinches",
+  "place": "Brinches",
+  "placeKm": 0.1,
+  "source": {
+   "dataset": "overture-places",
+   "id": "72f0e641-e077-4eee-b944-f2ef93bf15ef"
+  }
+ },
+ {
+  "id": "monte-dos-alpendres",
+  "fam": "ficar",
+  "sub": "casa",
+  "name": "Monte dos Alpendres",
+  "lat": 37.988751,
+  "lon": -7.46182,
+  "summary": "Casa de campo a poente de Pias.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Pias",
+  "placeKm": 3.7,
+  "source": {
+   "dataset": "overture-places",
+   "id": "d8e8f506-ca1b-411a-bed6-bcef46a14fc1"
+  }
+ },
+ {
+  "id": "ninho-da-poupa",
+  "fam": "ficar",
+  "sub": "casa",
+  "name": "Ninho da Poupa",
+  "lat": 37.897524,
+  "lon": -7.460131,
+  "summary": "Alojamento rural perto de A-do-Pinto.",
+  "freguesia": "Vila Nova de São Bento e Vale de Vargo",
+  "place": "A-do-Pinto",
+  "placeKm": 2.7,
+  "source": {
+   "dataset": "overture-places",
+   "id": "9df447bf-ee96-4760-bf42-ee3ebc0a19ff"
+  },
+  "web": "https://ninhodapoupaserpa.wixsite.com/ninhodapoupa"
+ },
+ {
+  "id": "cantar-do-grilo",
+  "fam": "ficar",
+  "sub": "casa",
+  "name": "Cantar do Grilo",
+  "lat": 37.830893,
+  "lon": -7.510644,
+  "summary": "Alojamento rural no sul do concelho.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Vales Mortos",
+  "placeKm": 2.8,
+  "source": {
+   "dataset": "overture-places",
+   "id": "414f6b06-9f6c-4c59-b216-10ae46981fda"
+  },
+  "web": "http://www.cantardogrilo.com"
+ },
+ {
+  "id": "vale-de-milhanos",
+  "fam": "ficar",
+  "sub": "casa",
+  "name": "Habitat · Vale de Milhanos",
+  "lat": 37.807338,
+  "lon": -7.500139,
+  "summary": "Alojamento rural em Vales Mortos.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Vales Mortos",
+  "placeKm": 0.1,
+  "source": {
+   "dataset": "overture-places",
+   "id": "36cecef4-1d22-449e-a86e-2c1e2c53dca2"
+  },
+  "web": "https://habitat-valemilhanos.wixsite.com/habitat"
+ },
+ {
+  "id": "vila-belita",
+  "fam": "ficar",
+  "sub": "casa",
+  "name": "Vila Belita",
+  "lat": 37.947635,
+  "lon": -7.299638,
+  "summary": "Alojamento em Vila Verde de Ficalho.",
+  "freguesia": "Vila Verde de Ficalho",
+  "place": "Vila Verde de Ficalho",
+  "placeKm": 0.1,
+  "source": {
+   "dataset": "overture-places",
+   "id": "1e8bd5ff-1605-483a-b1a3-2c67fe429715"
+  },
+  "web": "http://vilabelita.com/"
+ },
+ {
+  "id": "campismo-serpa",
+  "fam": "ficar",
+  "sub": "campismo",
+  "name": "Parque de Campismo de Serpa",
+  "lat": 37.941175,
+  "lon": -7.603765,
+  "summary": "Parque de campismo municipal, junto às piscinas.",
+  "freguesia": "Serpa (Salvador e Santa Maria)",
+  "place": "Serpa",
+  "placeKm": 0.7,
+  "source": {
+   "dataset": "overture-places",
+   "id": "00495b7e-28ad-4f6b-9845-becd201f302f"
+  }
+ }
+]

@@ -1,0 +1,1771 @@
+{
+  "retrieved": "2026-10-13",
+  "attractions": [
+    {
+      "name": "Castelo de Serpa",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d4600583-Reviews-Castelo_de_Serpa-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Castelo (Sights & Landmarks)",
+      "rank": "#1 of 35 things to do in Serpa",
+      "rating": 4.2,
+      "review_count": 140,
+      "rating_snapshot": "4.2 / 137-140 reviews on 2025-2026 page versions; older tripadvisor.co.uk snapshot 4.0 / 135",
+      "address": null,
+      "description": "Castelo de fundação medieval, reconstruído no reinado de D. Dinis e fortificado no século XVII, onde funciona o Museu Municipal de Arqueologia.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d4600583-Reviews-Castelo_de_Serpa-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attractions-g189109-Activities-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attractions-g189109-Activities-zft11292-Serpa_Beja_District_Alentejo.html",
+        "https://www.infopedia.pt/artigos/$castelo-de-serpa"
+      ],
+      "confidence": "confirmed",
+      "notes": "Reviews say entry is free; some mention a broken lift and closures on Mondays."
+    },
+    {
+      "name": "Museu do Relogio",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d2556287-Reviews-Museu_do_Relogio-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Museu (Speciality Museums)",
+      "rank": "#2 of 35 things to do in Serpa (another snapshot: #3)",
+      "rating": 4.4,
+      "review_count": 85,
+      "rating_snapshot": "4.4 / 85 reviews on 2026 page versions",
+      "address": "Convento do Mosteirinho, Rua do Assento, Serpa (from non-TripAdvisor sources)",
+      "description": "Museu de relojoaria aberto em 1995 no antigo Convento do Mosteirinho, com a coleção reunida por António Tavares d'Almeida e uma oficina de reparação.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d2556287-Reviews-Museu_do_Relogio-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attractions-g189109-Activities-c49-Serpa_Beja_District_Alentejo.html",
+        "https://www.visitalentejo.pt/en/catalogue/what-to-do/museums-and-places-to-visit/museu-do-relogio/",
+        "https://lifecooler.com/artigo/atividades/museu-do-relgio/334000",
+        "https://www.montepio.org/vantagens-montepio/descontos/cultura-e-lazer/museu-do-relogio/"
+      ],
+      "confidence": "confirmed",
+      "name_variants": [
+        "Museu do Relógio"
+      ],
+      "notes": "Collection size quoted inconsistently across sources (about 1,600 to 2,500 pieces); a reviewer quoted EUR 2 entry. Has a sister branch in Évora."
+    },
+    {
+      "name": "Aqueduto de Serpa",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225911-Reviews-Aqueduto_de_Serpa-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Aqueduto (Points of Interest & Landmarks)",
+      "rank": "#3 in the Top Attractions list (snippet)",
+      "rating": 4.3,
+      "review_count": 68,
+      "rating_snapshot": "4.3 / 68 reviews (2026); other versions 4.4 / 67",
+      "address": null,
+      "description": "Aqueduto do final do século XVII, construído sobre a muralha por iniciativa de D. Francisco de Melo para abastecer em exclusivo o Palácio dos Condes de Ficalho, com uma grande nora no extremo sul.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d7225911-Reviews-Aqueduto_de_Serpa-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attractions-g189109-Activities-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attractions-g189109-Activities-zft11292-Serpa_Beja_District_Alentejo.html",
+        "https://www.infopedia.pt/artigos/$aqueduto-de-serpa",
+        "https://www.lonelyplanet.com/portugal/serpa/attractions/wheel-pump/a/poi-sig/1376127/1300069",
+        "https://europeangardens.eu/inventories/pt/PTIEJP_Alentejo.xml/ead/PTIEJP_Alentejo_J4.pdf"
+      ],
+      "confidence": "confirmed"
+    },
+    {
+      "name": "Muralhas de Serpa",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225310-Reviews-Muralhas_de_Serpa-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Muralhas (Points of Interest & Landmarks)",
+      "rank": "#4 of 35 things to do in Serpa",
+      "rating": 4.2,
+      "review_count": 64,
+      "rating_snapshot": "4.2 / 63-64 reviews on 2025-2026 page versions",
+      "address": "Rua da Fonte Santa, Serpa 7830-417",
+      "description": "Cerca medieval de dupla muralha com torreões semicirculares, reerguida no reinado de D. Dinis, que conserva as Portas de Beja e de Moura e está classificada como Monumento Nacional.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d7225310-Reviews-Muralhas_de_Serpa-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attractions-g189109-Activities-zft11292-Serpa_Beja_District_Alentejo.html",
+        "https://imovel.patrimoniocultural.gov.pt/detalhes.php?code=70215",
+        "https://www.infopedia.pt/artigos/$castelo-de-serpa"
+      ],
+      "confidence": "confirmed",
+      "notes": "A municipal document cited in search results gives Monumento Nacional status since 1954 (Decreto 39 521); not checked against the decree itself."
+    },
+    {
+      "name": "Monte Das Louzeiras",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d24084740-Reviews-Monte_Das_Louzeiras-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Adega e lagar / provas (Wineries & Vineyards, Food & Drink)",
+      "rank": "#6 of 35 things to do in Serpa (one snapshot; #4 in a Top Attractions list)",
+      "rating": 5.0,
+      "review_count": 7,
+      "rating_snapshot": "5.0 / 6-7 reviews (reviews dated 2024-2025)",
+      "address": "Vale de Vargo, Serpa",
+      "description": "Produtor de azeite e vinho em Vale de Vargo com provas (incluindo vinho de ânfora), venda de produtos derivados do azeite e lugares para autocaravanas no olival.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d24084740-Reviews-Monte_Das_Louzeiras-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attractions-g189109-Activities-c36-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attractions-g189109-Activities-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Located in the village of Vale de Vargo (concelho de Serpa), not in Serpa town. Listing shows hours approx. 9:00-18:00 weekdays, 10:00-17:00 Sundays."
+    },
+    {
+      "name": "Núcleo Intramuros da Vila de Serpa",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7340554-Reviews-Nucleo_Intramuros_da_Vila_de_Serpa-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Centro histórico (Points of Interest & Landmarks)",
+      "rank": "#6 of 35 things to do in Serpa (ranked 6th-9th across snapshots)",
+      "rating": 4.1,
+      "review_count": 27,
+      "rating_snapshot": "4.1 / 27 reviews",
+      "address": null,
+      "description": "Zona histórica da vila delimitada pelas muralhas medievais, com ruas estreitas, a Praça da República, a Igreja de Santa Maria e a Torre do Relógio.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d7340554-Reviews-Nucleo_Intramuros_da_Vila_de_Serpa-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attractions-g189109-Activities-zft11292-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attractions-g189109-Activities-c47-t163-Serpa_Beja_District_Alentejo.html",
+        "https://imovel.patrimoniocultural.gov.pt/detalhes.php?code=333297"
+      ],
+      "confidence": "confirmed"
+    },
+    {
+      "name": "Ermida de Nossa Senhora de Guadalupe",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225355-Reviews-Ermida_de_Nossa_Senhora_de_Guadalupe-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Ermida / santuário (Points of Interest & Landmarks)",
+      "rank": "#7 of 35 things to do in Serpa (another snapshot: #8)",
+      "rating": 4.3,
+      "review_count": 16,
+      "rating_snapshot": "4.3 / 16 reviews (6 excellent, 9 good, 1 average); a reviewer found it closed in Aug 2024",
+      "address": "Praca de Sao Gens, Serpa 7830-479",
+      "description": "Santuário de peregrinação do início do século XVI no Alto de São Gens, com sacristia e casa do ermitão, dedicado a Nossa Senhora de Guadalupe, a quem o concelho foi consagrado em 1946.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d7225355-Reviews-Ermida_de_Nossa_Senhora_de_Guadalupe-Serpa_Beja_District_Alentejo.html",
+        "http://www.monumentos.gov.pt/Site/APP_PagesUser/SIPA.aspx?id=4424",
+        "https://www.cm-serpa.pt/pt/menu/597/patrimonio.aspx",
+        "https://www.thecrazytourist.com/15-best-things-serpa-portugal/"
+      ],
+      "confidence": "confirmed",
+      "notes": "Different building from 'Igreja de Nossa Senhora de Guadalupe (Igreja de São Salvador)' in town. SIPA record name: Ermida de Nossa Senhora de Guadalupe / Ermida de São Gens / Santuário de Nossa Senhora de Guadalupe."
+    },
+    {
+      "name": "Torre do Relógio",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225315-Reviews-Torre_do_Relogio-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Torre do relógio (Points of Interest & Landmarks)",
+      "rank": "#8 of 35 things to do in Serpa",
+      "rating": 3.9,
+      "review_count": 27,
+      "rating_snapshot": "3.9 / 27 reviews (several reviewers found it closed)",
+      "address": "Largo dos Santos Proculo E Hilariao, Serpa 7830-385",
+      "description": "Torre da antiga muralha do burgo medieval adaptada a torre de relógio em 1440, situada no Largo dos Santos Próculo e Hilarião, junto à entrada do castelo.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d7225315-Reviews-Torre_do_Relogio-Serpa_Beja_District_Alentejo.html",
+        "https://imovel.patrimoniocultural.gov.pt/detalhes.php?code=333297",
+        "https://wanderlog.com/place/details/571984/clock-tower",
+        "https://www.viagensecaminhos.com/serpa-portugal/"
+      ],
+      "confidence": "confirmed",
+      "notes": "Travel sources call it the third-oldest clock tower in Portugal; the current clock mechanism is reported as dating from 1841."
+    },
+    {
+      "name": "Igreja de Nossa Senhora de Guadalupe (Igreja de São Salvador)",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225314-Reviews-Igreja_de_Nossa_Senhora_de_Guadalupe_Igreja_de_Sao_Salvador-Serpa_Beja_District_A.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Igreja (Churches & Cathedrals)",
+      "rank": "#9 of 35 things to do in Serpa (Jul 2024; another snapshot #10)",
+      "rating": 4.5,
+      "review_count": 10,
+      "rating_snapshot": "4.5 / 10 reviews",
+      "address": "Largo do Salvador, Serpa 7830-330",
+      "description": "Igreja no Largo do Salvador cujo interior tem altar-mor, capelas laterais e painéis de azulejo, aberta sobretudo durante as celebrações religiosas, segundo comentários no Tripadvisor.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d7225314-Reviews-Igreja_de_Nossa_Senhora_de_Guadalupe_Igreja_de_Sao_Salvador-Serpa_Beja_District_A.html",
+        "https://www.tripadvisor.com/Attractions-g189109-Activities-zft11292-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "No non-TripAdvisor source on this church was found before the search budget ran out. One review on this page seems to describe the hilltop Ermida instead."
+    },
+    {
+      "name": "Igreja e Convento de São Paulo / Mosteiro de Nossa Senhora da Consolação",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225641-Reviews-Igreja_e_Convento_de_Sao_Paulo_Mosteiro_de_Nossa_Senhora_da_Consolacao-Serpa_Beja.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Igreja e convento (Churches & Cathedrals)",
+      "rank": "#10 in the top things to do list (snippet)",
+      "rating": 4.3,
+      "review_count": 4,
+      "rating_snapshot": "4.3 / 4 reviews",
+      "address": "Largo São Paulo, Serpa",
+      "description": "Igreja e convento de frades paulistas da Serra de Ossa, iniciados no final do século XVII, com exterior caiado e interior barroco; o conjunto é também designado Hospital de São Paulo.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d7225641-Reviews-Igreja_e_Convento_de_Sao_Paulo_Mosteiro_de_Nossa_Senhora_da_Consolacao-Serpa_Beja.html",
+        "http://www.monumentos.gov.pt/Site/APP_PagesUser/SIPA.aspx?id=14462",
+        "https://www.cm-serpa.pt/pt/menu/597/patrimonio.aspx"
+      ],
+      "confidence": "confirmed",
+      "notes": "Reviewers note it was closed and that part of the building houses a health facility."
+    },
+    {
+      "name": "Museu Etnográfico de Serpa",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225298-Reviews-Museu_Etnografico_de_Serpa-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Museu (Speciality Museums)",
+      "rank": "#11 of 35 things to do in Serpa (another list: #12)",
+      "rating": 4.4,
+      "review_count": 11,
+      "rating_snapshot": "4.4 / 11 reviews",
+      "address": "Largo do Corro, Serpa 7830-328",
+      "description": "Museu no Largo do Corro com coleções sobre ofícios artesanais e trabalho agrícola tradicional, incluindo o processo de fabrico do queijo.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d7225298-Reviews-Museu_Etnografico_de_Serpa-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attractions-g189109-Activities-c49-Serpa_Beja_District_Alentejo.html",
+        "https://www.visitalentejo.pt/en/catalogue/what-to-do/museums-and-places-to-visit/museu-etnografico-de-serpa/"
+      ],
+      "confidence": "confirmed",
+      "notes": "Turismo do Alentejo lists hours 9:00-12:30 and 14:00-17:30 daily (verify)."
+    },
+    {
+      "name": "Igreja de Santa Maria",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225303-Reviews-Igreja_de_Santa_Maria-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Igreja matriz (Churches & Cathedrals)",
+      "rank": "#7 of 35 things to do in Serpa (one snippet; rank not confirmed elsewhere)",
+      "rating": 4.4,
+      "review_count": 13,
+      "rating_snapshot": "4.4 / 13 reviews; another version 4.3 / 12",
+      "address": "Largo de Santa Maria, Serpa 7830-414",
+      "description": "Igreja matriz de Serpa, erguida entre o final do século XIII e o início do século XV, segundo a DGPC sobre uma antiga mesquita, com capela-mor do século XVI reconstruída para o túmulo da família Mello; classificada como Monumento Nacional.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d7225303-Reviews-Igreja_de_Santa_Maria-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attractions-g189109-Activities-zft11292-Serpa_Beja_District_Alentejo.html",
+        "https://en.wikipedia.org/wiki/Igreja_de_Santa_Maria_(Serpa)",
+        "http://www.patrimoniocultural.gov.pt/pt/patrimonio/patrimonio-imovel/pesquisa-do-patrimonio/classificado-ou-em-vias-de-classificacao/geral/view/73979"
+      ],
+      "confidence": "confirmed",
+      "notes": "One TripAdvisor reviewer suggested the listing was confused with Beja's Igreja de Santa Maria; the address on the listing is in Serpa. Castle entrance is right behind it."
+    },
+    {
+      "name": "Igreja Paroquial de Santa Iria",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225873-Reviews-Igreja_Paroquial_de_Santa_Iria-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Igreja (Churches & Cathedrals)",
+      "rank": "#13 of 35 things to do in Serpa",
+      "rating": 5.0,
+      "review_count": 3,
+      "rating_snapshot": "5.0 / 3 reviews (all Excellent)",
+      "address": "Estrada da Mina de São Domingos, Santa Iria, Serpa",
+      "description": "Igreja da localidade de Santa Iria, no concelho de Serpa, junto à estrada da Mina de São Domingos.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d7225873-Reviews-Igreja_Paroquial_de_Santa_Iria-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/AttractionsNear-g189109-d7225303-Igreja_de_Santa_Maria-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Located in the village of Santa Iria, not Serpa town. CM Serpa mentions an 'Ermida de Santa Iria' classified as Monumento de Interesse Público in 2017; not confirmed to be this same building."
+    },
+    {
+      "name": "Museu Municipal de Arqueologia",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225309-Reviews-Museu_Municipal_de_Arqueologia-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Museu (Speciality Museums)",
+      "rank": "#14 of 35 things to do in Serpa",
+      "rating": 3.5,
+      "review_count": 6,
+      "rating_snapshot": "3.5 / 6 reviews (some 2014 reviews mention closure for works)",
+      "address": "Castelo de Serpa",
+      "description": "Museu municipal instalado no castelo de Serpa, com espólio arqueológico da Pré-História à época romana e entrada gratuita.",
+      "sources": [
+        "https://www.tripadvisor.pt/Attraction_Review-g189109-d7225309-Reviews-Museu_Municipal_de_Arqueologia-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d7225309-Reviews-Museu_Municipal_de_Arqueologia-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attractions-g189109-Activities-c49-Serpa_Beja_District_Alentejo.html",
+        "https://www.cm-serpa.pt/pt/menu/401/museu-municipal-de-arqueologia.aspx"
+      ],
+      "confidence": "confirmed",
+      "notes": "A reviewer reported the upper floor not wheelchair-accessible and the outdoor lift out of service."
+    },
+    {
+      "name": "Ermida de São Sebastião",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225332-Reviews-Ermida_de_Sao_Sebastiao-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Ermida",
+      "rank": "#16 of 35 things to do in Serpa",
+      "rating": 3.7,
+      "review_count": 6,
+      "rating_snapshot": "3.7 / 6 reviews (4 good, 2 average)",
+      "address": "Celeiros, Santa Maria, Serpa",
+      "description": "Ermida do início do século XVI, de traça manuelina de expressão regional, referida na página de património da Câmara Municipal de Serpa.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d7225332-Reviews-Ermida_de_Sao_Sebastiao-Serpa_Beja_District_Alentejo.html",
+        "https://www.cm-serpa.pt/pt/menu/597/patrimonio.aspx"
+      ],
+      "confidence": "confirmed"
+    },
+    {
+      "name": "Igreja de São Bento",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225905-Reviews-Igreja_de_Sao_Bento-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Igreja (Churches & Cathedrals)",
+      "rank": "#17 of 35 things to do in Serpa",
+      "rating": 4.3,
+      "review_count": 3,
+      "rating_snapshot": "4.3 / 3 reviews",
+      "address": "Vila Nova de S. Bento, Serpa",
+      "description": "Igreja situada em Vila Nova de São Bento, no concelho de Serpa.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d7225905-Reviews-Igreja_de_Sao_Bento-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Located in Vila Nova de São Bento (TripAdvisor also has a separate geo, g4545644 'Aldeia Nova de Sao Bento'). Possible duplicate of 'Igreja Paroquial de Aldeia Nova de São Bento' (d7225900); not resolved."
+    },
+    {
+      "name": "Igreja Paroquial de Aldeia Nova de São Bento",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225900-Reviews-Igreja_Paroquial_de_Aldeia_Nova_de_Sao_Bento-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Igreja paroquial (Churches & Cathedrals)",
+      "rank": "#17 of 35 things to do in Serpa (different snapshot from Igreja de São Bento)",
+      "rating": 4.5,
+      "review_count": 2,
+      "rating_snapshot": "4.5 / 2 reviews",
+      "address": "Estrada da Igreja, Aldeia Nova de S. Bento, 7830-440",
+      "description": "Igreja paroquial de Vila Nova de São Bento, caiada de branco, com altar policromado e imagem de São Bento, padroeiro da localidade, segundo comentários no Tripadvisor.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d7225900-Reviews-Igreja_Paroquial_de_Aldeia_Nova_de_Sao_Bento-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Located in Vila Nova de São Bento; a reviewer says access is through the cemetery. Possible duplicate of 'Igreja de São Bento' (d7225905)."
+    },
+    {
+      "name": "Santuário de Nossa Senhora do Carmo",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225645-Reviews-Santuario_de_Nossa_Senhora_do_Carmo-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Igreja",
+      "rank": "#18 of 35 things to do in Serpa",
+      "rating": 4.3,
+      "review_count": 3,
+      "rating_snapshot": "4.3 / 3 reviews",
+      "address": "Rua da Cadeia Velha, Serpa 7830-403",
+      "description": "Igreja neoclássica de Nossa Senhora do Carmo, conhecida por Santuário, construída no interior das muralhas no final do século XVIII.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d7225645-Reviews-Santuario_de_Nossa_Senhora_do_Carmo-Serpa_Beja_District_Alentejo.html",
+        "http://www.monumentos.gov.pt/Site/APP_PagesUser/SIPA.aspx?id=939",
+        "https://www.cm-serpa.pt/pt/menu/597/patrimonio.aspx"
+      ],
+      "confidence": "confirmed"
+    },
+    {
+      "name": "Igreja de São Francisco",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225319-Reviews-Igreja_de_Sao_Francisco-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Igreja (Churches & Cathedrals)",
+      "rank": "#19 of 35 things to do in Serpa",
+      "rating": 5.0,
+      "review_count": 2,
+      "rating_snapshot": "5.0 / 2 reviews",
+      "address": null,
+      "description": "Igreja do antigo convento franciscano de Santo António, mandado erguer em 1463 pelo Infante D. Fernando, duque de Beja, e reconstruído em 1502 no reinado de D. Manuel, com portal gótico e claustro; classificada como Monumento Nacional.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d7225319-Reviews-Igreja_de_Sao_Francisco-Serpa_Beja_District_Alentejo.html",
+        "http://www.monumentos.gov.pt/Site/APP_PagesUser/SIPA.aspx?id=549",
+        "https://imovel.patrimoniocultural.gov.pt/detalhes.php?code=70394",
+        "https://www.cm-serpa.pt/pt/menu/597/patrimonio.aspx"
+      ],
+      "confidence": "confirmed",
+      "notes": "SIPA record name: 'Convento de Santo António / Convento de São Francisco'; the convent buildings are reported as now used as a care home (lar)."
+    },
+    {
+      "name": "Capela de São Roque",
+      "ta_url": "https://www.tripadvisor.fr/Attraction_Review-g189109-d7225891-Reviews-Capela_de_Sao_Roque-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Capela / ermida",
+      "rank": "N° 20 sur 35 activités à Serpa (tripadvisor.fr)",
+      "rating": 4.5,
+      "review_count": 2,
+      "rating_snapshot": "4.5 / 2 reviews",
+      "address": "Rua Joao de Deus, Serpa 7830-456",
+      "description": "Ermida do início do século XVI, de arquitetura popular e traça manuelina, na Rua João de Deus.",
+      "sources": [
+        "https://www.tripadvisor.fr/Attraction_Review-g189109-d7225891-Reviews-Capela_de_Sao_Roque-Serpa_Beja_District_Alentejo.html",
+        "https://www.cm-serpa.pt/pt/menu/597/patrimonio.aspx"
+      ],
+      "confidence": "confirmed"
+    },
+    {
+      "name": "Ermida de São Brás",
+      "ta_url": "https://www.tripadvisor.fr/Attraction_Review-g189109-d7225898-Reviews-Ermida_de_Sao_Bras-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Ermida (Points of Interest & Landmarks)",
+      "rank": "N° 21 sur 35 activités à Serpa (tripadvisor.fr); #17 on the Sights & Landmarks list",
+      "rating": 4.5,
+      "review_count": 2,
+      "rating_snapshot": "4.5 / 2 reviews",
+      "address": null,
+      "description": "Ermida do concelho de Serpa referida na página de património da Câmara Municipal, listada pelo Tripadvisor como ponto de interesse.",
+      "sources": [
+        "https://www.tripadvisor.fr/Attraction_Review-g189109-d7225898-Reviews-Ermida_de_Sao_Bras-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attractions-g189109-Activities-c47-Serpa_Beja_District_Alentejo.html",
+        "https://www.cm-serpa.pt/pt/menu/597/patrimonio.aspx"
+      ],
+      "confidence": "confirmed",
+      "notes": "Location not stated in the results."
+    },
+    {
+      "name": "Ermida de Santa Luzia",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225789-Reviews-Ermida_de_Santa_Luzia-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Ermida (Points of Interest & Landmarks)",
+      "rank": "#23 of 35 things to do in Serpa (#12 on Sights & Landmarks, #5 on Points of Interest)",
+      "rating": 4.5,
+      "review_count": 2,
+      "rating_snapshot": "4.5 / 2 reviews",
+      "address": "Estrada Pias - Moura, a 2 Km, Serpa 7831-909",
+      "description": "Ermida do início do século XVI, a 2 km de Pias na estrada para Moura, de nave única abobadada com capitéis manuelinos, classificada como Imóvel de Interesse Público.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d7225789-Reviews-Ermida_de_Santa_Luzia-Serpa_Beja_District_Alentejo.html",
+        "http://www.monumentos.gov.pt/Site/APP_PagesUser/SIPA.aspx?id=954",
+        "http://www.patrimoniocultural.gov.pt/pt/patrimonio/patrimonio-imovel/pesquisa-do-patrimonio/classificado-ou-em-vias-de-classificacao/geral/view/74804",
+        "https://www.cm-serpa.pt/pt/menu/597/patrimonio.aspx"
+      ],
+      "confidence": "confirmed",
+      "notes": "Listed under Serpa but located near Pias (freguesia de Pias). Classification decree reported as Decreto 45 327 (DG 25-10-1963); CM Serpa gives a conflicting date."
+    },
+    {
+      "name": "Igreja de Nossa Senhora da Saúde",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225410-Reviews-Igreja_de_Nossa_Senhora_da_Saude-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Igreja (Churches & Cathedrals)",
+      "rank": "#24 of 35 things to do in Serpa (#20 on Sights & Landmarks)",
+      "rating": 4.5,
+      "review_count": 2,
+      "rating_snapshot": "4.5 / 2 reviews (both 2014)",
+      "address": null,
+      "description": "Igreja do final do século XVI com interior barroco revestido quase por completo por azulejos de padrão policromo, com retábulo de estilo nacional e pinturas a óleo sobre tela.",
+      "sources": [
+        "https://www.tripadvisor.pt/Attraction_Review-g189109-d7225410-Reviews-Igreja_de_Nossa_Senhora_da_Saude-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d7225410-Reviews-Igreja_de_Nossa_Senhora_da_Saude-Serpa_Beja_District_Alentejo.html",
+        "http://www.monumentos.gov.pt/Site/APP_PagesUser/SIPA.aspx?id=9811",
+        "https://www.cm-serpa.pt/pt/menu/597/patrimonio.aspx"
+      ],
+      "confidence": "confirmed"
+    },
+    {
+      "name": "Ermida de São Pedro",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225329-Reviews-Ermida_de_Sao_Pedro-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Ermida",
+      "rank": "#25 of 35 things to do in Serpa",
+      "rating": 4.5,
+      "review_count": 2,
+      "rating_snapshot": "4.5 / 2 reviews",
+      "address": "Rua de São Pedro, Serpa 7830-437",
+      "description": "Ermida do início do século XVI, de traça manuelina, implantada numa eira arborizada na Rua de São Pedro.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d7225329-Reviews-Ermida_de_Sao_Pedro-Serpa_Beja_District_Alentejo.html",
+        "http://www.monumentos.gov.pt/Site/APP_PagesUser/SIPA.aspx?id=912",
+        "https://www.cm-serpa.pt/pt/menu/597/patrimonio.aspx",
+        "https://www.tripadvisor.com/Tourism-g189109-Serpa_Beja_District_Alentejo-Vacations.html"
+      ],
+      "confidence": "confirmed"
+    },
+    {
+      "name": "Misericórdia de Serpa",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7225322-Reviews-Misericordia_de_Serpa-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Igreja da Misericórdia",
+      "rank": "#27 of 35 things to do in Serpa",
+      "rating": 3.3,
+      "review_count": 4,
+      "rating_snapshot": "3.3 / 4 reviews on the English overview page; Polish page shows 3.0 / 2 reviews (2014) and marks it closed",
+      "address": "Rua de Nossa Senhora 14, 7830-425 (pl.tripadvisor.com); tripadvisor.es gives Largo do Salvador, 7830-330",
+      "description": "Edifício e igreja da Santa Casa da Misericórdia, erguidos em 1505 sobre um templo anterior, com portal gótico e interior com talha dourada, pedra pintada e azulejos.",
+      "sources": [
+        "https://pl.tripadvisor.com/Attraction_Review-g189109-d7225322-Reviews-Misericordia_de_Serpa-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d7225322-Reviews-Misericordia_de_Serpa-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Tourism-g189109-Serpa_Beja_District_Alentejo-Vacations.html",
+        "https://www.tripadvisor.es/AttractionsNear-g189109-d25325799-Serpa_Hotel-Serpa_Beja_District_Alentejo.html",
+        "http://www.monumentos.gov.pt/Site/APP_PagesUser/SIPA.aspx?id=4402",
+        "https://www.cm-serpa.pt/pt/menu/597/patrimonio.aspx"
+      ],
+      "confidence": "confirmed",
+      "notes": "Conflicting addresses and a 'closed' flag on one language version."
+    },
+    {
+      "name": "Casa Lopes",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d13834602-Reviews-Casa_Lopes-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Edifício histórico (Architectural Buildings)",
+      "rank": "#28 of 35 things to do in Serpa",
+      "rating": 3.0,
+      "review_count": 1,
+      "rating_snapshot": "3.0 / 1 review (Sep 2025)",
+      "address": null,
+      "description": "Edifício dos séculos XVII-XVIII junto ao aqueduto, construído no local de um edifício anterior, sem identificação no local segundo o único comentário no Tripadvisor.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d13834602-Reviews-Casa_Lopes-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Reviewer says it appears to be private property."
+    },
+    {
+      "name": "Casa manuelina em Serpa",
+      "ta_url": "https://www.tripadvisor.pt/Attraction_Review-g189109-d13820707-Reviews-Casa_manuelina_em_Serpa-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Edifício histórico (Historic Sites)",
+      "rank": "N.º 31 de 35 atividades em Serpa (tripadvisor.pt)",
+      "rating": 3.0,
+      "review_count": 1,
+      "rating_snapshot": "3.0 / 1 review (one snippet; no review text)",
+      "address": "Largo D. João, Serpa 7830-080",
+      "description": "Casa identificada como manuelina, no Largo D. João, listada pelo Tripadvisor como sítio histórico.",
+      "sources": [
+        "https://www.tripadvisor.pt/Attraction_Review-g189109-d13820707-Reviews-Casa_manuelina_em_Serpa-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attractions-g189109-Activities-c47-t163-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed"
+    },
+    {
+      "name": "Ponte sobre a ribeira do Enxoé",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d13820700-Reviews-Ponte_sobre_a_ribeira_do_Enxoe-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Ponte (Points of Interest & Landmarks / Bridges)",
+      "rank": "#31 of 35 things to do in Serpa",
+      "rating": 2.0,
+      "review_count": 1,
+      "rating_snapshot": "2.0 / 1 review",
+      "address": "Herdade da Loja, sobre a ribeira do Enxoé, Serpa",
+      "description": "Ponte sobre a ribeira do Enxoé, junto à EN 255 entre Serpa e Pias, cuja referência documental mais antiga mencionada é de 1758.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d13820700-Reviews-Ponte_sobre_a_ribeira_do_Enxoe-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Outside Serpa town (between Serpa and Pias). Reviewer reports the area overgrown."
+    },
+    {
+      "name": "Museu de Vila Nova de S. Bento",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d13854119-Reviews-Museu_de_Vila_Nova_de_S_Bento-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Museu (Speciality Museums)",
+      "rank": "#32 of 35 things to do in Serpa (another snapshot: #26 of 37 attractions)",
+      "rating": null,
+      "review_count": 0,
+      "rating_snapshot": "No reviews yet",
+      "address": "Praceta D. Maria do Carmo Horta Barroso, Vila Nova de S. Bento, Serpa 7830-100",
+      "description": "Museu em Vila Nova de São Bento, na Praceta D. Maria do Carmo Horta Barroso, listado pelo Tripadvisor como museu temático e sem avaliações.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d13854119-Reviews-Museu_de_Vila_Nova_de_S_Bento-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attractions-g189109-Activities-c49-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Located in Vila Nova de São Bento, not Serpa town."
+    },
+    {
+      "name": "Barragem romana do Muro dos Mouros",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d13834403-Reviews-Barragem_romana_do_Muro_dos_Mouros-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Ruínas (Ancient Ruins, Points of Interest & Landmarks)",
+      "rank": "#33 of 35 things to do in Serpa (#23 on Sights & Landmarks)",
+      "rating": null,
+      "review_count": 0,
+      "rating_snapshot": "No reviews yet",
+      "address": null,
+      "description": "Vestígios de uma barragem de época romana conhecida como Muro dos Mouros, listados pelo Tripadvisor como ruínas antigas e sem avaliações.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d13834403-Reviews-Barragem_romana_do_Muro_dos_Mouros-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attractions-g189109-Activities-c47-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attractions-g189109-Activities-c47-t163-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Exact location not stated in results; not verified with heritage sources (search budget exhausted)."
+    },
+    {
+      "name": "Capela de Nossa Senhora dos Remédios",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7340296-Reviews-Capela_de_Nossa_Senhora_dos_Remedios-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Capela",
+      "rank": "#34 of 35 things to do in Serpa",
+      "rating": null,
+      "review_count": 0,
+      "rating_snapshot": "No rating or reviews shown",
+      "address": "Largo Nossa Senhora dos Remedios, Serpa 7830-387",
+      "description": "Capela no Largo de Nossa Senhora dos Remédios, em Serpa, sem avaliações no Tripadvisor.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d7340296-Reviews-Capela_de_Nossa_Senhora_dos_Remedios-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed"
+    },
+    {
+      "name": "Capela de Calvário",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d7340291-Reviews-Capela_de_Calvario-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Capela (Points of Interest & Landmarks)",
+      "rank": null,
+      "rating": 4.0,
+      "review_count": 2,
+      "rating_snapshot": "4.0 / 2 reviews on most pages; some pages show 5.0 / 1",
+      "address": null,
+      "description": "Capela do Calvário, em Serpa, listada pelo Tripadvisor como ponto de interesse.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d7340291-Reviews-Capela_de_Calvario-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attractions-g189109-Activities-c47-t163-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Nearby-distance data place it close to Rua do Calvário (Cervejaria Lebrinha)."
+    },
+    {
+      "name": "Serpa Lovers",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d12446139-Reviews-Serpa_Lovers-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Loja / bistrô / atividades (Food & Drink; tagged Balloon Rides, Eco Tours)",
+      "rank": "#2 of 3 Food & Drink in Serpa",
+      "rating": 4.7,
+      "review_count": 19,
+      "rating_snapshot": "4.7 / 19 reviews (visible reviews from 2019)",
+      "address": "Rua das Portas de Beja, 2 Próximo da Praça da República, Serpa 7830-341",
+      "description": "Espaço na Rua das Portas de Beja que se apresenta como bistro, loja de produtos regionais, galeria de arte e agência de turismo, com tapas e produtos como queijo de Serpa, azeite e vinho.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d12446139-Reviews-Serpa_Lovers-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attractions-g189109-Activities-oa30-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Current operating status unknown (latest visible reviews 2019)."
+    },
+    {
+      "name": "Burrico D`Orada - Lodging & Experiences",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d15187702-Reviews-Burrico_D_Orada_Lodging_Experiences-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Experiências / alojamento rural (Outdoor Activities; historical and boat tours)",
+      "rank": "#1 of 3 Food & Drink in Serpa",
+      "rating": 5.0,
+      "review_count": 37,
+      "rating_snapshot": "5.0 / 37 reviews on a newer version (reviews to Jul 2026); older version 5.0 / 33",
+      "address": "Monte do Carvalhal, EN258 - Km 22,6 Vidigueira-Moura",
+      "description": "Alojamento rural no Monte do Carvalhal (EN258, entre Vidigueira e Moura) que organiza experiências como provas de vinho de talha, passeios de barco e SUP no Alqueva.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d15187702-Reviews-Burrico_D_Orada_Lodging_Experiences-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attractions-g189109-Activities-zft11295-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "name_variants": [
+        "Burrico D'Orada",
+        "Burrico D´Orada"
+      ],
+      "notes": "Listed under Serpa, but the address is on the EN258 Vidigueira-Moura road, i.e. probably outside the Serpa concelho (not verified)."
+    },
+    {
+      "name": "Fuel Bar",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g189109-d6703132-Reviews-Fuel_Bar-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Bar (Nightlife, Bars & Clubs)",
+      "rank": "#1 of 1 Nightlife in Serpa (per a review page)",
+      "rating": 4.7,
+      "review_count": 3,
+      "rating_snapshot": "4.7 / 3 reviews (earlier version 4.5 / 3)",
+      "address": "Travessa da Herdeira, Serpa 7830-441",
+      "description": "Bar noturno na Travessa da Herdeira com decoração alusiva a uma bomba de gasolina, pista de dança e uma segunda sala decorada como praia.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d6703132-Reviews-Fuel_Bar-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/ShowUserReviews-g189109-d6703132-r223347631-Fuel_Bar-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attractions-g189109-Activities-c20-t99-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.es/AttractionsNear-g189109-d25325799-Serpa_Hotel-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "A review says card payment is not always possible."
+    },
+    {
+      "name": "Museu de Vila Verde de Ficalho",
+      "ta_url": null,
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Museu (Speciality Museums)",
+      "rank": "#4 on 'The 5 best museums in Serpa' (snippet)",
+      "rating": 4.0,
+      "review_count": 2,
+      "rating_snapshot": "4.0 / 2 reviews (seen only on list/nearby pages)",
+      "address": "Largo dos Condes de Ficalho, Vila Verde de Ficalho, Serpa 7830-451",
+      "description": "Museu em Vila Verde de Ficalho, no Largo dos Condes de Ficalho, listado pelo Tripadvisor como museu temático.",
+      "sources": [
+        "https://www.tripadvisor.com/Attractions-g189109-Activities-c49-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/AttractionsNear-g189109-d7225303-Igreja_de_Santa_Maria-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Own listing URL/d-number not found. Located in Vila Verde de Ficalho (which has its own TripAdvisor geo g3226139) but filed under Serpa."
+    },
+    {
+      "name": "Convento de Santo António",
+      "ta_url": null,
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Convento",
+      "rank": null,
+      "rating": null,
+      "review_count": null,
+      "rating_snapshot": "Seen only as a location entry ('Convento de Santo António, Serpa 7830-436') on a TripAdvisor nearby-attractions page; no rating shown",
+      "address": "Serpa 7830-436",
+      "description": "Antigo convento franciscano, também designado Convento de São Francisco, mandado erguer em 1463 pelo Infante D. Fernando, cujas dependências funcionam hoje como lar segundo o SIPA.",
+      "sources": [
+        "https://www.tripadvisor.com/AttractionsNear-g189109-d7225303-Igreja_de_Santa_Maria-Serpa_Beja_District_Alentejo.html",
+        "http://www.monumentos.gov.pt/Site/APP_PagesUser/SIPA.aspx?id=549"
+      ],
+      "confidence": "confirmed",
+      "notes": "Probably the same complex as the 'Igreja de São Francisco' listing (SIPA treats them as one record). Could not confirm whether TripAdvisor has a separate listing page."
+    },
+    {
+      "name": "Palácio dos Condes de Ficalho",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g3226139-d7225587-Reviews-Palacio_dos_Condes_de_Ficalho-Vila_Verde_de_Ficalho_Beja_District_Alentejo.html",
+      "ta_geo": "g3226139 (Vila Verde de Ficalho)",
+      "type": "Palácio",
+      "rank": "#1 of 3 things to do in Vila Verde de Ficalho",
+      "rating": null,
+      "review_count": null,
+      "rating_snapshot": "No rating found in results",
+      "address": null,
+      "description": "Palácio adossado às muralhas de Serpa, iniciado no final do século XVI e remodelado no século XVII, abastecido de água pelo aqueduto e classificado como Monumento Nacional em 2007.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g3226139-d7225587-Reviews-Palacio_dos_Condes_de_Ficalho-Vila_Verde_de_Ficalho_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attractions-g3226139-Activities-Vila_Verde_de_Ficalho_Beja_District_Alentejo.html",
+        "https://diariodarepublica.pt/dr/detalhe/decreto/6-2007-519384",
+        "https://europeangardens.eu/inventories/pt/PTIEJP_Alentejo.xml/ead/PTIEJP_Alentejo_J4.pdf",
+        "https://www.infopedia.pt/artigos/$castelo-de-serpa"
+      ],
+      "confidence": "confirmed",
+      "notes": "Misfiled: TripAdvisor lists it under Vila Verde de Ficalho, but the palace is in Serpa town (attached to the walls, supplied by the aqueduct). A TripAdvisor reviewer reported the Vila Verde de Ficalho council said the listing was wrong. Also called Palácio dos Melos / Solar dos Marqueses de Ficalho. Dating differs: the 2007 decree says begun late 16th c. and remodelled in the 17th c.; a 2024 study says it grew from a 15th-century building."
+    },
+    {
+      "name": "Igreja de São Jorge",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g3226139-d7225877-Reviews-Igreja_de_Sao_Jorge-Vila_Verde_de_Ficalho_Beja_District_Alentejo.html",
+      "ta_geo": "g3226139 (Vila Verde de Ficalho)",
+      "type": "Igreja (Churches & Cathedrals)",
+      "rank": "#2 of 3 things to do in Vila Verde de Ficalho",
+      "rating": 3.0,
+      "review_count": 1,
+      "rating_snapshot": "3.0 / 1 review",
+      "address": "Av. das Forcas Armadas, Vila Verde de Ficalho 7830-599",
+      "description": "Igreja de Vila Verde de Ficalho, na Avenida das Forças Armadas, onde se realizam festividades religiosas em agosto, segundo o único comentário no Tripadvisor.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g3226139-d7225877-Reviews-Igreja_de_Sao_Jorge-Vila_Verde_de_Ficalho_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attractions-g3226139-Activities-Vila_Verde_de_Ficalho_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed"
+    },
+    {
+      "name": "Ermida de Nossa Senhora das Pazes",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g3226139-d7225882-Reviews-Ermida_de_Nossa_Senhora_das_Pazes-Vila_Verde_de_Ficalho_Beja_District_Alentejo.html",
+      "ta_geo": "g3226139 (Vila Verde de Ficalho)",
+      "type": "Ermida (Points of Interest & Landmarks)",
+      "rank": "N.º 3 de 3 atividades em Vila Verde de Ficalho",
+      "rating": null,
+      "review_count": 0,
+      "rating_snapshot": "No reviews yet",
+      "address": "Sítio de Nossa Senhora das Pazes, Vila Verde de Ficalho 7830",
+      "description": "Ermida no sítio de Nossa Senhora das Pazes, em Vila Verde de Ficalho, referida na página de património da Câmara Municipal de Serpa.",
+      "sources": [
+        "https://www.tripadvisor.pt/Attraction_Review-g3226139-d7225882-Reviews-Ermida_de_Nossa_Senhora_das_Pazes-Vila_Verde_de_Ficalho_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attractions-g3226139-Activities-Vila_Verde_de_Ficalho_Beja_District_Alentejo.html",
+        "https://www.cm-serpa.pt/pt/menu/597/patrimonio.aspx"
+      ],
+      "confidence": "confirmed"
+    },
+    {
+      "name": "Família Margaça",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g652076-d11833086-Reviews-Familia_Margaca-Pias_Beja_District_Alentejo.html",
+      "ta_geo": "g652076 (Pias)",
+      "type": "Adega (Wineries & Vineyards)",
+      "rank": "#1 of 3 things to do in Pias",
+      "rating": 4.9,
+      "review_count": 7,
+      "rating_snapshot": "4.9 / 7 reviews",
+      "address": "Pias (adega na vila; vinhas a 3 km a norte)",
+      "description": "Adega familiar de Pias fundada na década de 1970, com visita à adega e ao museu e prova de vinhos de uvas da zona, incluindo vinho de talha.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g652076-d11833086-Reviews-Familia_Margaca-Pias_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attractions-g652076-Activities-Pias_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Company name given as Margaça Wines - Sociedade Agrícola de Pias S.A."
+    },
+    {
+      "name": "Torre do Relógio de Pias",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g652076-d13854114-Reviews-Torre_do_Relogio_de_Pias-Pias_Beja_District_Alentejo.html",
+      "ta_geo": "g652076 (Pias)",
+      "type": "Torre do relógio",
+      "rank": "#2 of 3 things to do in Pias",
+      "rating": 4.0,
+      "review_count": 2,
+      "rating_snapshot": "4.0 / 2 reviews",
+      "address": "Largo Nuno Álvares, Pias",
+      "description": "Torre do relógio no Largo Nuno Álvares, em Pias, descrita em comentários no Tripadvisor como a única parte concluída de uma igreja que não chegou a ser terminada.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g652076-d13854114-Reviews-Torre_do_Relogio_de_Pias-Pias_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attractions-g652076-Activities-Pias_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed"
+    },
+    {
+      "name": "Igreja de Santa Luzia / Igreja Matriz de Pias",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g652076-d13854115-Reviews-Igreja_de_Santa_Luzia_Igreja_Matriz_de_Pias-Pias_Beja_District_Alentejo.html",
+      "ta_geo": "g652076 (Pias)",
+      "type": "Igreja matriz",
+      "rank": "#3 of 3 things to do in Pias",
+      "rating": null,
+      "review_count": null,
+      "rating_snapshot": "No ratings or reviews shown",
+      "address": "Largo de Santo António, Pias 7830-206",
+      "description": "Igreja matriz de Pias, dedicada a Santa Luzia, no Largo de Santo António.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g652076-d13854115-Reviews-Igreja_de_Santa_Luzia_Igreja_Matriz_de_Pias-Pias_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attractions-g652076-Activities-Pias_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Not the same as the Ermida de Santa Luzia (d7225789) on the Pias-Moura road."
+    },
+    {
+      "name": "Pulo do Lobo",
+      "ta_url": "https://www.tripadvisor.com/Attraction_Review-g1068892-d3179938-Reviews-Pulo_do_Lobo-Mertola_Beja_District_Alentejo.html",
+      "ta_geo": "g1068892 (Mertola)",
+      "type": "Queda de água (Nature & Parks)",
+      "rank": "#2 of 28 things to do in Mertola",
+      "rating": 4.4,
+      "review_count": 359,
+      "rating_snapshot": "4.4 / about 359 reviews",
+      "address": null,
+      "description": "Queda de água do rio Guadiana cerca de 17 km a norte de Mértola, no Parque Natural do Vale do Guadiana.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g1068892-d3179938-Reviews-Pulo_do_Lobo-Mertola_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Listed by TripAdvisor under Mértola, not Serpa. 'Hotel Pulo do Lobo' (d6161590) in the Serpa geo is a hotel, not this site."
+    },
+    {
+      "name": "Casa do Cante",
+      "ta_url": null,
+      "ta_geo": null,
+      "type": "Espaço cultural (cante alentejano)",
+      "rank": null,
+      "rating": null,
+      "review_count": null,
+      "rating_snapshot": null,
+      "address": "Rua dos Cavalos, 12 (Turismo do Alentejo)",
+      "description": "Espaço dedicado ao cante alentejano na Rua dos Cavalos, n.º 12, segundo o catálogo do Turismo do Alentejo.",
+      "sources": [
+        "https://www.visitalentejo.pt/en/catalogue/what-to-do/museums-and-places-to-visit/casa-do-cante/"
+      ],
+      "confidence": "other-source-only",
+      "notes": "No TripAdvisor listing found. The Turismo do Alentejo snippet did not name the town explicitly; it was returned for a Serpa-restricted query."
+    },
+    {
+      "name": "Tradiserpa (queijaria)",
+      "ta_url": null,
+      "ta_geo": null,
+      "type": "Queijaria",
+      "rank": null,
+      "rating": null,
+      "review_count": null,
+      "rating_snapshot": null,
+      "address": "Rua dos Canes, 6, 7830 Serpa (as quoted in a TripAdvisor review)",
+      "description": "Queijaria na Rua dos Canes, n.º 6, em Serpa, recomendada num comentário do Tripadvisor para a compra de queijo artesanal.",
+      "sources": [
+        "https://www.tripadvisor.com/Attraction_Review-g189109-d7225310-Reviews-Muralhas_de_Serpa-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Attractions-g189109-Activities-zft11292-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "other-source-only",
+      "notes": "Only mentioned inside a review of Muralhas de Serpa; no own TripAdvisor listing found."
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Restaurante Molho Bico",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d1948580-Reviews-Restaurante_Molho_Bico-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Restaurante",
+      "rank": "#1 of 33 restaurants in Serpa (other snapshots: #1 of 35, #1 of 23)",
+      "rating": 4.4,
+      "review_count": 754,
+      "rating_snapshot": "4.4 / 753-754 reviews on 2026 pages; earlier 4.5 / 739-743; Travellers' Choice 2025",
+      "cuisine": "Mediterranean, European",
+      "price": "$$ - $$$",
+      "address": "Rua Quente 1, Serpa 7830-369",
+      "description": "Restaurante de cozinha tradicional alentejana instalado numa antiga adega na Rua Quente.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g189109-d1948580-Reviews-Restaurante_Molho_Bico-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g189109-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g189109-zfp58-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/RestaurantsNear-g189109-d4600583-Castelo_de_Serpa-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "name_variants": [
+        "Molhó Bico"
+      ],
+      "notes": "Several 2025-2026 reviews are negative (reheated/burnt dishes, slow service). Pedestrian-only access."
+    },
+    {
+      "name": "O Alentejano",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d3169950-Reviews-O_Alentejano-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Restaurante",
+      "rank": "#2 of 35 restaurants in Serpa (older: #2 of 23)",
+      "rating": 4.4,
+      "review_count": 346,
+      "rating_snapshot": "4.4 / 337-346 reviews across snapshots",
+      "cuisine": "Mediterranean, European",
+      "price": "$$ - $$$",
+      "address": "Praça da República 15, Serpa 7830-389",
+      "description": "Restaurante de cozinha alentejana na Praça da República, com pratos de borrego e de porco.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g189109-d3169950-Reviews-O_Alentejano-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g189109-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/RestaurantsNear-g189109-d7225298-Museu_Etnografico_de_Serpa-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Listing shows closed Sundays and Mondays."
+    },
+    {
+      "name": "O Engrola",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d7002699-Reviews-O_Engrola-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Restaurante",
+      "rank": "#3 of 35 restaurants in Serpa",
+      "rating": 4.5,
+      "review_count": 86,
+      "rating_snapshot": "4.5 / 84-86 reviews",
+      "cuisine": "European, Portuguese",
+      "price": "$",
+      "address": "Rua dos Baloucos 1, Serpa",
+      "description": "Restaurante pequeno de comida caseira alentejana, com ementa que varia conforme os produtos do dia, como a açorda de bacalhau.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g189109-d7002699-Reviews-O_Engrola-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g189109-zfp16-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g189109-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Listing shows closed on Sundays."
+    },
+    {
+      "name": "Cervejaria Lebrinha",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d7772524-Reviews-Cervejaria_Lebrinha-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Cervejaria / restaurante",
+      "rank": "#4 of 35 restaurants in Serpa",
+      "rating": 4.1,
+      "review_count": 183,
+      "rating_snapshot": "4.1 / 183 reviews (2026); older .co.uk snapshot 4.0 / 158",
+      "cuisine": "European, Portuguese",
+      "price": "$$ - $$$",
+      "address": "Rua do Calvario 6-8, Serpa",
+      "description": "Cervejaria na Rua do Calvário que serve cerveja à pressão e pratos alentejanos como migas e ensopado de borrego.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g189109-d7772524-Reviews-Cervejaria_Lebrinha-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g189109-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g189109-zfp30-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Listing shows open until 2:00, closed Tuesday. Recent (late 2025-2026) reviews report a drop in quality."
+    },
+    {
+      "name": "Restaurante Marisqueira A Piscina",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d5037275-Reviews-Restaurante_Marisqueira_A_Piscina-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Restaurante / marisqueira",
+      "rank": "#5 of 32 restaurants in Serpa (one snapshot); 8th on the 10-best list",
+      "rating": 4.0,
+      "review_count": 81,
+      "rating_snapshot": "4.0 / 81 reviews (2026); other versions 4.1 / 74, 78, 79",
+      "cuisine": "Seafood, Mediterranean, Portuguese",
+      "price": "$$ - $$$",
+      "address": "Rua do Parque de Campismo, Eira de São Pedro, Serpa",
+      "description": "Restaurante e marisqueira junto ao parque de campismo municipal, com marisco e grelhados.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g189109-d5037275-Reviews-Restaurante_Marisqueira_A_Piscina-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g189109-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/RestaurantsNear-g189109-d1957345-Vale_De_Milhanos-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed"
+    },
+    {
+      "name": "Casa Paixao",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d7312333-Reviews-Casa_Paixao-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Fábrica de queijadas / café",
+      "rank": "#6 of 20 restaurants in Serpa (other snapshots: #8 of 35, #8 of 23)",
+      "rating": 4.7,
+      "review_count": 32,
+      "rating_snapshot": "4.7 / 32 reviews (.com); .co.uk shows 4.5",
+      "cuisine": "European, Portuguese",
+      "price": "$$ - $$$",
+      "address": "Rua de Sevilha Nº18 E 22, Serpa 7830-345 (another version: Praça da República, Serpa 7830-389)",
+      "description": "Fábrica de queijadas de Serpa desde 1977, com serviço de café e pequeno-almoço na Rua de Sevilha.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g189109-d7312333-Reviews-Casa_Paixao-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.pt/ShowUserReviews-g189109-d7312333-r367545237-Casa_Paixao-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.pt/Restaurants-g189109-zfp2-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "name_variants": [
+        "Casa Paixão"
+      ],
+      "notes": "Snapshot hours: weekdays 7:00-13:00, closed Saturday and Sunday."
+    },
+    {
+      "name": "Pizzaria Serpense",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d7763925-Reviews-Pizzaria_Serpense-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Pizzaria",
+      "rank": "#7 of 20 restaurants in Serpa (another snapshot: #11 of 23)",
+      "rating": 4.1,
+      "review_count": 26,
+      "rating_snapshot": "Snapshots disagree: 4.1 / 26, 4.3 / 23, 4.4 / 24, 4.5 / 21",
+      "cuisine": "Italian, Pizza",
+      "price": "$$ - $$$",
+      "address": "Rua Doutor Luis de Almeida e Albuquerque, Serpa 7830-457",
+      "description": "Pizzaria na Rua Doutor Luís de Almeida e Albuquerque com serviço de take-away e entrega ao domicílio.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g189109-d7763925-Reviews-Pizzaria_Serpense-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g189109-c31-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g189109-zfp58-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed"
+    },
+    {
+      "name": "Pedra De Sal Restaurante - Serpa - Portugal",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d27219455-Reviews-Pedra_De_Sal_Restaurante_Serpa_Portugal-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Restaurante",
+      "rank": "#8 of 21 restaurants in Serpa (a later list shows it 7th)",
+      "rating": 4.9,
+      "review_count": 11,
+      "rating_snapshot": "4.9 / 11 reviews on later lists; listing page 5.0 / 7",
+      "cuisine": "European",
+      "price": "$$ - $$$",
+      "address": "Estrada da Circunvalação, Serpa",
+      "description": "Restaurante na Estrada da Circunvalação cujos comentários destacam migas e carnes grelhadas.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g189109-d27219455-Reviews-Pedra_De_Sal_Restaurante_Serpa_Portugal-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/RestaurantsNear-g189109-d7225298-Museu_Etnografico_de_Serpa-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/RestaurantsNear-g189109-d1957345-Vale_De_Milhanos-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "name_variants": [
+        "Pedra de Sal"
+      ]
+    },
+    {
+      "name": "Taberna Velhinha",
+      "ta_url": "https://www.tripadvisor.pt/Restaurant_Review-g189109-d34196340-Reviews-Taberna_Velhinha-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Taberna / restaurante",
+      "rank": "N.º 15 de 22 restaurantes em Serpa (tripadvisor.pt); 4th-5th on several English lists",
+      "rating": 5.0,
+      "review_count": 18,
+      "rating_snapshot": "5.0 / 18 reviews on English lists (other counts seen: 15, 3, and 1 on the .pt page)",
+      "cuisine": "Mediterranean, European",
+      "price": "$$ - $$$",
+      "address": "Largo Santos Proculo e Hilariao 5, Serpa",
+      "description": "Taberna no Largo dos Santos Próculo e Hilarião, com esplanada e cozinha mediterrânica e europeia.",
+      "sources": [
+        "https://www.tripadvisor.pt/Restaurant_Review-g189109-d34196340-Reviews-Taberna_Velhinha-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g189109-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/RestaurantsNear-g189109-d4600583-Castelo_de_Serpa-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Listing shows closed on Wednesdays; takeout and outdoor seating."
+    },
+    {
+      "name": "A Mondadeira - Restaurante",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d34328744-Reviews-A_Mondadeira_Restaurante-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Restaurante (grelhados)",
+      "rank": "#9 of 35 restaurants in Serpa (one snippet); 6th on the 10-best list",
+      "rating": 4.6,
+      "review_count": 8,
+      "rating_snapshot": "4.6 / 8 reviews (2026); older 4.4 / 5",
+      "cuisine": "European, Grill",
+      "price": "$$ - $$$",
+      "address": "Rua Doutor Ramon Norato de La Féria 24, Serpa 7830-370",
+      "description": "Restaurante de grelhados na Rua Doutor Ramon Norato de La Féria, com carnes como porco preto.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g189109-d34328744-Reviews-A_Mondadeira_Restaurante-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g189109-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/RestaurantsNear-g189109-d7225355-Ermida_de_Nossa_Senhora_de_Guadalupe-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Same street address as 'Tintol e Petiscos Serpa' (d23769412) - likely a successor at the same premises (not confirmed)."
+    },
+    {
+      "name": "Café O Paciências",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d7252110-Reviews-Cafe_O_Paciencias-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Café",
+      "rank": "#10 of 21 restaurants in Serpa (also shown as #10 of 33)",
+      "rating": 3.7,
+      "review_count": 35,
+      "rating_snapshot": "3.7 / 35 reviews",
+      "cuisine": "European, Portuguese",
+      "price": "$",
+      "address": "Praça da República, 10, Serpa",
+      "description": "Café com esplanada na Praça da República que serve pratos alentejanos.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g189109-d7252110-Reviews-Cafe_O_Paciencias-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g189109-zfp16-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.pt/Restaurants-g189109-zfp2-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed"
+    },
+    {
+      "name": "Café Sevilha",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d27186927-Reviews-Cafe_Sevilha-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Café",
+      "rank": "#11 of 21 restaurants in Serpa",
+      "rating": 4.7,
+      "review_count": 3,
+      "rating_snapshot": "4.7 / 3 reviews",
+      "cuisine": "Cafe",
+      "price": null,
+      "address": "Rua de Sevilha 38, Serpa",
+      "description": "Café na Rua de Sevilha que serve cerveja à pressão, pastelaria caseira e febras.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g189109-d27186927-Reviews-Cafe_Sevilha-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g189109-c8-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed"
+    },
+    {
+      "name": "Arrozinho de Feijão",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d8644310-Reviews-Arrozinho_de_Feijao-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Restaurante",
+      "rank": "#12 of 19 restaurants in Serpa (listing page)",
+      "rating": 3.8,
+      "review_count": 19,
+      "rating_snapshot": "3.8 / 19 reviews on category lists; listing page 4.1 / 17 (latest review there Aug 2023)",
+      "cuisine": "Portuguese, European",
+      "price": "$$ - $$$",
+      "address": "Loteamento da Cruz Nova, 112, Serpa 7830-479",
+      "description": "Restaurante de cozinha portuguesa no Loteamento da Cruz Nova.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g189109-d8644310-Reviews-Arrozinho_de_Feijao-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g189109-zfp30-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g189109-zfp58-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Same phone number (+351 284 543 120) as 'Taberna da Cruz Nova' (d27186928) - possible rename/duplicate."
+    },
+    {
+      "name": "TAPAS.COMe",
+      "ta_url": "https://www.tripadvisor.pt/Restaurant_Review-g189109-d27186924-Reviews-TAPAS_COMe-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Tapas / petiscos",
+      "rank": "N.º 13 de 33 restaurantes em Serpa",
+      "rating": 4.5,
+      "review_count": 2,
+      "rating_snapshot": "4.5 / 2 reviews",
+      "cuisine": null,
+      "price": "$",
+      "address": "Praceta Dona Maria do Carmo Horta Barroso 19, Serpa 7830-059",
+      "description": "Casa de tapas e petiscos na Praceta Dona Maria do Carmo Horta Barroso, n.º 19.",
+      "sources": [
+        "https://www.tripadvisor.pt/Restaurant_Review-g189109-d27186924-Reviews-TAPAS_COMe-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g189109-zfp16-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "TripAdvisor places the Museu de Vila Nova de S. Bento on the same praceta, so this is probably in Vila Nova de São Bento rather than Serpa town (inference)."
+    },
+    {
+      "name": "Tasca Da Praça",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d20970226-Reviews-Tasca_Da_Praca-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Tasca / café",
+      "rank": "#19 of 23 restaurants in Serpa (also #19 of 35)",
+      "rating": 5.0,
+      "review_count": 2,
+      "rating_snapshot": "5.0 / 2 reviews",
+      "cuisine": "Cafe, Dining bars",
+      "price": null,
+      "address": "Praça Da Republica, Serpa 7830-389",
+      "description": "Tasca e café na Praça da República que serve petiscos como torresmos e bacalhau à tasca.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g189109-d20970226-Reviews-Tasca_Da_Praca-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g189109-zfp10606-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.pt/Restaurants-g189109-zfp2-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Listing hours 10:00-24:00."
+    },
+    {
+      "name": "Clube De Tiro Dona Brites",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d28018468-Reviews-Clube_De_Tiro_Dona_Brites-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Restaurante (clube de tiro)",
+      "rank": "#15 of 21 restaurants in Serpa",
+      "rating": 5.0,
+      "review_count": 1,
+      "rating_snapshot": "5.0 / 1 review (Oct 2025)",
+      "cuisine": "European, Portuguese",
+      "price": "$$ - $$$",
+      "address": "campo de tiro Dona Brites EN 255, Serpa 7830",
+      "description": "Restaurante do campo de tiro Dona Brites, junto à EN 255, com pratos de bacalhau e petiscos de queijo e chouriço.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g189109-d28018468-Reviews-Clube_De_Tiro_Dona_Brites-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "name_variants": [
+        "Dona Brites"
+      ],
+      "notes": "Outside Serpa town on the EN 255. Listing: opens 10:00 Wed-Sun, closed Mon-Tue."
+    },
+    {
+      "name": "O Café Do Jardim",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d25282535-Reviews-O_Cafe_Do_Jardim-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Café",
+      "rank": "#18 of 21 restaurants in Serpa (also #18 of 33)",
+      "rating": 5.0,
+      "review_count": 1,
+      "rating_snapshot": "5.0 / 1 review (Dec 2023)",
+      "cuisine": "Cafe, European, Healthy, Portuguese",
+      "price": null,
+      "address": "Alameda Abade Coreia da Serra, Serpa 7830-360",
+      "description": "Café na Alameda Abade Correia da Serra que, segundo o único comentário no Tripadvisor, serve comida vegetariana caseira.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g189109-d25282535-Reviews-O_Cafe_Do_Jardim-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.pt/Restaurants-g189109-zfp2-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Listing hours 9:00-18:00, closed Monday."
+    },
+    {
+      "name": "Jardim Lounge",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d15003291-Reviews-Jardim_Lounge-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Bar-café",
+      "rank": "#14 of 22 restaurants in Serpa (.com); #12 of 17 (.co.uk); also #17 of 23 / #17 of 35",
+      "rating": 4.1,
+      "review_count": 7,
+      "rating_snapshot": "4.1 / 7 reviews (.co.uk shows 4.0)",
+      "cuisine": "Bar, Cafe",
+      "price": "$",
+      "address": "Alameda Albade Correia Da Serra, Serpa",
+      "description": "Bar-café no Jardim Municipal de Serpa que serve pequenos-almoços, almoços e refeições ligeiras como hambúrgueres, wraps e bifanas.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g189109-d15003291-Reviews-Jardim_Lounge-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g189109-zfp16-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g189109-zfp10606-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed"
+    },
+    {
+      "name": "O Nay",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d9562030-Reviews-O_Nay-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Restaurante",
+      "rank": "#14 of 18 restaurants in Serpa (also #22 of 23, #22 of 35)",
+      "rating": 3.6,
+      "review_count": 17,
+      "rating_snapshot": "3.6 / 17 reviews (one version 3.5)",
+      "cuisine": "European, Portuguese",
+      "price": "$$ - $$$",
+      "address": "Rua de Santo Antonio 10, Serpa",
+      "description": "Restaurante de comida caseira portuguesa na Rua de Santo António.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g189109-d9562030-Reviews-O_Nay-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g189109-zfp58-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed"
+    },
+    {
+      "name": "Tintol e Petiscos Serpa",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d23769412-Reviews-Tintol_e_Petiscos_Serpa-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Restaurante / petiscos",
+      "rank": "#16 of 29 restaurants in Serpa (also #23 of 35)",
+      "rating": 2.0,
+      "review_count": 2,
+      "rating_snapshot": "2.0 / 2 reviews (most detailed review Apr 2022)",
+      "cuisine": null,
+      "price": null,
+      "address": "R. Dr. Ramon Norato La Féria, 24, Serpa",
+      "description": "Restaurante de petiscos na Rua Dr. Ramon Norato La Féria, n.º 24, a mesma morada atribuída pelo Tripadvisor a A Mondadeira.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g189109-d23769412-Reviews-Tintol_e_Petiscos_Serpa-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "name_variants": [
+        "Tintol e Petiscos"
+      ],
+      "notes": "Probably superseded by A Mondadeira at the same address (not confirmed)."
+    },
+    {
+      "name": "Taberna a Muralha",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d13952310-Reviews-Taberna_a_Muralha-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Taberna",
+      "rank": "#16 of 17 restaurants in Serpa (another version #15 of 16)",
+      "rating": 4.0,
+      "review_count": 1,
+      "rating_snapshot": "4.0 / 1 review (Jun 2018)",
+      "cuisine": null,
+      "price": null,
+      "address": "Rua Lagares, 16, Serpa",
+      "description": "Taberna na Rua Lagares, n.º 16, com uma única avaliação (2018) no Tripadvisor.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g189109-d13952310-Reviews-Taberna_a_Muralha-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Current status unknown."
+    },
+    {
+      "name": "Queijaria Pato",
+      "ta_url": null,
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Queijaria (listada como restaurante)",
+      "rank": "25th position on the Restaurants in Serpa list (of 35)",
+      "rating": null,
+      "review_count": 0,
+      "rating_snapshot": "0 reviews",
+      "cuisine": "European, Portuguese",
+      "price": "$$ - $$$",
+      "address": null,
+      "description": "Queijaria listada pelo Tripadvisor na secção de restaurantes de Serpa, sem avaliações.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurants-g189109-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.co.uk/Restaurants-g189109-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Own listing URL/d-number not found; no other source found."
+    },
+    {
+      "name": "Restaurante Tradicao Serpa",
+      "ta_url": "https://www.tripadvisor.com/LocationPhotoDirectLink-g189109-d4211676-i67999788-Restaurante_Tradicao_Serpa-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Restaurante",
+      "rank": null,
+      "rating": null,
+      "review_count": 66,
+      "rating_snapshot": "Only seen as a photo page (d4211676) and as a 'related listing' link on a Molho Bico review page showing 66 reviews; no rating visible",
+      "cuisine": null,
+      "price": null,
+      "address": null,
+      "description": "Restaurante de Serpa com página no Tripadvisor, cuja morada e estado atual não constam dos resultados consultados.",
+      "sources": [
+        "https://www.tripadvisor.com/LocationPhotoDirectLink-g189109-d4211676-i67999788-Restaurante_Tradicao_Serpa-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/ShowUserReviews-g189109-d1948580-r131568479-Restaurante_Molho_Bico-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "name_variants": [
+        "A Tradição"
+      ],
+      "notes": "Probably the 'A Tradição' you listed; it does not appear on current ranking pages, so it may be closed (not confirmed)."
+    },
+    {
+      "name": "Restaurante Terra Forte",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d12686245-Reviews-Restaurante_Terra_Forte-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Restaurante",
+      "rank": "#15 of 23 restaurants in Serpa (other versions #11 of 18, #14 of 23)",
+      "rating": 4.0,
+      "review_count": 5,
+      "rating_snapshot": "4.0 / 5 reviews (2019-2023)",
+      "cuisine": null,
+      "price": null,
+      "address": "Entrada de Serpa, Serpa 7830",
+      "description": "Restaurante à entrada de Serpa, na estrada de Beja, com pratos regionais como javali.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g189109-d12686245-Reviews-Restaurante_Terra_Forte-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed"
+    },
+    {
+      "name": "San Marino Pizzaria",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d33226372-Reviews-San_Marino_Pizzaria-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Pizzaria",
+      "rank": "#20 of 21 restaurants in Serpa",
+      "rating": 4.5,
+      "review_count": 2,
+      "rating_snapshot": "4.5 / 2 reviews on ranking pages; listing page 4.0 / 1 (Aug 2025)",
+      "cuisine": "European, Portuguese (as listed)",
+      "price": null,
+      "address": "Rua Francisco Relógio 24, Serpa",
+      "description": "Pizzaria na Rua Francisco Relógio, n.º 24.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g189109-d33226372-Reviews-San_Marino_Pizzaria-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g189109-c31-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Same phone number (+351 964 795 051) as 'Casa Benfica' (d15014925). Listing: closed Tuesday and Wednesday."
+    },
+    {
+      "name": "Casa Benfica",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d15014925-Reviews-Casa_do_Benfica_Restaurante-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Restaurante",
+      "rank": "#11 of 19 restaurants in Serpa (also #11 of 17)",
+      "rating": 5.0,
+      "review_count": 5,
+      "rating_snapshot": "5.0 / 5 reviews",
+      "cuisine": "Brazilian, European, Portuguese, South American, Italian",
+      "price": "$2 - $20",
+      "address": "Rua Manuel José Pardal Romão 32, Serpa",
+      "description": "Restaurante na Rua Manuel José Pardal Romão, n.º 32, com cozinha portuguesa, brasileira e italiana.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g189109-d15014925-Reviews-Casa_do_Benfica_Restaurante-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.co.uk/Restaurant_Review-g189109-d15014925-Reviews-Casa_Benfica-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "name_variants": [
+        "Casa do Benfica Restaurante"
+      ],
+      "notes": "The tripadvisor.co.uk version is marked CLOSED while the .com version showed 'open now'. Shares a phone number with San Marino Pizzaria."
+    },
+    {
+      "name": "A Herdade",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d27206743-Reviews-A_Herdade-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Restaurante",
+      "rank": "about 28th-29th position on Serpa restaurant lists",
+      "rating": null,
+      "review_count": 0,
+      "rating_snapshot": "0 reviews (one snippet shows 4.5 from 2 ratings)",
+      "cuisine": null,
+      "price": null,
+      "address": "Avenida da Paz 17, Serpa",
+      "description": "Restaurante na Avenida da Paz, n.º 17, sem avaliações escritas no Tripadvisor.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g189109-d27206743-Reviews-A_Herdade-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/RestaurantsNear-g189109-d7225298-Museu_Etnografico_de_Serpa-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed"
+    },
+    {
+      "name": "Taberna da Cruz Nova",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d27186928-Reviews-Taberna_da_Cruz_Nova-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Taberna",
+      "rank": "#24 on the tripadvisor.co.uk Serpa list (25th-27th on 'near' lists)",
+      "rating": null,
+      "review_count": 0,
+      "rating_snapshot": "0 reviews (the .pt page also shows 4.3 from 27 ratings - inconsistent)",
+      "cuisine": "European, Portuguese",
+      "price": "$$ - $$$",
+      "address": "Largo da Cruz Nova, Serpa",
+      "description": "Taberna no Largo da Cruz Nova, sem avaliações escritas no Tripadvisor.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g189109-d27186928-Reviews-Taberna_da_Cruz_Nova-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.pt/Restaurant_Review-g189109-d27186928-Reviews-Taberna_da_Cruz_Nova-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.co.uk/Restaurants-g189109-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Same phone number as Arrozinho de Feijão - possible rename/duplicate."
+    },
+    {
+      "name": "Café Restaurante Agostinho",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d10734433-Reviews-Cafe_Restaurante_Agostinho-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Café-restaurante",
+      "rank": "#9 of 29 restaurants in Serpa (also #10 of 35)",
+      "rating": 4.4,
+      "review_count": 16,
+      "rating_snapshot": "4.4 / 15-16 reviews; older version 4.5 / 14",
+      "cuisine": "Portuguese, European (some lists: Mediterranean)",
+      "price": "$$ - $$$",
+      "address": "Vale do Poço, Serpa",
+      "description": "Café-restaurante em Vale do Poço, na estrada entre Serpa e Mértola, com pratos alentejanos, peixe e grelhados.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g189109-d10734433-Reviews-Cafe_Restaurante_Agostinho-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g189109-zfp30-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/RestaurantsNear-g189109-d1957345-Vale_De_Milhanos-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "In the village of Vale do Poço, not Serpa town."
+    },
+    {
+      "name": "Sociedade recriativa de vales mortos",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d26396574-Reviews-Sociedade_recriativa_de_vales_mortos-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Sociedade recreativa / café",
+      "rank": "16th on the Serpa dinner list",
+      "rating": null,
+      "review_count": 0,
+      "rating_snapshot": "0 reviews",
+      "cuisine": "European, Portuguese",
+      "price": null,
+      "address": "Rua Quirino Mealha, Vales Mortos, Serpa 7830-496",
+      "description": "Sociedade recreativa da aldeia de Vales Mortos com serviço de pequeno-almoço, almoço e jantar.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g189109-d26396574-Reviews-Sociedade_recriativa_de_vales_mortos-Serpa_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g189109-zfp58-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "In the village of Vales Mortos. Listing hours 7:30-24:00, closed Monday."
+    },
+    {
+      "name": "Snack Bar Cabe Mais Um",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d27186925-Reviews-Snack_Bar_Cabe_Mais_Um-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Snack-bar",
+      "rank": null,
+      "rating": null,
+      "review_count": 0,
+      "rating_snapshot": "No reviews; unclaimed",
+      "cuisine": null,
+      "price": null,
+      "address": "Rua de São Bento 57A, Serpa 7830-071",
+      "description": "Snack-bar na Rua de São Bento, n.º 57A, sem avaliações no Tripadvisor.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g189109-d27186925-Reviews-Snack_Bar_Cabe_Mais_Um-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed"
+    },
+    {
+      "name": "Restaurante O Gato",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g189109-d1986762-Reviews-Restaurante_O_Gato-Serpa_Beja_District_Alentejo.html",
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Restaurante (encerrado)",
+      "rank": null,
+      "rating": 4.5,
+      "review_count": 46,
+      "rating_snapshot": "4.5 / 46 reviews; page title reads 'Restaurante O Gato - CLOSED'; newest visible reviews 2019",
+      "cuisine": null,
+      "price": null,
+      "address": "Rua do Calvario 21, Serpa",
+      "description": "Restaurante familiar na Rua do Calvário, n.º 21, assinalado como encerrado no Tripadvisor.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g189109-d1986762-Reviews-Restaurante_O_Gato-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Marked CLOSED on TripAdvisor."
+    },
+    {
+      "name": "Chança (Serpa Hotel)",
+      "ta_url": null,
+      "ta_geo": "g189109 (Serpa)",
+      "type": "Restaurante de hotel",
+      "rank": null,
+      "rating": null,
+      "review_count": null,
+      "rating_snapshot": "No separate restaurant listing found; described in reviews on the Serpa Hotel page (hotel 4.3 / 22-27 reviews)",
+      "cuisine": null,
+      "price": null,
+      "address": null,
+      "description": "Restaurante do Serpa Hotel com ementa de cozinha alentejana e vinhos regionais, segundo comentários na página do hotel no Tripadvisor.",
+      "sources": [
+        "https://www.tripadvisor.com/Hotel_Review-g189109-d25325799-Reviews-Serpa_Hotel-Serpa_Beja_District_Alentejo.html"
+      ],
+      "confidence": "other-source-only",
+      "notes": "Only TripAdvisor hotel reviews mention it; no Restaurant_Review page seen."
+    },
+    {
+      "name": "Restaurante O Adro",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g652076-d4282815-Reviews-Restaurante_O_Adro-Pias_Beja_District_Alentejo.html",
+      "ta_geo": "g652076 (Pias)",
+      "type": "Restaurante",
+      "rank": "#1 of 4 restaurants in Pias",
+      "rating": 4.6,
+      "review_count": 340,
+      "rating_snapshot": "4.6 / 330-343 reviews across snapshots",
+      "cuisine": "Seafood, Mediterranean, European",
+      "price": "$$ - $$$",
+      "address": "Largo de Santo António, 20, Pias 7830-206",
+      "description": "Restaurante no Largo de Santo António, em Pias, com peixe, marisco e porco preto.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g652076-d4282815-Reviews-Restaurante_O_Adro-Pias_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g652076-Pias_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Tourism-g4545644-Aldeia_Nova_de_Sao_Bento_Beja_District_Alentejo-Vacations.html"
+      ],
+      "confidence": "confirmed",
+      "name_variants": [
+        "O Adro"
+      ],
+      "notes": "Listed under Pias (g652076), not Serpa. Listing: lunch and dinner Mon-Fri, lunch Sat, closed Sun."
+    },
+    {
+      "name": "Pedreira Restaurante & Cervejaria",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g652076-d24098186-Reviews-or30-Pedreira_Restaurante_Cervejaria-Pias_Beja_District_Alentejo.html",
+      "ta_geo": "g652076 (Pias)",
+      "type": "Restaurante / cervejaria",
+      "rank": null,
+      "rating": 4.9,
+      "review_count": 41,
+      "rating_snapshot": "4.9 / 41 reviews (other snapshots 32, 37, 40)",
+      "cuisine": "Mediterranean, European",
+      "price": "$$ - $$$",
+      "address": "Rua Dr. Sidónio Pais, 26, Pias 7830-235",
+      "description": "Restaurante e cervejaria na Rua Dr. Sidónio Pais, em Pias.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g652076-d24098186-Reviews-or30-Pedreira_Restaurante_Cervejaria-Pias_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g652076-Pias_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Listed under Pias."
+    },
+    {
+      "name": "Restaurante o Trindade",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g652076-d5959274-Reviews-Restaurante_o_Trindade-Pias_Beja_District_Alentejo.html",
+      "ta_geo": "g652076 (Pias)",
+      "type": "Restaurante",
+      "rank": "#3 of 4 restaurants in Pias",
+      "rating": 4.5,
+      "review_count": 78,
+      "rating_snapshot": "4.5 / 78 reviews (other snapshots 63, 75)",
+      "cuisine": "Mediterranean, European",
+      "price": "$$ - $$$",
+      "address": "Rua Doutor António Sérgio, Pias 7830",
+      "description": "Restaurante na Rua Doutor António Sérgio, em Pias, com açorda de marisco e porco preto.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g652076-d5959274-Reviews-Restaurante_o_Trindade-Pias_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g652076-Pias_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "name_variants": [
+        "Restaurante Trindade"
+      ],
+      "notes": "Listed under Pias. One version: closed Tuesday."
+    },
+    {
+      "name": "O Lagar",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g652076-d3573225-Reviews-O_Lagar-Pias_Beja_District_Alentejo.html",
+      "ta_geo": "g652076 (Pias)",
+      "type": "Restaurante",
+      "rank": "#4 of 4 restaurants in Pias",
+      "rating": 4.0,
+      "review_count": 21,
+      "rating_snapshot": "4.0 / 21 reviews",
+      "cuisine": "European, Portuguese",
+      "price": "$$ - $$$",
+      "address": "Estrada de Brinches 12 14, Pias 7830-230",
+      "description": "Restaurante de cozinha regional na Estrada de Brinches, em Pias, com pratos como carne de porco à alentejana.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g652076-d3573225-Reviews-O_Lagar-Pias_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g652076-Pias_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Listed under Pias. Listing: closed Monday and Tuesday."
+    },
+    {
+      "name": "Cafe Alves",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g3226139-d23918681-Reviews-Cafe_Alves-Vila_Verde_de_Ficalho_Beja_District_Alentejo.html",
+      "ta_geo": "g3226139 (Vila Verde de Ficalho)",
+      "type": "Café-restaurante",
+      "rank": "#1 of 4 restaurants in Vila Verde de Ficalho",
+      "rating": 5.0,
+      "review_count": 18,
+      "rating_snapshot": "5.0 / 18 reviews (older list 14)",
+      "cuisine": "Barbecue, Portuguese, Brazilian",
+      "price": "$$ - $$$",
+      "address": "1, Vila Verde de Ficalho 7830-655",
+      "description": "Café-restaurante em Vila Verde de Ficalho com grelhados e cozinha portuguesa e brasileira, como espetada madeirense e lulas grelhadas.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g3226139-d23918681-Reviews-Cafe_Alves-Vila_Verde_de_Ficalho_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g3226139-Vila_Verde_de_Ficalho_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed"
+    },
+    {
+      "name": "Restaurante Boa Vista",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g3226139-d5977848-Reviews-Restaurante_Boa_Vista-Vila_Verde_de_Ficalho_Beja_District_Alentejo.html",
+      "ta_geo": "g3226139 (Vila Verde de Ficalho)",
+      "type": "Restaurante",
+      "rank": "#2 of 4 restaurants in Vila Verde de Ficalho (another version #3 of 4)",
+      "rating": 3.6,
+      "review_count": 69,
+      "rating_snapshot": "3.6-3.7 / 68-72 reviews; Jul 2026 reviews report a change of management",
+      "cuisine": "Seafood, Mediterranean, Portuguese",
+      "price": null,
+      "address": "Estrada Internacional, Vila Verde de Ficalho 7830-644",
+      "description": "Restaurante na Estrada Internacional, em Vila Verde de Ficalho, perto da fronteira, com marisco e arroz de marisco.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g3226139-d5977848-Reviews-Restaurante_Boa_Vista-Vila_Verde_de_Ficalho_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Tourism-g3226139-Vila_Verde_de_Ficalho_Beja_District_Alentejo-Vacations.html"
+      ],
+      "confidence": "confirmed"
+    },
+    {
+      "name": "O Patrimonio",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g3226139-d8778051-Reviews-O_Patrimonio-Vila_Verde_de_Ficalho_Beja_District_Alentejo.html",
+      "ta_geo": "g3226139 (Vila Verde de Ficalho)",
+      "type": "Restaurante",
+      "rank": "#3 of 4 restaurants in Vila Verde de Ficalho",
+      "rating": 4.0,
+      "review_count": 36,
+      "rating_snapshot": "4.0 / 36-38 reviews",
+      "cuisine": "Mediterranean, European",
+      "price": "$$ - $$$",
+      "address": "Avenida das Forcas Armadas 10, Vila Verde de Ficalho",
+      "description": "Restaurante na Avenida das Forças Armadas, em Vila Verde de Ficalho, com pratos como bacalhau frito e costeletas de borrego e de vitela.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g3226139-d8778051-Reviews-O_Patrimonio-Vila_Verde_de_Ficalho_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g3226139-Vila_Verde_de_Ficalho_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed"
+    },
+    {
+      "name": "Restaurante Dimas",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g3226139-d11844049-Reviews-Restaurante_Dimas-Vila_Verde_de_Ficalho_Beja_District_Alentejo.html",
+      "ta_geo": "g3226139 (Vila Verde de Ficalho)",
+      "type": "Restaurante / café",
+      "rank": "#4 of 4 restaurants in Vila Verde de Ficalho",
+      "rating": 4.1,
+      "review_count": 8,
+      "rating_snapshot": "4.1 / 8 reviews (newest seen May 2024)",
+      "cuisine": "European, Portuguese",
+      "price": null,
+      "address": "Rua Forças Armadas, s/n, Vila Verde de Ficalho",
+      "description": "Restaurante e café na Rua Forças Armadas, em Vila Verde de Ficalho, que serve pequenos-almoços e cozinha alentejana.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g3226139-d11844049-Reviews-Restaurante_Dimas-Vila_Verde_de_Ficalho_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g3226139-Vila_Verde_de_Ficalho_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Listing hours 8:00-22:00, closed Wednesday."
+    },
+    {
+      "name": "Restaurante Nova Era",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g4545644-d14876793-Reviews-Restaurante_Nova_Era-Aldeia_Nova_de_Sao_Bento_Beja_District_Alentejo.html",
+      "ta_geo": "g4545644 (Aldeia Nova de Sao Bento)",
+      "type": "Restaurante",
+      "rank": "#1 of 3 restaurants in Aldeia Nova de Sao Bento",
+      "rating": 4.2,
+      "review_count": 6,
+      "rating_snapshot": "4.2 / 6 reviews",
+      "cuisine": "European, Portuguese",
+      "price": "$$ - $$$",
+      "address": "Largo dos Madalenos No 32, Aldeia Nova de Sao Bento 7830-056",
+      "description": "Restaurante de cozinha portuguesa e alentejana no Largo dos Madalenos, em Vila Nova de São Bento, com garrafeira.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g4545644-d14876793-Reviews-Restaurante_Nova_Era-Aldeia_Nova_de_Sao_Bento_Beja_District_Alentejo.html",
+        "https://www.tripadvisor.com/Restaurants-g4545644-Aldeia_Nova_de_Sao_Bento_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed"
+    },
+    {
+      "name": "Prestigio Tapas & Wine Bar",
+      "ta_url": "https://www.tripadvisor.com/Restaurant_Review-g4545644-d9997400-Reviews-Prestigio_Tapas_Wine_Bar-Aldeia_Nova_de_Sao_Bento_Beja_District_Alentejo.html",
+      "ta_geo": "g4545644 (Aldeia Nova de Sao Bento)",
+      "type": "Bar de tapas e vinhos",
+      "rank": null,
+      "rating": null,
+      "review_count": 0,
+      "rating_snapshot": "No reviews yet",
+      "cuisine": "Mediterranean, European",
+      "price": "$$ - $$$",
+      "address": "Rua do Rossio, Aldeia Nova de Sao Bento",
+      "description": "Bar de tapas e vinhos na Rua do Rossio, em Vila Nova de São Bento, com pratos regionais, marisco e vinhos alentejanos.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g4545644-d9997400-Reviews-Prestigio_Tapas_Wine_Bar-Aldeia_Nova_de_Sao_Bento_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Listing: Tue-Sun 10:00-02:00, closed Monday, cash only."
+    },
+    {
+      "name": "Restaurante D'Aldeia",
+      "ta_url": null,
+      "ta_geo": "g4545644 (Aldeia Nova de Sao Bento)",
+      "type": "Restaurante",
+      "rank": null,
+      "rating": null,
+      "review_count": 0,
+      "rating_snapshot": "No reviews",
+      "cuisine": null,
+      "price": null,
+      "address": null,
+      "description": "Restaurante listado pelo Tripadvisor em Aldeia Nova de São Bento, sem avaliações.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurants-g4545644-Aldeia_Nova_de_Sao_Bento_Beja_District_Alentejo.html"
+      ],
+      "confidence": "confirmed",
+      "notes": "Own listing URL/d-number not found."
+    }
+  ],
+  "notes": "Compiled 2026-10-13 from WebSearch result snippets only: direct access to tripadvisor.* (and WebFetch generally) failed with DNS errors, so ratings/ranks/counts come from search-engine snippets of TripAdvisor pages captured at different dates (page titles dated 2023-2026). Expect inconsistencies; where versions disagree the most recent-looking figure is in rating/review_count and the alternatives are in rating_snapshot. The WebSearch budget (200 calls per turn) ran out before every item could be cross-checked; items whose descriptions rely only on TripAdvisor text say so. TOTALS: TripAdvisor's Serpa geo (g189109) shows '35 things to do' (one snapshot '37 attractions') and, on the Oct-2026 restaurant page, '1,658 reviews of 35 Serpa restaurants' (older snapshots: 33, 32, 29, 23, 21, 19, 17). RANKS for attractions come from different snapshots and therefore collide (e.g. two items at #6, #17, #31). SEPARATE GEOS: TripAdvisor has its own geos for Pias (g652076), Vila Verde de Ficalho (g3226139) and Aldeia Nova de Sao Bento (= Vila Nova de São Bento, g4545644); their items are included and tagged in ta_geo. No geo or listings were found for Brinches, Vale de Vargo, A-do-Pinto or Santa Iria (except items filed under Serpa). MISFILED / LOCATED ELSEWHERE: Palácio dos Condes de Ficalho is filed under Vila Verde de Ficalho although the palace is in Serpa town; Pulo do Lobo is filed under Mértola (g1068892); Ermida de Santa Luzia (Serpa geo) is 2 km from Pias on the Pias-Moura road; Burrico D`Orada's address is on the EN258 Vidigueira-Moura road; Museu de Vila Nova de S. Bento, Igreja de São Bento, Igreja Paroquial de Aldeia Nova de São Bento and probably TAPAS.COMe are in Vila Nova de São Bento; Museu de Vila Verde de Ficalho is in Vila Verde de Ficalho; Monte Das Louzeiras is in Vale de Vargo; Igreja Paroquial de Santa Iria is in Santa Iria; Café Restaurante Agostinho is in Vale do Poço; Sociedade recriativa de vales mortos is in Vales Mortos; Clube De Tiro Dona Brites is on the EN 255; Ponte sobre a ribeira do Enxoé is between Serpa and Pias. O Adro (which you listed) is a Pias-geo listing. CLOSURES / STATUS: Restaurante O Gato is marked CLOSED; Casa Benfica is marked CLOSED on tripadvisor.co.uk but not on .com; Misericórdia de Serpa is flagged closed on the Polish page; Restaurante Tradicao Serpa only survives as a photo page and is absent from current rankings; Serpa Lovers and Taberna a Muralha show no reviews after 2019/2018. LIKELY DUPLICATES / SUCCESSORS: Tintol e Petiscos Serpa and A Mondadeira share the address Rua Dr. Ramon Norato de La Féria 24; Arrozinho de Feijão and Taberna da Cruz Nova share a phone number (+351 284 543 120); Casa Benfica and San Marino Pizzaria share a phone number (+351 964 795 051); Igreja de São Bento (d7225905) and Igreja Paroquial de Aldeia Nova de São Bento (d7225900) may be the same church; 'Convento de Santo António' and 'Igreja de São Francisco' are one complex per SIPA; Burrico D`Orada appears under two listing versions (33 and 37 reviews); Castelo / Muralhas / Núcleo Intramuros / Museu Municipal de Arqueologia overlap physically. NOT FOUND on TripAdvisor: Casa do Cante, Musibéria (no source at all, omitted), Igreja do Salvador as a separate page (TripAdvisor names it 'Igreja de Nossa Senhora de Guadalupe (Igreja de São Salvador)'), Jardim Municipal (only via Jardim Lounge), Cine-Teatro, any queijaria attraction (only 'Queijaria Pato' in restaurants; Tradiserpa is only mentioned in a review), and a separate listing for Chança (Serpa Hotel). Hotels/guesthouses seen but excluded: Serpa Hotel, Pousada/Estalagem de São Gens, Casa de Serpa, Casa da Muralha, Residencial Serpinia, Hotel Pulo do Lobo, Cantar do Grilo, Vale de Milhanos, Monte das Tojosas, Betica Hotel Rural. No coordinates were added."
+}

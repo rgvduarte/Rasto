@@ -1,0 +1,6 @@
+node_modules
+dist
+.geo-cache
+*.log
+.DS_Store
+public/glyphs/**/fontstack.yaml
