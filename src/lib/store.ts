@@ -1,25 +1,56 @@
-// Estado do jogador, guardado no browser (localStorage). Sem servidor nesta fase:
-// a camada está isolada aqui para ser trocada por uma API (contas, equipas, rankings reais).
+// Estado do jogador, guardado no telemóvel (localStorage). Sem servidor nesta fase:
+// a camada está isolada aqui para ser trocada por uma API (contas, equipas, rankings, avaliações partilhadas).
 import { useSyncExternalStore } from 'react'
 import { MISSIONS, COLLECTIONS, missionById } from '../data/missions'
 import { POIS } from '../data/catalog'
+import { avatarById, type AvatarKind } from '../data/avatars'
 
 export type DoneHow = 'gps' | 'codigo' | 'demo'
+export type ActivityType = 'caminhada' | 'corrida' | 'bicicleta'
+
+export type Activity = {
+  id: string
+  type: ActivityType
+  name: string
+  startedAt: number
+  durationS: number
+  distanceM: number
+  gainM: number
+  cells: number // hexágonos novos nesta atividade
+  loops?: number // circuitos fechados
+  missions: string[] // missões cumpridas durante a atividade
+  track: [number, number, number][] // lon, lat, segundos desde o início (simplificado)
+  profile: [number, number][] // distância (m), altitude (m)
+  efforts: { segment: string; timeS: number }[]
+  simulated: boolean
+}
+
 export type State = {
-  v: 1
+  v: 2
   name: string
   crew: string
   demo: boolean
+  onboarded: boolean
+  avatar: { kind: AvatarKind; ring: string } | null
   done: Record<string, { at: number; how: DoneHow }>
+  cells: number[]
+  activities: Activity[]
+  ratings: Record<string, { stars: number; note?: string; at: number }>
+  saved: string[]
 }
 
-const KEY = 'rasto.serpa.v1'
-const EMPTY: State = { v: 1, name: '', crew: '', demo: false, done: {} }
+const KEY = 'rasto.serpa.v2'
+const EMPTY: State = {
+  v: 2, name: '', crew: '', demo: false, onboarded: false, avatar: null, done: {}, cells: [], activities: [], ratings: {}, saved: [],
+}
 
 function load(): State {
   try {
     const s = JSON.parse(localStorage.getItem(KEY) || 'null')
-    if (s && s.v === 1) return { ...EMPTY, ...s }
+    if (s && s.v === 2) return { ...EMPTY, ...s }
+    // migração da versão 1 (só missões e perfil)
+    const old = JSON.parse(localStorage.getItem('rasto.serpa.v1') || 'null')
+    if (old && old.v === 1) return { ...EMPTY, name: old.name || '', crew: old.crew || '', demo: !!old.demo, done: old.done || {} }
   } catch {
     /* sem armazenamento: joga-se na mesma, só não fica guardado */
   }
@@ -27,6 +58,7 @@ function load(): State {
 }
 
 let state: State = load()
+let cellSet = new Set(state.cells)
 const subs = new Set<() => void>()
 
 function set(next: State) {
@@ -34,7 +66,7 @@ function set(next: State) {
   try {
     localStorage.setItem(KEY, JSON.stringify(state))
   } catch {
-    /* modo privado: ignora */
+    /* modo privado ou espaço cheio: o jogo continua nesta sessão */
   }
   subs.forEach((f) => f())
 }
@@ -45,22 +77,54 @@ export const store = {
     subs.add(f)
     return () => subs.delete(f)
   },
+  hasCell: (i: number) => cellSet.has(i),
   complete(missionId: string, how: DoneHow) {
-    if (state.done[missionId]) return
+    if (state.done[missionId]) return false
     set({ ...state, done: { ...state.done, [missionId]: { at: Date.now(), how } } })
+    return true
   },
   undo(missionId: string) {
     const done = { ...state.done }
     delete done[missionId]
     set({ ...state, done })
   },
+  addCells(ids: number[]) {
+    const fresh = ids.filter((i) => !cellSet.has(i))
+    if (!fresh.length) return 0
+    for (const i of fresh) cellSet.add(i)
+    set({ ...state, cells: [...state.cells, ...fresh] })
+    return fresh.length
+  },
+  saveActivity(a: Activity) {
+    set({ ...state, activities: [a, ...state.activities].slice(0, 40) })
+  },
+  deleteActivity(id: string) {
+    set({ ...state, activities: state.activities.filter((a) => a.id !== id) })
+  },
   setProfile(name: string, crew: string) {
     set({ ...state, name: name.trim().slice(0, 40), crew: crew.trim().slice(0, 40) })
+  },
+  setAvatar(kind: AvatarKind, ring: string) {
+    set({ ...state, avatar: { kind, ring } })
+  },
+  finishOnboarding() {
+    set({ ...state, onboarded: true })
   },
   setDemo(demo: boolean) {
     set({ ...state, demo })
   },
+  rate(poi: string, stars: number, note?: string) {
+    const ratings = { ...state.ratings }
+    if (stars <= 0) delete ratings[poi]
+    else ratings[poi] = { stars, note: note?.trim().slice(0, 280) || undefined, at: Date.now() }
+    set({ ...state, ratings })
+  },
+  toggleSaved(poi: string) {
+    const saved = state.saved.includes(poi) ? state.saved.filter((x) => x !== poi) : [poi, ...state.saved]
+    set({ ...state, saved })
+  },
   reset() {
+    cellSet = new Set()
     set({ ...EMPTY })
   },
 }
@@ -78,10 +142,20 @@ export function collectionProgress(s: State) {
   })
 }
 
+export const CELL_XP = 5
+
+export function missionXp(s: State, missionId: string) {
+  const m = missionById(missionId)
+  if (!m) return 0
+  const a = avatarById(s.avatar?.kind)
+  return Math.round(m.xp * (a?.collection && a.collection === m.collection ? 1.25 : 1))
+}
+
 export function xpOf(s: State) {
-  const base = Object.keys(s.done).reduce((sum, id) => sum + (missionById(id)?.xp ?? 0), 0)
+  const base = Object.keys(s.done).reduce((sum, id) => sum + missionXp(s, id), 0)
   const bonus = collectionProgress(s).reduce((sum, c) => sum + (c.complete ? c.bonus : 0), 0)
-  return { base, bonus, total: base + bonus }
+  const cellXp = s.cells.length * CELL_XP * (s.avatar?.kind === 'andarilho' ? 2 : 1)
+  return { base, bonus, cells: cellXp, total: base + bonus + cellXp }
 }
 
 // freguesia explorada: 3 missões cumpridas dentro dela (ou todas, se tiver menos de 3)
@@ -112,4 +186,11 @@ export function levelOf(xp: number) {
     need += 300
   }
   return { level: lvl, into: xp - floor, need }
+}
+
+export function totals(s: State) {
+  return s.activities.reduce(
+    (t, a) => ({ km: t.km + a.distanceM / 1000, gain: t.gain + a.gainM, time: t.time + a.durationS, n: t.n + 1 }),
+    { km: 0, gain: 0, time: 0, n: 0 },
+  )
 }

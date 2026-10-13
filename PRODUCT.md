@@ -4,32 +4,38 @@ Verdade de produto para decisões de design e de texto.
 
 ## O que é
 
-Uma plataforma de território para municípios: mapa, missões e recomendações para quem visita um concelho.
-Serpa é o primeiro território. O HELL160 (A-do-Pinto, julho) é o primeiro evento ligado.
+Uma app de território para o telemóvel: o concelho como tabuleiro de jogo. Para quem chega (numa casa da aldeia, no
+hotel, de passagem) e para quem cá vive. Serpa é o primeiro território; a mesma plataforma serve outros municípios.
 
-## Decisões (reunião de 13 out 2026)
+Três coisas que as pessoas já usam, numa só: um mapa para encontrar lugares, classificações para escolher onde comer e
+ficar, um gravador para caminhar, correr ou pedalar. Por cima, o jogo: és uma personagem no mapa, conquistas o território
+por onde passas (hexágonos de 150 m; fechar um circuito conquista o interior) e cumpres missões nos lugares reais.
 
-1. O jogo é para os acompanhantes, as famílias e os turistas. Os atletas em prova querem tempo e chegar ao fim;
-   o evento é o motivo da visita (cada atleta traz 3 a 4 pessoas).
-2. Uma só plataforma e um back-office, com páginas próprias para cada vertente (território, alojamento, provas).
-3. O live tracking e o Hell Wall são do HELL160. O alojamento "Dormir na aldeia" também. O Rasto liga para lá.
-4. Primeira fase: informação completa e missões. Segunda fase: recomendações por perfil e indicadores por setor.
-5. Conteúdos do município (roteiro de realidade aumentada de 2018, 20 pontos) entram depois, como missões.
+## Decisões
+
+1. Telemóvel primeiro. A web é a app (PWA instalável, mapa sem rede); Android e iOS saem do mesmo código com Capacitor.
+2. O território é o jogo. Missões, selos, níveis e personagens servem para levar as pessoas aos sítios, das aldeias aos
+   produtores.
+3. Eventos são uma vertente secundária. O HELL160 tem página própria; o live tracking e o Hell Wall vivem no site da prova.
+4. A realidade aumentada da Câmara Municipal de Serpa (cerca de 20 pontos) entra nos lugares onde está preparada.
+5. Sem servidor nesta fase; o estado está isolado para ser trocado por uma API (contas, equipas, rankings, códigos de
+   parceiro, indicadores para o município).
 
 ## Regras
 
 - Só lugares com posição verificável em dados abertos. Nunca coordenadas à mão nem percursos inventados.
-- Missões validam-se por estar no sítio (GPS) ou por código do parceiro. Nenhuma pergunta cuja resposta
-  só nós saberíamos.
-- Tudo o que é simulado diz que é: modo de demonstração, equipas de exemplo, tempos estimados.
+- Missões validam-se por estar no sítio (GPS) ou por código do parceiro. Nenhuma pergunta cuja resposta só nós saberíamos.
+- Tudo o que é simulado diz que é: simulação de percursos, modo de demonstração, equipas de exemplo, tempos estimados.
+- Sem rankings com pessoas inventadas. Enquanto não houver contas, os segmentos só mostram os teus tempos.
 
 ## Voz
 
-Português europeu, concreto e seco. Sem slogans publicitários, sem emoji, sem construções "não é X, é Y".
-Números e factos antes de adjetivos.
+Português europeu, concreto e seco. Sem slogans, sem emoji, sem construções "não é X, é Y". Números e factos antes de
+adjetivos. Tu, não você.
 
 ## Visual
 
-Cal, tinta e três cores com função: anil (ação), ocre (progresso) e as famílias do mapa (Ver anil, Provar terracota,
-Ficar verde), validadas para daltonismo em todos os pares sobre o fundo do mapa. Os pictogramas distinguem os tipos
-dentro de cada família. Letra: Schibsted Grotesk, a mesma do HELL160.
+As casas do Alentejo: cal branca, a barra anil na base das paredes, a barra ocre. Anil é ação e "tu" no mapa; ocre é
+território conquistado e XP. As famílias do mapa (Ver verde montado, Provar terracota, Ficar ameixa) foram validadas para
+daltonismo com o anil, todos os pares, sobre o fundo do mapa. Letra única: Archivo, condensada nos números (como num
+painel de corrida) e normal no texto. Ícones desenhados para a app, traço de 2 px.

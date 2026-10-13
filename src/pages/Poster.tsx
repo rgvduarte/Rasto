@@ -6,6 +6,7 @@ import { POIS } from '../data/catalog'
 import { MISSIONS, COLLECTIONS } from '../data/missions'
 import { siteBase } from '../map/style'
 import type { Route } from '../lib/router'
+import '../styles/global.css'
 import '../styles/poster.css'
 
 // Cartaz 1536 × 1024 (3:2), o mesmo formato dos conceitos iniciais.

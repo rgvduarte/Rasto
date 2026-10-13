@@ -3,28 +3,14 @@ import type { Map as MLMap, GeoJSONSource, MapGeoJSONFeature, LngLatBoundsLike }
 import 'maplibre-gl/dist/maplibre-gl.css'
 // MapLibre 6 é só ESM: o worker é empacotado pelo Vite e o endereço é dado à biblioteca
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url'
-import { buildStyle, SERPA_BOUNDS, WIDE, C, siteBase } from '../map/style'
-import type { TerritoryGeo } from '../map/style'
+import { buildStyle, SERPA_BOUNDS, WIDE, C } from '../map/style'
 import { markerImage } from '../map/icons'
 import type { Poi } from '../data/types'
 import { POIS } from '../data/catalog'
 
-export type TerritoryData = TerritoryGeo & {
-  places: { name: string; lat: number; lon: number; rank: number; inSerpa: boolean }[]
-}
-
-let territoryPromise: Promise<TerritoryData> | null = null
-export function loadTerritory(): Promise<TerritoryData> {
-  if (!territoryPromise) {
-    territoryPromise = fetch(`${siteBase()}data/territory.json`)
-      .then((r) => {
-        if (!r.ok) throw new Error(`territory.json ${r.status}`)
-        return r.json()
-      })
-      .then((d) => ({ mask: d.mask, freguesias: d.freguesias, places: d.places }))
-  }
-  return territoryPromise
-}
+export { loadTerritory } from '../map/territory'
+export type { TerritoryData } from '../map/territory'
+import { loadTerritory } from '../map/territory'
 
 type Props = {
   pois: Poi[]

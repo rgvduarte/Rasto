@@ -1,107 +1,111 @@
-import { useEffect, useState } from 'react'
-import { useRoute, href } from './lib/router'
-import { useGame, xpOf } from './lib/store'
-import { fmtInt } from './lib/geo'
-import { Logo } from './components/Logo'
-import { Home } from './pages/Home'
-import { MapPage } from './pages/MapPage'
-import { Missions } from './pages/Missions'
-import { Prova } from './pages/Prova'
-import { Sobre } from './pages/Sobre'
-import { Poster } from './pages/Poster'
+// Casca da app: um só mapa por baixo de tudo, os ecrãs por cima, a barra de separadores em baixo (ou à esquerda no ecrã largo).
+import { lazy, Suspense, useEffect, useRef } from 'react'
+import { useRoute, go } from './lib/router'
+import { useGame } from './lib/store'
+import { recorder } from './lib/recorder'
+import { useNarrow } from './lib/ui'
+import { MapStage } from './map/MapStage'
+import { TabBar, Toast } from './ui/bits'
+import { Explore } from './screens/Explore'
+import { MissionsScreen } from './screens/MissionsScreen'
+import { Record } from './screens/Record'
+import { Activity } from './screens/Activity'
+import { Profile } from './screens/Profile'
+import { About } from './screens/About'
+import { Events } from './screens/Events'
+import { Onboarding } from './screens/Onboarding'
+import { Celebrate } from './screens/Celebrate'
+import { ArView } from './screens/ArView'
 
-const NAV = [
-  { path: '/mapa', label: 'Mapa' },
-  { path: '/missoes', label: 'Missões' },
-  { path: '/sobre', label: 'Sobre e dados' },
-]
+const Poster = lazy(() => import('./pages/Poster').then((m) => ({ default: m.Poster })))
 
 const TITLES: Record<string, string> = {
-  '/': 'Rasto · Serpa',
-  '/mapa': 'Mapa · Rasto Serpa',
-  '/missoes': 'Missões · Rasto Serpa',
-  '/prova': 'Durante o HELL160 · Rasto Serpa',
-  '/sobre': 'Sobre e dados · Rasto Serpa',
-  '/cartaz': 'Cartaz · Rasto Serpa',
+  '/': 'Rasto Serpa',
+  '/missoes': 'Missões, Rasto Serpa',
+  '/gravar': 'Gravar, Rasto Serpa',
+  '/atividade': 'Atividade, Rasto Serpa',
+  '/perfil': 'Perfil, Rasto Serpa',
+  '/sobre': 'Sobre o Rasto',
+  '/eventos': 'Eventos, Rasto Serpa',
+  '/cartaz': 'Cartaz do Rasto Serpa',
 }
 
 export function App() {
   const route = useRoute()
+  const narrow = useNarrow()
   const game = useGame()
-  const xp = xpOf(game).total
-  const [open, setOpen] = useState(false)
+  const path = route.path
+  const prev = useRef(path)
 
   useEffect(() => {
-    setOpen(false)
-    document.title = TITLES[route.path] ?? 'Rasto · Serpa'
-    if (route.path !== '/mapa') window.scrollTo(0, 0)
-  }, [route.path])
+    // endereços da versão anterior
+    if (path === '/mapa') go('/', Object.fromEntries(route.params.entries()), true)
+    if (path === '/prova' || path === '/hell160') go('/eventos', undefined, true)
+    // o cartaz usa outra folha de estilos: ao sair dele, recarrega
+    if (prev.current === '/cartaz' && path !== '/cartaz') location.reload()
+    prev.current = path
+    document.title = TITLES[path] ?? 'Rasto Serpa'
+  }, [path, route.params])
 
-  // o cartaz é uma página sozinha, sem cabeçalho nem rodapé
-  if (route.path === '/cartaz') return <Poster route={route} />
+  // se a localização já foi autorizada antes, o jogador aparece logo no mapa
+  useEffect(() => {
+    navigator.permissions
+      ?.query({ name: 'geolocation' as PermissionName })
+      .then((p) => {
+        if (p.state === 'granted') recorder.watch()
+      })
+      .catch(() => {})
+  }, [])
 
-  let page
-  switch (route.path) {
-    case '/mapa':
-      page = <MapPage route={route} />
-      break
+  if (path === '/cartaz')
+    return (
+      <Suspense fallback={null}>
+        <Poster route={route} />
+      </Suspense>
+    )
+
+  let screen
+  switch (path) {
     case '/missoes':
-      page = <Missions />
+      screen = <MissionsScreen narrow={narrow} />
       break
-    case '/prova':
-      page = <Prova route={route} />
+    case '/gravar':
+      screen = <Record narrow={narrow} />
+      break
+    case '/atividade':
+      screen = <Activity route={route} narrow={narrow} />
+      break
+    case '/perfil':
+      screen = <Profile narrow={narrow} />
       break
     case '/sobre':
-      page = <Sobre />
+      screen = <About narrow={narrow} />
+      break
+    case '/eventos':
+      screen = <Events narrow={narrow} />
       break
     default:
-      page = <Home />
+      screen = <Explore route={route} narrow={narrow} />
   }
 
   return (
-    <>
-      <a className="skip" href="#conteudo">
+    <div className={`shell ${narrow ? 'narrow' : 'wide'}`}>
+      <a className="skip" href="#conteudo" onClick={(e) => {
+        e.preventDefault()
+        document.getElementById('conteudo')?.focus()
+      }}>
         Saltar para o conteúdo
       </a>
-      <header className="top">
-        <div className="wrap">
-          <a className="brand" href={href('/')}>
-            <Logo />
-            <span>
-              Rasto <small>Serpa</small>
-            </span>
-          </a>
-          <nav className={`nav${open ? ' open' : ''}`} aria-label="Principal">
-            {NAV.map((n) => (
-              <a key={n.path} href={href(n.path)} aria-current={route.path === n.path ? 'page' : undefined}>
-                {n.label}
-              </a>
-            ))}
-          </nav>
-          <button className="menu-btn" aria-expanded={open} onClick={() => setOpen(!open)}>
-            Menu
-          </button>
-          <a className="xp-pill" href={href('/missoes')} aria-label={`${fmtInt(xp)} XP. Ver as missões`}>
-            {fmtInt(xp)} <span>XP</span>
-          </a>
-        </div>
-      </header>
-      <main id="conteudo" tabIndex={-1}>
-        {page}
+      <MapStage />
+      <main id="conteudo" tabIndex={-1} className="screens">
+        {screen}
       </main>
-      {route.path !== '/mapa' && (
-        <footer className="foot">
-          <div className="wrap">
-            <p>
-              Rasto · protótipo, outubro de 2026. O progresso fica guardado neste browser; ainda não há contas nem servidor.
-            </p>
-            <p>
-              Mapa: © OpenStreetMap (via Overture Maps), CAOP 2020 © DGT, Copernicus DEM, ESA WorldCover 2021.{' '}
-              <a href={href('/sobre')}>Fontes e licenças</a>
-            </p>
-          </div>
-        </footer>
-      )}
-    </>
+      <TabBar path={path} />
+      <Celebrate />
+      <ArView />
+      <Toast />
+      {/* quem abre uma ligação partilhada para um lugar vê o lugar; a entrada fica para a próxima vez */}
+      {!game.onboarded && path === '/' && !route.params.get('p') && <Onboarding />}
+    </div>
   )
 }

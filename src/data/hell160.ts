@@ -11,6 +11,7 @@ export const HELL160 = {
   name: 'HELL160',
   tagline: 'Shadows and Dust',
   start: 'Sex 2 jul 2027 · 22:00',
+  startLong: 'Sexta, 2 de julho de 2027, às 22:00',
   base: 'Pavilhão Polivalente de A-do-Pinto',
   distanceKm: 164.6,
   gainM: 2648,

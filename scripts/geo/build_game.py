@@ -124,6 +124,9 @@ ROUTES = [
      ['torre-relogio-pias', 'barragem-enxoe', 'monte-das-louzeiras', 'igreja-sao-sebastiao-vvargo']),
     ('corrida-sao-gens', 'Corrida ao Alto de São Gens', 'pe', 10,
      ['castelo-serpa', 'ermida-guadalupe', 'castelo-serpa']),
+    # uma volta fechada à cidade, por fora: no fim fecha o circuito e conquista o interior
+    ('volta-serpa', 'Volta a Serpa por fora', 'pe', 10,
+     ['convento-santo-antonio', 'arrozinho-de-feijao', 'a-piscina', 'ermida-sao-sebastiao', 'dona-brites', 'convento-santo-antonio']),
 ]
 
 # ---------- altitude (Copernicus DEM, grelha z12 da AOI) ----------
@@ -145,23 +148,33 @@ def elev(lon, lat):
 
 
 def resample(coords, step=20.0):
-    """Pontos a cada `step` metros, com distância acumulada e altitude."""
+    """Pontos a cada `step` metros ao longo do caminho, mais todos os vértices (as esquinas não são cortadas),
+    com a distância acumulada medida pelo caminho."""
     out = [(coords[0][0], coords[0][1], 0.0)]
     acc = 0.0
-    carry = 0.0
+    since = 0.0  # metros desde o último ponto intermédio
     for (alon, alat), (blon, blat) in zip(coords[:-1], coords[1:]):
         ax, ay = to_xy(alon, alat)
         bx, by = to_xy(blon, blat)
         d = math.hypot(bx - ax, by - ay)
-        t = step - carry
-        while t <= d:
+        if d == 0:
+            continue
+        t = step - since
+        while t < d:
             f = t / d
             out.append((alon + (blon - alon) * f, alat + (blat - alat) * f, acc + t))
             t += step
-        carry = d - (t - step)
+        since = d - (t - step)
         acc += d
-    out.append((coords[-1][0], coords[-1][1], acc))
-    return out
+        out.append((blon, blat, acc))
+    # tira pontos repetidos (vértice a menos de 1 m de um ponto intermédio)
+    clean = [out[0]]
+    for p in out[1:]:
+        if p[2] - clean[-1][2] >= 1.0:
+            clean.append(p)
+    if clean[-1][2] < acc:
+        clean.append((coords[-1][0], coords[-1][1], acc))
+    return clean
 
 
 def smooth(v, k=5):
