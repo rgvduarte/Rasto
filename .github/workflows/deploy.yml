@@ -7,7 +7,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
 
 concurrency:
   group: pages
@@ -30,16 +29,5 @@ jobs:
           publish_dir: ./dist
           publish_branch: gh-pages
           force_orphan: true
-      # Pushes feitos com o GITHUB_TOKEN não disparam a publicação do Pages: pede-se explicitamente.
-      # O Pages tem de estar configurado para o branch gh-pages (Settings → Pages → Branch: gh-pages, / (root)).
-      - name: Pedir a publicação do Pages
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh api repos/${{ github.repository }}/pages --jq '{url: .html_url, source: .source, status: .status}' || true
-          if gh api -X POST repos/${{ github.repository }}/pages/builds; then
-            sleep 25
-            gh api repos/${{ github.repository }}/pages/builds/latest --jq '{status: .status, error: .error.message, commit: .commit}' || true
-          else
-            echo "::warning::O Pages não aceitou o pedido de publicação. Confirma em Settings → Pages que a fonte é o branch gh-pages, pasta / (root)."
-          fi
+      # O GitHub Pages publica o branch gh-pages (Settings → Pages → Branch: gh-pages, / (root)).
+      # Cada push para o gh-pages dispara o "pages build and deployment".
