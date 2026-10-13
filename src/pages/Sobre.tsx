@@ -31,9 +31,9 @@ export function Sobre() {
               evento ligado.
             </p>
             <p className="muted">
-              Segue o que ficou decidido na reunião de 13 de outubro de 2026: o jogo é para os acompanhantes e para os visitantes, não para os
-              atletas em prova; o evento é o motivo da visita; tudo assenta numa só plataforma com páginas próprias para cada vertente; o
-              alojamento “Dormir na aldeia” e o live tracking vivem no site do HELL160.
+              O jogo é para os acompanhantes e para os visitantes, não para os atletas em prova: quem corre quer tempo e chegar ao fim. O
+              evento é o motivo da visita. Tudo assenta numa só plataforma, com páginas próprias para cada vertente; o alojamento “Dormir na
+              aldeia” e o live tracking vivem no site do HELL160.
             </p>
           </div>
         </div>

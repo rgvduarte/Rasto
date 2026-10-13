@@ -10,8 +10,8 @@ import { useGame, freguesiaProgress } from '../lib/store'
 
 // Números do concelho, calculados a partir dos dados (scripts/geo): não são estimativas.
 const FACTS = [
-  { v: '1 105,5', u: 'km²', t: 'de concelho, entre o Guadiana e a fronteira com Espanha', s: 'CAOP 2020, DGT' },
-  { v: '1 357', u: 'km', t: 'de estradões de terra mapeados', s: 'OpenStreetMap, out 2026' },
+  { v: '1105,5', u: 'km²', t: 'de concelho, entre o Guadiana e a fronteira com Espanha', s: 'CAOP 2020, DGT' },
+  { v: '1357', u: 'km', t: 'de estradões de terra mapeados', s: 'OpenStreetMap, out 2026' },
   { v: '5–519', u: 'm', t: 'de altitude, do leito do Guadiana à serra de Ficalho', s: 'Copernicus DEM GLO-30' },
   { v: '5', u: '', t: 'freguesias, cada uma para explorar no mapa', s: 'CAOP 2020, DGT' },
 ]

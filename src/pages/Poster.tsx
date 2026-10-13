@@ -144,11 +144,11 @@ export function Poster({ route }: { route: Route }) {
         <footer className="pt-foot">
           <div className="pt-facts">
             <div>
-              <b>1&nbsp;105,5 km²</b>
+              <b>1105,5 km²</b>
               <span>de concelho</span>
             </div>
             <div>
-              <b>1&nbsp;357 km</b>
+              <b>1357 km</b>
               <span>de estradões de terra</span>
             </div>
             <div>
